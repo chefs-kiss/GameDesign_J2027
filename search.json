@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "This is the homepage for CSCI 200 - Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
+    "crumbs": [
+      "Course Information",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html",
+    "href": "course_information/schedule.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus, Fullerton Ch.1\nIntroduction\nCourse Introduction, What is a Game?  RE: Discuss favorite games & core elements\nLab: Install GameMaker Studio & explore interface\n\n\nT\nJan 5\nFullerton Ch.2\nFormal Elements of Games\nLecture: Formal Elements (Space, Objects, Actions)  RE: Analyze Celeste mechanics\nLab: Add player sprite & basic movement\n\n\nW\nJan 6\nFullerton Ch.3\nProcedures vs Rules\nLecture: Procedural Mechanics  RE: Mini exercise: turn rules into mechanics\nLab: Implement jumping, gravity, collision\n\n\nTh\nJan 7\nFullerton Ch.4\nGame Loops & Feedback\nLecture: Game Loop & Player Feedback  RE: Identify loops in Celeste & Short Hike\nLab: Add scoring, collectibles, feedback cues\n\n\nF\nJan 8\nFullerton Ch.5\nSprite Graphics & Art\nLecture: Sprite Design & Animation  RE: Compare Celeste vs Short Hike\nLab: Animate player & environmental sprites",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-1-foundations",
+    "href": "course_information/schedule.html#week-1-foundations",
+    "title": "Game Design",
+    "section": "",
+    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus, Fullerton Ch.1\nIntroduction\nCourse Introduction, What is a Game?  RE: Discuss favorite games & core elements\nLab: Install GameMaker Studio & explore interface\n\n\nT\nJan 5\nFullerton Ch.2\nFormal Elements of Games\nLecture: Formal Elements (Space, Objects, Actions)  RE: Analyze Celeste mechanics\nLab: Add player sprite & basic movement\n\n\nW\nJan 6\nFullerton Ch.3\nProcedures vs Rules\nLecture: Procedural Mechanics  RE: Mini exercise: turn rules into mechanics\nLab: Implement jumping, gravity, collision\n\n\nTh\nJan 7\nFullerton Ch.4\nGame Loops & Feedback\nLecture: Game Loop & Player Feedback  RE: Identify loops in Celeste & Short Hike\nLab: Add scoring, collectibles, feedback cues\n\n\nF\nJan 8\nFullerton Ch.5\nSprite Graphics & Art\nLecture: Sprite Design & Animation  RE: Compare Celeste vs Short Hike\nLab: Animate player & environmental sprites",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-2-mechanics-and-interactions",
+    "href": "course_information/schedule.html#week-2-mechanics-and-interactions",
+    "title": "Game Design",
+    "section": "Week 2: Mechanics and Interactions",
+    "text": "Week 2: Mechanics and Interactions\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nFullerton Ch.6\nPhysics & Collision\nLecture: Physics & Collision Detection  RE: Identify collisions in platformers\nLab: Implement platformer physics & collisions\n\n\nT\nJan 12\nFullerton Ch.7\nAI & Enemy Behavior\nLecture: Enemy AI & Patterns  RE: Mini-enemy exercise\nLab: Implement simple enemy AI\n\n\nW\nJan 13\nFullerton Ch.8\nProcedural Content & Rules\nLecture: Rules, Procedures, Randomness  RE: Random encounters in platformers\nLab: Add item pickups, hazards, and random spawning\n\n\nTh\nJan 14\nFullerton Ch.9\nGame Architectures\nLecture: Structuring Game Projects  RE: Explore project folder structure\nLab: Organize sprites, rooms, objects in GameMaker\n\n\nF\nJan 15\n—\nMini-Boss Battle & Playtesting\nLecture: Playtesting & Iteration  RE: Playtest your labs so far\nLab: Refine mechanics and prepare demo\n\n\n\nOver the weekend, complete one critical analysis",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-prototyping",
+    "href": "course_information/schedule.html#week-3-worldbuilding-and-prototyping",
+    "title": "Game Design",
+    "section": "Week 3: Worldbuilding and Prototyping",
+    "text": "Week 3: Worldbuilding and Prototyping\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nFullerton Ch.10\nGame Ideas & Worldbuilding\nLecture: Narrative, Worldbuilding, Story  RE: Map Short Hike themes\nTeam Project: Brainstorm platformer + puzzle hybrid, sketch story & world\n\n\nT\nJan 19\nFullerton Ch.11\nLevel Design & Pacing\nLecture: Levels, Pacing, Flow  RE: Compare Celeste vs Short Hike levels\nTeam Project: Draft level layouts\n\n\nW\nJan 20\nFullerton Ch.12\nCharacter & Mechanics\nLecture: Character Abilities & Player Actions  RE: Mini-encounter: Compare character powers\nTeam Project: Implement first playable prototype\n\n\nTh\nJan 21\nFullerton Ch.13\nPrototyping & Physical Iteration\nLecture: Physical & Digital Prototyping  RE: Paper prototype for puzzle section\nTeam Project: Build digital prototype with placeholder assets\n\n\nF\nJan 22\n—\nPlaytesting\nLecture: Iterative Playtesting  RE: Test Celeste or Short Hike mini sections\nTeam Project: Playtest & adjust mechanics\n\n\n\nOver the weekend, complete one critical analysis",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-4-playtesting",
+    "href": "course_information/schedule.html#week-4-playtesting",
+    "title": "Game Design",
+    "section": "Week 4: Playtesting",
+    "text": "Week 4: Playtesting\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nFullerton Ch.14–15\nBalancing & Polishing\nLecture: Balancing Platformer + Puzzle  RE: Identify pain points in playtest\nTeam Project: Balance levels & mechanics\n\n\nT\nJan 26\nFullerton Ch.16\nAdvanced Mechanics\nLecture: Power-ups & Player Feedback  RE: Discuss effect on player experience\nTeam Project: Implement advanced mechanics & polish\n\n\nW\nJan 27\nFullerton Ch.17\nLevel Iteration\nLecture: Refining Levels & Replayability  RE: Compare level pacing\nTeam Project: Iterate prototype based on playtests\n\n\nTh\nJan 28\nFullerton Ch.18\nFinal Playtesting\nLecture: Preparing for Demo & Feedback  RE: Identify remaining polish items\nTeam Project: Final prototype polish\n\n\nF\nJan 29\n—\nShowcase\nCourse Wrap-Up  RE: Reflect on design lessons\nTeam Project: Showcase & submit final prototype",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Overview",
+    "crumbs": [
+      "Materials",
+      "Project"
+    ]
+  },
+  {
     "objectID": "course_information/syllabus.html",
     "href": "course_information/syllabus.html",
     "title": "Syllabus",
@@ -236,82 +313,5 @@
     "title": "Syllabus",
     "section": "Computer Science Program Attendance Policy Jterm 2026:",
     "text": "Computer Science Program Attendance Policy Jterm 2026:\nAttending class is essential for learning the content of the course, as well as practicing communication and collaboration. Missing class hinders your ability to achieve these important learning outcomes. That said, you understandably may need to occasionally miss class due to illness or a scheduling conflict. In these situations, I do not want to judge which absences should count as “excused” or “unexcused.” So, all absences will be treated equally, since they all result in missing important class time. Additionally, arriving late disrupts not only your own learning but also your classmates’ ability to engage fully in class activities. Any tardiness over 5 minutes (subject to instructor adjustment) will also be counted as an absence. During Jterm, each session (morning and afternoon) will have attendance taken, so missing an entire day of class equates to two absences.\nTo reflect the importance of attendance in this course: (1) If you have accrued two absences without contacting me in advance, I’ll notify your academic advisor and the Dean’s Office by filing an Early Alert Form to make sure you’re getting the support you need. (2) If you have accrued four absences (whether or not you contacted me in advance), you must meet with me to discuss your standing in the course and what you need to do to get back on track for successfully completing the class. (3) If you have accrued nine absences (whether or not you contacted me in advance), you’ll automatically fail the class. Nine absences means missing nearly a quarter of all class sessions, indicating that you have not legitimately completed a student-centered course that requires class engagement. If you do need to miss class, I strongly encourage you to check in with another student on what you missed, and attend office hours to discuss any questions that you have."
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview",
-    "crumbs": [
-      "Materials",
-      "Project"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "This is the homepage for CSCI 200 - Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
-    "crumbs": [
-      "Course Information",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html",
-    "href": "course_information/schedule.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus, Fullerton Ch.1\nIntroduction\nCourse Introduction, What is a Game?  RE: Discuss favorite games & core elements\nLab: Install GameMaker Studio & explore interface\n\n\nT\nJan 5\nFullerton Ch.2\nFormal Elements of Games\nLecture: Formal Elements (Space, Objects, Actions)  RE: Analyze Celeste mechanics\nLab: Add player sprite & basic movement\n\n\nW\nJan 6\nFullerton Ch.3\nProcedures vs Rules\nLecture: Procedural Mechanics  RE: Mini exercise: turn rules into mechanics\nLab: Implement jumping, gravity, collision\n\n\nTh\nJan 7\nFullerton Ch.4\nGame Loops & Feedback\nLecture: Game Loop & Player Feedback  RE: Identify loops in Celeste & Short Hike\nLab: Add scoring, collectibles, feedback cues\n\n\nF\nJan 8\nFullerton Ch.5\nSprite Graphics & Art\nLecture: Sprite Design & Animation  RE: Compare Celeste vs Short Hike\nLab: Animate player & environmental sprites",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-1-foundations",
-    "href": "course_information/schedule.html#week-1-foundations",
-    "title": "Game Design",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus, Fullerton Ch.1\nIntroduction\nCourse Introduction, What is a Game?  RE: Discuss favorite games & core elements\nLab: Install GameMaker Studio & explore interface\n\n\nT\nJan 5\nFullerton Ch.2\nFormal Elements of Games\nLecture: Formal Elements (Space, Objects, Actions)  RE: Analyze Celeste mechanics\nLab: Add player sprite & basic movement\n\n\nW\nJan 6\nFullerton Ch.3\nProcedures vs Rules\nLecture: Procedural Mechanics  RE: Mini exercise: turn rules into mechanics\nLab: Implement jumping, gravity, collision\n\n\nTh\nJan 7\nFullerton Ch.4\nGame Loops & Feedback\nLecture: Game Loop & Player Feedback  RE: Identify loops in Celeste & Short Hike\nLab: Add scoring, collectibles, feedback cues\n\n\nF\nJan 8\nFullerton Ch.5\nSprite Graphics & Art\nLecture: Sprite Design & Animation  RE: Compare Celeste vs Short Hike\nLab: Animate player & environmental sprites",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-2-mechanics-and-interactions",
-    "href": "course_information/schedule.html#week-2-mechanics-and-interactions",
-    "title": "Game Design",
-    "section": "Week 2: Mechanics and Interactions",
-    "text": "Week 2: Mechanics and Interactions\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nFullerton Ch.6\nPhysics & Collision\nLecture: Physics & Collision Detection  RE: Identify collisions in platformers\nLab: Implement platformer physics & collisions\n\n\nT\nJan 12\nFullerton Ch.7\nAI & Enemy Behavior\nLecture: Enemy AI & Patterns  RE: Mini-enemy exercise\nLab: Implement simple enemy AI\n\n\nW\nJan 13\nFullerton Ch.8\nProcedural Content & Rules\nLecture: Rules, Procedures, Randomness  RE: Random encounters in platformers\nLab: Add item pickups, hazards, and random spawning\n\n\nTh\nJan 14\nFullerton Ch.9\nGame Architectures\nLecture: Structuring Game Projects  RE: Explore project folder structure\nLab: Organize sprites, rooms, objects in GameMaker\n\n\nF\nJan 15\n—\nMini-Boss Battle & Playtesting\nLecture: Playtesting & Iteration  RE: Playtest your labs so far\nLab: Refine mechanics and prepare demo\n\n\n\nOver the weekend, complete one critical analysis",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-prototyping",
-    "href": "course_information/schedule.html#week-3-worldbuilding-and-prototyping",
-    "title": "Game Design",
-    "section": "Week 3: Worldbuilding and Prototyping",
-    "text": "Week 3: Worldbuilding and Prototyping\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nFullerton Ch.10\nGame Ideas & Worldbuilding\nLecture: Narrative, Worldbuilding, Story  RE: Map Short Hike themes\nTeam Project: Brainstorm platformer + puzzle hybrid, sketch story & world\n\n\nT\nJan 19\nFullerton Ch.11\nLevel Design & Pacing\nLecture: Levels, Pacing, Flow  RE: Compare Celeste vs Short Hike levels\nTeam Project: Draft level layouts\n\n\nW\nJan 20\nFullerton Ch.12\nCharacter & Mechanics\nLecture: Character Abilities & Player Actions  RE: Mini-encounter: Compare character powers\nTeam Project: Implement first playable prototype\n\n\nTh\nJan 21\nFullerton Ch.13\nPrototyping & Physical Iteration\nLecture: Physical & Digital Prototyping  RE: Paper prototype for puzzle section\nTeam Project: Build digital prototype with placeholder assets\n\n\nF\nJan 22\n—\nPlaytesting\nLecture: Iterative Playtesting  RE: Test Celeste or Short Hike mini sections\nTeam Project: Playtest & adjust mechanics\n\n\n\nOver the weekend, complete one critical analysis",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-4-playtesting",
-    "href": "course_information/schedule.html#week-4-playtesting",
-    "title": "Game Design",
-    "section": "Week 4: Playtesting",
-    "text": "Week 4: Playtesting\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nFullerton Ch.14–15\nBalancing & Polishing\nLecture: Balancing Platformer + Puzzle  RE: Identify pain points in playtest\nTeam Project: Balance levels & mechanics\n\n\nT\nJan 26\nFullerton Ch.16\nAdvanced Mechanics\nLecture: Power-ups & Player Feedback  RE: Discuss effect on player experience\nTeam Project: Implement advanced mechanics & polish\n\n\nW\nJan 27\nFullerton Ch.17\nLevel Iteration\nLecture: Refining Levels & Replayability  RE: Compare level pacing\nTeam Project: Iterate prototype based on playtests\n\n\nTh\nJan 28\nFullerton Ch.18\nFinal Playtesting\nLecture: Preparing for Demo & Feedback  RE: Identify remaining polish items\nTeam Project: Final prototype polish\n\n\nF\nJan 29\n—\nShowcase\nCourse Wrap-Up  RE: Reflect on design lessons\nTeam Project: Showcase & submit final prototype",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
   }
 ]
