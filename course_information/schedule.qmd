@@ -2,11 +2,12 @@
 
 | **dow** | **date** | **prepare**              | **topic**                | **morning (lecture & RE)**                                                            | **afternoon (lab / project)**                     |
 | :-----: | :------- | :----------------------- | :----------------------- | :------------------------------------------------------------------------------------ | :------------------------------------------------ |
-|    M    | Jan 4    | syllabus, Fullerton Ch.1 | INTRO                    | Course Introduction, What is a Game? <br> RE: Discuss favorite games & core elements  | Lab: Install GameMaker Studio & explore interface |
+|    M    | Jan 4    | syllabus, Fullerton Ch.1 | Introduction                    | Course Introduction, What is a Game? <br> RE: Discuss favorite games & core elements  | Lab: Install GameMaker Studio & explore interface |
 |    T    | Jan 5    | Fullerton Ch.2           | Formal Elements of Games | Lecture: Formal Elements (Space, Objects, Actions) <br> RE: Analyze Celeste mechanics | Lab: Add player sprite & basic movement           |
 |    W    | Jan 6    | Fullerton Ch.3           | Procedures vs Rules      | Lecture: Procedural Mechanics <br> RE: Mini exercise: turn rules into mechanics       | Lab: Implement jumping, gravity, collision        |
 |    Th   | Jan 7    | Fullerton Ch.4           | Game Loops & Feedback    | Lecture: Game Loop & Player Feedback <br> RE: Identify loops in Celeste & Short Hike  | Lab: Add scoring, collectibles, feedback cues     |
 |    F    | Jan 8    | Fullerton Ch.5           | Sprite Graphics & Art    | Lecture: Sprite Design & Animation <br> RE: Compare Celeste vs Short Hike             | Lab: Animate player & environmental sprites       |
+
 
 ## Week 2: Mechanics and Interactions
 
@@ -18,6 +19,8 @@
 |    Th   | Jan 14   | Fullerton Ch.9 | Game Architectures             | Lecture: Structuring Game Projects <br> RE: Explore project folder structure       | Lab: Organize sprites, rooms, objects in GameMaker  |
 |    F    | Jan 15   | —              | Mini-Boss Battle & Playtesting | Lecture: Playtesting & Iteration <br> RE: Playtest your labs so far                | Lab: Refine mechanics and prepare demo              |
 
+Over the weekend, complete one [critical analysis](../CA.qmd)
+
 ## Week 3: Worldbuilding and Prototyping
 
 | **dow** | **date** | **prepare**     | **topic**                        | **morning (lecture & RE)**                                                                      | **afternoon (lab / project)**                                             |
@@ -27,6 +30,8 @@
 |    W    | Jan 20   | Fullerton Ch.12 | Character & Mechanics            | Lecture: Character Abilities & Player Actions <br> RE: Mini-encounter: Compare character powers | Team Project: Implement first playable prototype                          |
 |    Th   | Jan 21   | Fullerton Ch.13 | Prototyping & Physical Iteration | Lecture: Physical & Digital Prototyping <br> RE: Paper prototype for puzzle section             | Team Project: Build digital prototype with placeholder assets             |
 |    F    | Jan 22   | —               | Playtesting                      | Lecture: Iterative Playtesting <br> RE: Test Celeste or Short Hike mini sections                | Team Project: Playtest & adjust mechanics                                 |
+
+Over the weekend, complete one [critical analysis](../CA.qmd)
 
 ## Week 4: Playtesting
 

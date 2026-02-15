@@ -38,16 +38,16 @@ website:
       contents:
         - href: RE.qmd
           text: Random Encounters
-          icon: file-earmark-text
+          #icon: file-earmark-text
         - href: labs.qmd
           text: Labs
-          icon: journal-code
+          #icon: journal-code
         - href: project.qmd
           text: Project
         - href: slides.qmd
           text: Slides
-        - href: articles.qmd
-          text: Article Reviews
+        - href: CA.qmd
+          text: Critical Analysis
 
 format:
   html:
