@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Machine Learning"
+  title: "Game Design"
   search:
     type: textbox
   sidebar:
@@ -15,14 +15,14 @@ website:
       - icon: house
         href: course_information/schedule.qmd
         text: Home
-      - icon: file-earmark-pdf
-        href: https://chefs-kiss.github.io/ML_J2026/files/ISLP.pdf
-        text: ISLP
+      #- icon: file-earmark-pdf
+      #  href: https://chefs-kiss.github.io/ML_J2026/files/ISLP.pdf
+      #  text: ISLP
       - icon: chat-heart
         href: https://mdl.stolaf.edu/course/view.php?id=56310
         text: Moodle
       - icon: github
-        href: https://github.com/chefs-kiss/ML_J2026
+        href: https://github.com/chefs-kiss/GameDesign_J2027
         text: GitHub
     style: docked
     contents:
@@ -36,8 +36,8 @@ website:
           text: Moodle Forum
     - section: "Materials"
       contents:
-        - href: homework.qmd
-          text: Homework
+        - href: RE.qmd
+          text: Random Encounters
           icon: file-earmark-text
         - href: labs.qmd
           text: Labs
@@ -51,7 +51,7 @@ website:
 
 format:
   html:
-    theme: sandstone  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
+    theme: vapor  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
     #css: styles.css
     toc: true
 
