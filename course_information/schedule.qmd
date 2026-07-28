@@ -1,45 +1,57 @@
-## Week 1: Foundations
+# Course Schedule
 
-| **dow** | **date** | **prepare**              | **topic**                | **morning (lecture & RE)**                                                            | **afternoon (lab / project)**                     |
-| :-----: | :------- | :----------------------- | :----------------------- | :------------------------------------------------------------------------------------ | :------------------------------------------------ |
-|    M    | Jan 4    | syllabus, Fullerton Ch.1 | Introduction                    | Course Introduction, What is a Game? <br> RE: Discuss favorite games & core elements  | Lab: Install GameMaker Studio & explore interface |
-|    T    | Jan 5    | Fullerton Ch.2           | Formal Elements of Games | Lecture: Formal Elements (Space, Objects, Actions) <br> RE: Analyze Celeste mechanics | Lab: Add player sprite & basic movement           |
-|    W    | Jan 6    | Fullerton Ch.3           | Procedures vs Rules      | Lecture: Procedural Mechanics <br> RE: Mini exercise: turn rules into mechanics       | Lab: Implement jumping, gravity, collision        |
-|    Th   | Jan 7    | Fullerton Ch.4           | Game Loops & Feedback    | Lecture: Game Loop & Player Feedback <br> RE: Identify loops in Celeste & Short Hike  | Lab: Add scoring, collectibles, feedback cues     |
-|    F    | Jan 8    | Fullerton Ch.5           | Sprite Graphics & Art    | Lecture: Sprite Design & Animation <br> RE: Compare Celeste vs Short Hike             | Lab: Animate player & environmental sprites       |
+**Primary sources:** Fullerton, *Game Design Workshop* (GDW), Extra Credits (EC), [GDQuest Godot Beginner Learning Path](https://www.gdquest.com/tutorial/godot/learning-paths/beginner/)
 
+---
 
-## Week 2: Mechanics and Interactions
+## Week 1: Foundations 
 
-| **dow** | **date** | **prepare**    | **topic**                      | **morning (lecture & RE)**                                                         | **afternoon (lab / project)**                       |
-| :-----: | :------- | :------------- | :----------------------------- | :--------------------------------------------------------------------------------- | :-------------------------------------------------- |
-|    M    | Jan 11   | Fullerton Ch.6 | Physics & Collision            | Lecture: Physics & Collision Detection <br> RE: Identify collisions in platformers | Lab: Implement platformer physics & collisions      |
-|    T    | Jan 12   | Fullerton Ch.7 | AI & Enemy Behavior            | Lecture: Enemy AI & Patterns <br> RE: Mini-enemy exercise                          | Lab: Implement simple enemy AI                      |
-|    W    | Jan 13   | Fullerton Ch.8 | Procedural Content & Rules     | Lecture: Rules, Procedures, Randomness <br> RE: Random encounters in platformers   | Lab: Add item pickups, hazards, and random spawning |
-|    Th   | Jan 14   | Fullerton Ch.9 | Game Architectures             | Lecture: Structuring Game Projects <br> RE: Explore project folder structure       | Lab: Organize sprites, rooms, objects in GameMaker  |
-|    F    | Jan 15   | —              | Mini-Boss Battle & Playtesting | Lecture: Playtesting & Iteration <br> RE: Playtest your labs so far                | Lab: Refine mechanics and prepare demo              |
+| **dow** | **date** | **prepare**                                                              | **topic**                              | **morning (lecture & RE)**                         | **afternoon (lab / project)**                         |
+| :-----: | :------- | :----------------------------------------------------------------------- | :------------------------------------- | :-------------------------------------------------- | :----------------------------------------------------- |
+|    M    | Jan 4    | syllabus; GDW Ch.1; EC: *Making Your First Game — Basics*                | History of the Game Industry `HISTORY`  | What is a game? Industry eras & business models    | Game Design Kits Lab                                   |
+|    T    | Jan 5    | MDA paper (Hunicke, LeBlanc & Zubek); install Godot 4                    | Mechanics, Dynamics, Aesthetics `MDA`   | The MDA framework; the aesthetics vocabulary       | Godot lab 1 — editor & first scene                     |
+|    W    | Jan 6    | GDW Ch.2; skim GDW Ch.14 (design documentation)                          | Formal Elements of Games `ELEMENTS`     | Formal elements; introducing the Design Doc        | Design Doc lab (SM3DW, Celeste, A Short Hike, Portal)  |
+|    Th   | Jan 7    | GDW Ch.5 (system dynamics)                                               | The Game Loop `GAMELOOP`                | Core / session / meta loops; feedback              | Godot lab 2 — GDScript & signals                       |
+|    F    | Jan 8    | GDW Ch.3                                                                 | Procedures vs. Rules `PROCEDURES`       | Who enforces what; rules into code                 | Godot lab 3 — first complete 2D game                   |
 
-Over the weekend, complete one [critical analysis](../CA.qmd)
+Over the weekend, complete [critical analysis #1](../CA.qmd)
 
-## Week 3: Worldbuilding and Prototyping
+---
 
-| **dow** | **date** | **prepare**     | **topic**                        | **morning (lecture & RE)**                                                                      | **afternoon (lab / project)**                                             |
-| :-----: | :------- | :-------------- | :------------------------------- | :---------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-|    M    | Jan 18   | Fullerton Ch.10 | Game Ideas & Worldbuilding       | Lecture: Narrative, Worldbuilding, Story <br> RE: Map Short Hike themes                         | Team Project: Brainstorm platformer + puzzle hybrid, sketch story & world |
-|    T    | Jan 19   | Fullerton Ch.11 | Level Design & Pacing            | Lecture: Levels, Pacing, Flow <br> RE: Compare Celeste vs Short Hike levels                     | Team Project: Draft level layouts                                         |
-|    W    | Jan 20   | Fullerton Ch.12 | Character & Mechanics            | Lecture: Character Abilities & Player Actions <br> RE: Mini-encounter: Compare character powers | Team Project: Implement first playable prototype                          |
-|    Th   | Jan 21   | Fullerton Ch.13 | Prototyping & Physical Iteration | Lecture: Physical & Digital Prototyping <br> RE: Paper prototype for puzzle section             | Team Project: Build digital prototype with placeholder assets             |
-|    F    | Jan 22   | —               | Playtesting                      | Lecture: Iterative Playtesting <br> RE: Test Celeste or Short Hike mini sections                | Team Project: Playtest & adjust mechanics                                 |
+## Week 2: Mechanics and Systems
 
-Over the weekend, complete one [critical analysis](../CA.qmd)
+| **dow** | **date** | **prepare**                                                                                                             | **topic**                    | **morning (lecture & RE)**                      | **afternoon (lab / project)**                  |
+| :-----: | :------- | :------------------------------------------------------------------------------------------------------------------------ | :--------------------------- | :------------------------------------------------ | :----------------------------------------------- |
+|    M    | Jan 11   | EC: *Graphics vs. Aesthetics*; [pixel art in Godot 4](https://gdquest.com/tutorial/godot/2d/pixel-art-godot-4/)            | Sprite Graphics `SPRITES`     | Readability, silhouette, animation as info      | Godot lab 4 — pixel art & animation            |
+|    T    | Jan 12   | [kinematic jump formulas](https://gdquest.com/tutorial/godot/2d/kinematic-jump-formulas/)                                  | Physics `PHYSICS`             | Game feel vs. simulation; jump math             | Godot lab 5 — CharacterBody2D & jump tuning    |
+|    W    | Jan 13   | SF2 hit boxes; [hit & hurt boxes](https://gdquest.com/tutorial/godot/2d/hitbox_hurtbox_godot4/)                            | Collision Detection `HITBOX`  | Hitbox vs. hurtbox; frame data; layers & masks  | Godot lab 6 — hitboxes, hazards, i-frames      |
+|    Th   | Jan 14   | [finite state machine pattern](https://gdquest.com/tutorial/godot/design-patterns/finite-state-machine/)                   | Game AI `AI+PATH`             | Readable behavior; FSMs; pathfinding            | Godot lab 7 — enemy AI & pathfinding           |
+|    F    | Jan 15   | GDW Ch.7 & 8                                                                                                              | Physical Prototypes `PHYPROT` | Prototyping to answer a question; jam launch    | Mini Game Jam — playtest physical prototypes   |
 
-## Week 4: Playtesting
+Over the weekend, complete [critical analysis #2](../CA.qmd)
 
-| **dow** | **date** | **prepare**        | **topic**             | **morning (lecture & RE)**                                                        | **afternoon (lab / project)**                       |
-| :-----: | :------- | :----------------- | :-------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------- |
-|    M    | Jan 25   | Fullerton Ch.14–15 | Balancing & Polishing | Lecture: Balancing Platformer + Puzzle <br> RE: Identify pain points in playtest  | Team Project: Balance levels & mechanics            |
-|    T    | Jan 26   | Fullerton Ch.16    | Advanced Mechanics    | Lecture: Power-ups & Player Feedback <br> RE: Discuss effect on player experience | Team Project: Implement advanced mechanics & polish |
-|    W    | Jan 27   | Fullerton Ch.17    | Level Iteration       | Lecture: Refining Levels & Replayability <br> RE: Compare level pacing            | Team Project: Iterate prototype based on playtests  |
-|    Th   | Jan 28   | Fullerton Ch.18    | Final Playtesting     | Lecture: Preparing for Demo & Feedback <br> RE: Identify remaining polish items   | Team Project: Final prototype polish                |
-|    F    | Jan 29   | —                  | Showcase              | Course Wrap-Up <br> RE: Reflect on design lessons                                 | Team Project: Showcase & submit final prototype     |
+---
 
+## Week 3: Worldbuilding and Team Project
+
+| **dow** | **date** | **prepare**                                                                              | **topic**                            | **morning (lecture & RE)**                     | **afternoon (lab / project)**                          |
+| :-----: | :------- | :----------------------------------------------------------------------------------------- | :----------------------------------- | :----------------------------------------------- | :------------------------------------------------------ |
+|    M    | Jan 18   | review Block A                                                                            | **Exam 1**                            | Exam 1                                          | Team project kickoff — pitches from the jam            |
+|    T    | Jan 19   | GDW Ch.4 & 6; EC: *The Magic Circle*; GDW Ch.12 (team structures)                         | Game Ideas + Worldbuilding `WORLD`    | Ideation; dramatic elements; worlds that pay rent | Agile roles, team formation, project structure & git   |
+|    W    | Jan 20   | EC: *Board Games*; *The Quiet Year* rules                                                 | The Quiet Year                        | Play *The Quiet Year* as a worldbuilding engine | Concept to design doc draft; greybox the slice          |
+|    Th   | Jan 21   | Devs Play: *Doom*; GMTK: *SM3DW's 4-step level design*; GDW Ch.14                          | Level Design `LEVELS`                 | Levels as teaching; landmarks & sightlines      | Workday — **Design Doc due**                           |
+|    F    | Jan 22   | [tilemap basics cheat sheet](https://gdquest.com/tutorial/godot/2d/tilemap_basics_cheatsheet/) | Level Design `LEVELS`             | Pacing, rhythm, difficulty curves, iteration    | Physical prototype demos                               |
+
+Over the weekend, complete [critical analysis #3](../CA.qmd) and submit your team **progress check**
+
+---
+
+## Week 4: Balance, Polish, and Expo
+
+| **dow** | **date** | **prepare**                                                     | **topic**                        | **morning (lecture & RE)**                    | **afternoon (lab / project)**                     |
+| :-----: | :------- | :--------------------------------------------------------------- | :------------------------------- | :---------------------------------------------- | :-------------------------------------------------- |
+|    M    | Jan 25   | EC: *Perfect Imbalance*; EC: *First Moves*; GDW Ch.10             | Game Balancing `BALANCE`          | Balance for whom; dominant strategies; curves | Balancing your game — tuning pass & difficulty modes |
+|    T    | Jan 26   | GDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)           | Playtesting `TESTING`             | Test scripts; SMB 1-1 watch & play            | Flex lab — audio, UI, juice, accessibility          |
+|    W    | Jan 27   | instructor readings on copyright, fair use & asset licenses       | Legal Issues + ROM Hacking `IP`   | Copyright vs. trademark; clones; preservation | Cross-team playtest — **working game due**          |
+|    Th   | Jan 28   | review Block B                                                    | **Exam 2**                        | Exam 2                                        | Workday — feature freeze & build dry run            |
+|    F    | Jan 29   | —                                                                 | Game Expo                         | Wrap-up, postmortems, expo setup              | Game Expo — **final game due**                      |
