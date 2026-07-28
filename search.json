@@ -68,8 +68,8 @@
     ]
   },
   {
-    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-team-project",
-    "href": "course_information/schedule.html#week-3-worldbuilding-and-team-project",
+    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
+    "href": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
     "title": "Course Schedule",
     "section": "",
     "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept to design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check",
@@ -79,8 +79,8 @@
     ]
   },
   {
-    "objectID": "course_information/schedule.html#week-4-balance-polish-and-expo",
-    "href": "course_information/schedule.html#week-4-balance-polish-and-expo",
+    "objectID": "course_information/schedule.html#week-4-balancing-and-playtesting",
+    "href": "course_information/schedule.html#week-4-balancing-and-playtesting",
     "title": "Course Schedule",
     "section": "",
     "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due",
