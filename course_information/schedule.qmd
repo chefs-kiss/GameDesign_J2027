@@ -32,7 +32,7 @@ Over the weekend, complete [critical analysis #2](../CA.qmd)
 
 ---
 
-## Week 3: Worldbuilding and Team Project
+## Week 3: Worldbuilding and Leveling
 
 | **dow** | **date** | **prepare**                                                                              | **topic**                            | **morning (lecture & RE)**                     | **afternoon (lab / project)**                          |
 | :-----: | :------- | :----------------------------------------------------------------------------------------- | :----------------------------------- | :----------------------------------------------- | :------------------------------------------------------ |
@@ -46,7 +46,7 @@ Over the weekend, complete [critical analysis #3](../CA.qmd) and submit your tea
 
 ---
 
-## Week 4: Balance, Polish, and Expo
+## Week 4: Balancing and Playtesting
 
 | **dow** | **date** | **prepare**                                                     | **topic**                        | **morning (lecture & RE)**                    | **afternoon (lab / project)**                     |
 | :-----: | :------- | :--------------------------------------------------------------- | :------------------------------- | :---------------------------------------------- | :-------------------------------------------------- |
