@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>schedule_topics – Game Design</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-02ac5d661e94abb6e709697b30b7da20.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Game Design
+      </li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Game Design</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="../course_information/schedule.html" title="Home" class="quarto-navigation-tool px-1" aria-label="Home"><i class="bi bi-house"></i></a>
+    <a href="https://mdl.stolaf.edu/course/view.php?id=56310" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-chat-heart"></i></a>
+    <a href="https://github.com/chefs-kiss/GameDesign_J2027" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Course Information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course_information/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://mdl.stolaf.edu/mod/forum/view.php?id=514243" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Moodle Forum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../RE.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Random Encounters</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../labs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Labs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Slides</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CA.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Critical Analysis</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link active" data-scroll-target="#course-schedule">Course Schedule</a>
+  <ul class="collapse">
+  <li><a href="#week-1-foundations" id="toc-week-1-foundations" class="nav-link" data-scroll-target="#week-1-foundations">Week 1: Foundations</a>
+  <ul class="collapse">
+  <li><a href="#session-plans" id="toc-session-plans" class="nav-link" data-scroll-target="#session-plans">Session plans</a></li>
+  </ul></li>
+  <li><a href="#week-2-mechanics-and-systems-block-a-week-2" id="toc-week-2-mechanics-and-systems-block-a-week-2" class="nav-link" data-scroll-target="#week-2-mechanics-and-systems-block-a-week-2">Week 2: Mechanics and Systems (Block A, Week 2)</a>
+  <ul class="collapse">
+  <li><a href="#session-plans-1" id="toc-session-plans-1" class="nav-link" data-scroll-target="#session-plans-1">Session plans</a></li>
+  </ul></li>
+  <li><a href="#week-3-worldbuilding-and-team-project-block-b-week-1" id="toc-week-3-worldbuilding-and-team-project-block-b-week-1" class="nav-link" data-scroll-target="#week-3-worldbuilding-and-team-project-block-b-week-1">Week 3: Worldbuilding and Team Project (Block B, Week 1)</a>
+  <ul class="collapse">
+  <li><a href="#session-plans-2" id="toc-session-plans-2" class="nav-link" data-scroll-target="#session-plans-2">Session plans</a></li>
+  </ul></li>
+  <li><a href="#week-4-balance-polish-and-expo-block-b-week-2" id="toc-week-4-balance-polish-and-expo-block-b-week-2" class="nav-link" data-scroll-target="#week-4-balance-polish-and-expo-block-b-week-2">Week 4: Balance, Polish, and Expo (Block B, Week 2)</a>
+  <ul class="collapse">
+  <li><a href="#session-plans-3" id="toc-session-plans-3" class="nav-link" data-scroll-target="#session-plans-3">Session plans</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="course-schedule" class="level1">
+<h1>Course Schedule</h1>
+<p><strong>Primary sources:</strong> Fullerton, <em>Game Design Workshop</em> (GDW), Extra Credits (EC), <a href="https://www.gdquest.com/tutorial/godot/learning-paths/beginner/">GDQuest Godot Beginner Learning Path</a></p>
+<hr>
+<section id="week-1-foundations" class="level2">
+<h2 class="anchored" data-anchor-id="week-1-foundations">Week 1: Foundations</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 31%">
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>dow</strong></th>
+<th style="text-align: left;"><strong>date</strong></th>
+<th style="text-align: left;"><strong>prepare</strong></th>
+<th style="text-align: left;"><strong>topic</strong></th>
+<th style="text-align: left;"><strong>morning (lecture &amp; RE)</strong></th>
+<th style="text-align: left;"><strong>afternoon (lab / project)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">Jan 4</td>
+<td style="text-align: left;">syllabus; GDW Ch.1; EC: <em>Making Your First Game — Basics</em></td>
+<td style="text-align: left;">History of the Game Industry <code>HISTORY</code></td>
+<td style="text-align: left;">What is a game? Industry eras &amp; business models</td>
+<td style="text-align: left;">Game Design Kits Lab</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T</td>
+<td style="text-align: left;">Jan 5</td>
+<td style="text-align: left;">MDA paper (Hunicke, LeBlanc &amp; Zubek); install Godot 4</td>
+<td style="text-align: left;">Mechanics, Dynamics, Aesthetics <code>MDA</code></td>
+<td style="text-align: left;">The MDA framework; the aesthetics vocabulary</td>
+<td style="text-align: left;">Godot lab 1 — editor &amp; first scene</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">W</td>
+<td style="text-align: left;">Jan 6</td>
+<td style="text-align: left;">GDW Ch.2; skim GDW Ch.14 (design documentation)</td>
+<td style="text-align: left;">Formal Elements of Games <code>ELEMENTS</code></td>
+<td style="text-align: left;">Formal elements; introducing the Design Doc</td>
+<td style="text-align: left;">Design Doc lab (SM3DW, Celeste, A Short Hike, Portal)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Th</td>
+<td style="text-align: left;">Jan 7</td>
+<td style="text-align: left;">GDW Ch.5 (system dynamics)</td>
+<td style="text-align: left;">The Game Loop <code>GAMELOOP</code></td>
+<td style="text-align: left;">Core / session / meta loops; feedback</td>
+<td style="text-align: left;">Godot lab 2 — GDScript &amp; signals</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: left;">Jan 8</td>
+<td style="text-align: left;">GDW Ch.3</td>
+<td style="text-align: left;">Procedures vs.&nbsp;Rules <code>PROCEDURES</code></td>
+<td style="text-align: left;">Who enforces what; rules into code</td>
+<td style="text-align: left;">Godot lab 3 — first complete 2D game</td>
+</tr>
+</tbody>
+</table>
+<p>Over the weekend, complete <a href="../CA.html">critical analysis #1</a></p>
+<section id="session-plans" class="level3">
+<h3 class="anchored" data-anchor-id="session-plans">Session plans</h3>
+<section id="monday-jan-4-history-of-the-game-industry-history" class="level4">
+<h4 class="anchored" data-anchor-id="monday-jan-4-history-of-the-game-industry-history">Monday, Jan 4 — History of the Game Industry <code>HISTORY</code></h4>
+<p><strong>Morning — What is a game?</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the first game you remember <strong>choosing</strong> to play rather than being handed? What made you choose it?</li>
+<li>Industry eras as design constraints: arcade coin-op economics, cartridge limits, shareware/PC, mobile F2P retention, engine-era indies — each business model produces a different shape of game.</li>
+<li>Fullerton’s definitional elements: players, objectives, procedures, rules, resources, conflict, boundaries, outcome.</li>
+<li>Stress-testing the definition against edge cases: <em>SimCity</em>, <em>Dwarf Fortress</em>, walking sims, idle games, Twine pieces.</li>
+<li><em>Reflection:</em> Which formal element would you remove first before the thing stops being a game? What breaks when you do?</li>
+</ul>
+<p><strong>Afternoon — Game Design Kits Lab</strong></p>
+<ul>
+<li><em>Warm-up:</em> With only a deck of cards, dice, and tokens, what is the smallest complete game you can describe in one sentence?</li>
+<li>In pairs, build a playable game from a design kit in 45 minutes under a hard constraint (e.g.&nbsp;no reading required, one page of rules).</li>
+<li>Swap kits and play a classmate’s game with the designer <strong>silent</strong> — no clarifications allowed.</li>
+<li><em>Reflection:</em> What did players do that you did not design for? Was it a bug or a feature?</li>
+</ul>
+</section>
+<section id="tuesday-jan-5-mechanics-dynamics-aesthetics-mda" class="level4">
+<h4 class="anchored" data-anchor-id="tuesday-jan-5-mechanics-dynamics-aesthetics-mda">Tuesday, Jan 5 — Mechanics, Dynamics, Aesthetics <code>MDA</code></h4>
+<p><strong>Morning — The MDA framework</strong></p>
+<ul>
+<li><em>Warm-up:</em> Describe a game you love in one sentence without naming a single mechanic.</li>
+<li>Mechanics → dynamics → aesthetics, and why designers and players travel that chain in opposite directions.</li>
+<li>The eight aesthetics (sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission) as a replacement for the word “fun.”</li>
+<li>Worked example: change one mechanic in a familiar game and trace the dynamic and aesthetic consequences downstream.</li>
+<li><em>Reflection:</em> Take yesterday’s kit game — which aesthetic were you <em>actually</em> delivering, as opposed to the one you intended?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 1: the editor and your first scene</strong></p>
+<p>Resource: <a href="https://gdquest.com/tutorial/godot/learning-paths/godot-tours-101/">Godot Tours 101</a></p>
+<ul>
+<li><em>Warm-up:</em> What do you expect a game engine to do for you that you would otherwise have to write yourself?</li>
+<li>Install Godot 4; run the interactive editor tour; project and file layout.</li>
+<li>Nodes, scenes, the scene tree, and instancing — the engine’s core mental model.</li>
+<li>Build a scene in which one sprite responds to keyboard input.</li>
+<li><em>Reflection:</em> Name one thing the editor did for you today that you would not have known how to write.</li>
+</ul>
+</section>
+<section id="wednesday-jan-6-formal-elements-of-games-elements" class="level4">
+<h4 class="anchored" data-anchor-id="wednesday-jan-6-formal-elements-of-games-elements">Wednesday, Jan 6 — Formal Elements of Games <code>ELEMENTS</code></h4>
+<p><strong>Morning — Formal elements &amp; the design doc</strong></p>
+<ul>
+<li><em>Warm-up:</em> Rules or objectives — which one, changed slightly, would break your favorite game faster?</li>
+<li>Each formal element in detail, with an example and a counter-example from a game everyone has played.</li>
+<li>Reading a game as a <em>system</em> rather than as a story or a genre label.</li>
+<li>What a design doc is for: a shared, revisable contract about the system — not a sales pitch.</li>
+<li><em>Reflection:</em> Which formal element is hardest to see from the outside when you only watch someone else play?</li>
+</ul>
+<p><strong>Afternoon — Design Doc lab: SM3DW, Celeste, A Short Hike, Portal (sound off)</strong></p>
+<ul>
+<li><em>Warm-up:</em> Predict what you will lose when the sound goes off. Write it down; we check it at the end.</li>
+<li>Rotate ~20 minutes per title, sound off, filling in a formal-elements table for each.</li>
+<li>Compare: which game taught you its rules fastest, and by what means — text, level geometry, animation, failure?</li>
+<li>Note what became <em>illegible</em> without audio: feedback, threat cues, reward confirmation.</li>
+<li><em>Reflection:</em> Which of the four has the tightest fit between its formal elements and its aesthetic goal? Defend it in three sentences.</li>
+</ul>
+</section>
+<section id="thursday-jan-7-the-game-loop-gameloop" class="level4">
+<h4 class="anchored" data-anchor-id="thursday-jan-7-the-game-loop-gameloop">Thursday, Jan 7 — The Game Loop <code>GAMELOOP</code></h4>
+<p><strong>Morning — Loops and feedback</strong></p>
+<ul>
+<li><em>Warm-up:</em> Draw the action you repeat most often in any game you play. How many seconds does one repetition take?</li>
+<li>Core loop, session loop, meta loop — three timescales, three different reasons a player returns.</li>
+<li>Feedback as a chain: input → system response → readable outcome → next decision; what happens when a link is missing.</li>
+<li>System dynamics (GDW Ch.5): emergence, positive and negative feedback loops, runaway leaders and rubber-banding.</li>
+<li><em>Reflection:</em> Of your three loops, which is weakest in the game you would most like to build?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 2: GDScript &amp; signals</strong></p>
+<p>Resources: <a href="https://gdquest.com/tutorial/godot/learning-paths/learn-gdscript-from-zero/">Learn GDScript From Zero</a> · <a href="https://gdquest.com/tutorial/godot/best-practices/signals/">Signals best practices</a></p>
+<ul>
+<li><em>Warm-up:</em> How would you tell one object that something happened to another, without the two of them knowing about each other?</li>
+<li>GDScript foundations: variables, functions, conditionals, typed GDScript.</li>
+<li>Signals as the engine’s event system; connecting in the editor vs.&nbsp;in code.</li>
+<li>Build a complete micro-loop: collect an item → score updates → visible and audible confirmation.</li>
+<li><em>Reflection:</em> Where did your loop feel dead? What single piece of feedback would fix it?</li>
+</ul>
+</section>
+<section id="friday-jan-8-procedures-vs.-rules-procedures" class="level4">
+<h4 class="anchored" data-anchor-id="friday-jan-8-procedures-vs.-rules-procedures">Friday, Jan 8 — Procedures vs.&nbsp;Rules <code>PROCEDURES</code></h4>
+<p><strong>Morning — Who enforces what</strong></p>
+<ul>
+<li><em>Warm-up:</em> Name one rule and one procedure in basketball. Which is easier to enforce in code, and why?</li>
+<li>Rules constrain the space of legal states; procedures instruct players on how to act within it.</li>
+<li>Enforcement: the honor system, the referee, and the engine — and how automatic enforcement quietly changes a game’s texture.</li>
+<li>Translating a rulebook clause into a function: preconditions, effects, edge cases.</li>
+<li><em>Reflection:</em> Which rule from your kit-lab game would be impossible (or miserable) to enforce digitally?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 3: your first complete 2D game</strong></p>
+<p>Resource: <a href="https://gdquest.com/tutorial/godot/2d/first-2d-game-godot-4/">Your First 2D Game (Godot 4)</a></p>
+<ul>
+<li><em>Warm-up:</em> What is the minimum a game needs before it can have a win state and a lose state?</li>
+<li>Player scene, enemy scenes, and <a href="https://gdquest.com/tutorial/godot/2d/spawning/">spawning</a>.</li>
+<li>A game manager / autoload holding score and state; scene transitions and restart.</li>
+<li>Ship something playable end-to-end — start screen, play, lose, restart.</li>
+<li><em>Reflection:</em> Your game now enforces its own rules. Which rule did the engine let you be lazy about writing down?</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="week-2-mechanics-and-systems-block-a-week-2" class="level2">
+<h2 class="anchored" data-anchor-id="week-2-mechanics-and-systems-block-a-week-2">Week 2: Mechanics and Systems (Block A, Week 2)</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>dow</strong></th>
+<th style="text-align: left;"><strong>date</strong></th>
+<th style="text-align: left;"><strong>prepare</strong></th>
+<th style="text-align: left;"><strong>topic</strong></th>
+<th style="text-align: left;"><strong>morning (lecture &amp; RE)</strong></th>
+<th style="text-align: left;"><strong>afternoon (lab / project)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">Jan 11</td>
+<td style="text-align: left;">EC: <em>Graphics vs.&nbsp;Aesthetics</em>; <a href="https://gdquest.com/tutorial/godot/2d/pixel-art-godot-4/">pixel art in Godot 4</a></td>
+<td style="text-align: left;">Sprite Graphics <code>SPRITES</code></td>
+<td style="text-align: left;">Readability, silhouette, animation as info</td>
+<td style="text-align: left;">Godot lab 4 — pixel art &amp; animation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T</td>
+<td style="text-align: left;">Jan 12</td>
+<td style="text-align: left;"><a href="https://gdquest.com/tutorial/godot/2d/kinematic-jump-formulas/">kinematic jump formulas</a></td>
+<td style="text-align: left;">Physics <code>PHYSICS</code></td>
+<td style="text-align: left;">Game feel vs.&nbsp;simulation; jump math</td>
+<td style="text-align: left;">Godot lab 5 — CharacterBody2D &amp; jump tuning</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">W</td>
+<td style="text-align: left;">Jan 13</td>
+<td style="text-align: left;">SF2 hit boxes; <a href="https://gdquest.com/tutorial/godot/2d/hitbox_hurtbox_godot4/">hit &amp; hurt boxes</a></td>
+<td style="text-align: left;">Collision Detection <code>HITBOX</code></td>
+<td style="text-align: left;">Hitbox vs.&nbsp;hurtbox; frame data; layers &amp; masks</td>
+<td style="text-align: left;">Godot lab 6 — hitboxes, hazards, i-frames</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Th</td>
+<td style="text-align: left;">Jan 14</td>
+<td style="text-align: left;"><a href="https://gdquest.com/tutorial/godot/design-patterns/finite-state-machine/">finite state machine pattern</a></td>
+<td style="text-align: left;">Game AI <code>AI+PATH</code></td>
+<td style="text-align: left;">Readable behavior; FSMs; pathfinding</td>
+<td style="text-align: left;">Godot lab 7 — enemy AI &amp; pathfinding</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: left;">Jan 15</td>
+<td style="text-align: left;">GDW Ch.7 &amp; 8</td>
+<td style="text-align: left;">Physical Prototypes <code>PHYPROT</code></td>
+<td style="text-align: left;">Prototyping to answer a question; jam launch</td>
+<td style="text-align: left;">Mini Game Jam — playtest physical prototypes</td>
+</tr>
+</tbody>
+</table>
+<p>Over the weekend, complete <a href="../CA.html">critical analysis #2</a></p>
+<section id="session-plans-1" class="level3">
+<h3 class="anchored" data-anchor-id="session-plans-1">Session plans</h3>
+<section id="monday-jan-11-sprite-graphics-sprites" class="level4">
+<h4 class="anchored" data-anchor-id="monday-jan-11-sprite-graphics-sprites">Monday, Jan 11 — Sprite Graphics <code>SPRITES</code></h4>
+<p><strong>Morning — Graphics vs.&nbsp;aesthetics</strong></p>
+<ul>
+<li><em>Warm-up:</em> Name a game with dated graphics that still looks good to you. What is doing the work?</li>
+<li>Fidelity is not style: why art direction outlives hardware, and why “better graphics” is the wrong axis.</li>
+<li>Readability first — silhouette, contrast, restricted palettes, figure/ground separation under motion.</li>
+<li>Animation as information: anticipation, key poses, follow-through, and the frames that communicate <em>state</em>.</li>
+<li><em>Reflection:</em> Screenshot your Godot project. Can a stranger tell which thing is the player in under a second?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 4: pixel art &amp; animation</strong></p>
+<ul>
+<li><em>Warm-up:</em> Why does pixel art usually look blurry or shimmery the first time you import it?</li>
+<li>Import settings, filtering, snapping, and viewport scaling for crisp 2D.</li>
+<li><code>AnimatedSprite2D</code> / <code>AnimationPlayer</code>; driving animation from character <em>state</em> rather than from input.</li>
+<li>Add idle, run, and jump animations, plus one piece of environmental motion.</li>
+<li><em>Reflection:</em> Which animation changed how the game <em>felt</em> rather than how it looked?</li>
+</ul>
+</section>
+<section id="tuesday-jan-12-physics-physics" class="level4">
+<h4 class="anchored" data-anchor-id="tuesday-jan-12-physics-physics">Tuesday, Jan 12 — Physics <code>PHYSICS</code></h4>
+<p><strong>Morning — Game feel vs.&nbsp;simulation</strong></p>
+<ul>
+<li><em>Warm-up:</em> Two platformers with identical jump height feel completely different. Name three things that could differ.</li>
+<li>Why game physics is not physics: acceleration, friction, terminal velocity, asymmetric rise/fall gravity.</li>
+<li>Forgiveness mechanics — coyote time, jump buffering, variable jump height — and the ethics of lying to the player.</li>
+<li>Deriving jump parameters from design intent (desired height and distance) instead of guessing numbers.</li>
+<li><em>Reflection:</em> Which single number in your project most controls how your game feels?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 5: CharacterBody2D &amp; jump tuning</strong></p>
+<ul>
+<li><em>Warm-up:</em> What would you change first to make your character feel heavier?</li>
+<li><code>CharacterBody2D</code>, <code>move_and_slide</code>, and frame-rate independence with <code>delta</code>.</li>
+<li>Exported tuning variables so jump apex, fall speed, and run acceleration can be changed live.</li>
+<li>Implement coyote time and variable jump height; A/B test with a neighbor.</li>
+<li><em>Reflection:</em> Did the more forgiving version feel <em>easier</em>, or just <em>better</em>? What is the difference?</li>
+</ul>
+</section>
+<section id="wednesday-jan-13-collision-detection-hitbox" class="level4">
+<h4 class="anchored" data-anchor-id="wednesday-jan-13-collision-detection-hitbox">Wednesday, Jan 13 — Collision Detection <code>HITBOX</code></h4>
+<p><strong>Morning — Hitboxes and frame data</strong></p>
+<ul>
+<li><em>Warm-up:</em> In a fighting game, two attacks land on the same frame. Who should win, and how would you decide?</li>
+<li>Collision shapes: AABB, circle, capsule, polygon — the cost/precision tradeoff.</li>
+<li>Hitbox vs.&nbsp;hurtbox vs.&nbsp;collision shape: three different jobs, routinely confused.</li>
+<li>SF2 analysis: startup / active / recovery frames, priority, and why hitboxes rarely match the sprite.</li>
+<li><em>Reflection:</em> Sketch the hitbox and hurtbox for one attack in a game you know. Where did you have to guess?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 6: hitboxes, hazards, and i-frames</strong></p>
+<ul>
+<li><em>Warm-up:</em> Which of your objects should collide with which? Sketch the matrix before you write anything.</li>
+<li>The Area2D hit/hurtbox pattern; separating “what I damage” from “what damages me.”</li>
+<li><a href="https://gdquest.com/tutorial/godot/2d/physics-layers-and-masks/">Physics layers and masks</a> as a design document in disguise.</li>
+<li>Add a damaging hazard, a health value, invincibility frames, and hit feedback.</li>
+<li><em>Reflection:</em> Where did your collision setup produce a result that was technically correct but felt unfair?</li>
+</ul>
+</section>
+<section id="thursday-jan-14-game-ai-aipath" class="level4">
+<h4 class="anchored" data-anchor-id="thursday-jan-14-game-ai-aipath">Thursday, Jan 14 — Game AI <code>AI+PATH</code></h4>
+<p><strong>Morning — Readable behavior</strong></p>
+<ul>
+<li><em>Warm-up:</em> Name an enemy whose behavior you can predict perfectly. Is that a design failure?</li>
+<li>Readable beats smart: the player must be able to build a mental model and act on it.</li>
+<li>Finite state machines, steering behaviors, and simple patrol/chase/flee architectures.</li>
+<li>Pathfinding: grids, navigation regions, and A* — and when pathfinding is overkill.</li>
+<li>Telegraphing, reaction windows, and enemy AI as a difficulty dial.</li>
+<li><em>Reflection:</em> What is the smallest set of states your enemy needs in order to be interesting?</li>
+</ul>
+<p><strong>Afternoon — Godot lab 7: enemy AI &amp; pathfinding</strong></p>
+<p>Resources: <a href="https://gdquest.com/tutorial/godot/2d/navigation2d-tilemap-pathfinding/">Navigation2D tilemap pathfinding</a> · <a href="https://gdquest.com/tutorial/godot/2d/intro-to-steering-behaviors/">Intro to steering behaviors</a></p>
+<ul>
+<li><em>Warm-up:</em> Write your enemy’s states and the exact condition for each transition — before you open Godot.</li>
+<li>Implement an FSM-driven enemy: patrol, detect, chase, lose interest.</li>
+<li>Add pathfinding or steering so the enemy handles terrain it was not authored for.</li>
+<li>Tune detection radius and telegraph duration, then playtest with someone who has not seen it.</li>
+<li><em>Reflection:</em> Your tester died. Could they explain why? If not, do you fix the AI or the telegraph?</li>
+</ul>
+</section>
+<section id="friday-jan-15-physical-prototypes-phyprot" class="level4">
+<h4 class="anchored" data-anchor-id="friday-jan-15-physical-prototypes-phyprot">Friday, Jan 15 — Physical Prototypes <code>PHYPROT</code></h4>
+<p><strong>Morning — Prototyping &amp; Mini Game Jam launch</strong></p>
+<ul>
+<li><em>Warm-up:</em> What can you learn from paper in ten minutes that would take ten hours in Godot?</li>
+<li>GDW Ch.7–8: a prototype answers one question; it is not a small version of the finished game.</li>
+<li>The 7-step worldbuilding exercise as a generator of constrained premises.</li>
+<li>Jam rules: one verifiable design question per prototype, physical materials only, playable by 11:30.</li>
+<li><em>Reflection:</em> Write the single question your prototype exists to answer. Tape it to the table.</li>
+</ul>
+<p><strong>Afternoon — Mini Game Jam: playtest physical prototypes</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the one thing you want to see a stranger do with your prototype?</li>
+<li>Rotate tables every 15 minutes; designers observe <strong>silently</strong> and take notes.</li>
+<li>Record what players <em>did</em>, not what they <em>said</em>; timestamp confusion and hesitation.</li>
+<li>One revision between rounds, then test again with fresh players.</li>
+<li><em>Reflection:</em> Which prototype in the room — yours or someone else’s — deserves nine more days of work, and why?</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="week-3-worldbuilding-and-team-project-block-b-week-1" class="level2">
+<h2 class="anchored" data-anchor-id="week-3-worldbuilding-and-team-project-block-b-week-1">Week 3: Worldbuilding and Team Project (Block B, Week 1)</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>dow</strong></th>
+<th style="text-align: left;"><strong>date</strong></th>
+<th style="text-align: left;"><strong>prepare</strong></th>
+<th style="text-align: left;"><strong>topic</strong></th>
+<th style="text-align: left;"><strong>morning (lecture &amp; RE)</strong></th>
+<th style="text-align: left;"><strong>afternoon (lab / project)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">Jan 18</td>
+<td style="text-align: left;">review Block A</td>
+<td style="text-align: left;"><strong>Exam 1</strong></td>
+<td style="text-align: left;">Exam 1</td>
+<td style="text-align: left;">Team project kickoff — pitches from the jam</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T</td>
+<td style="text-align: left;">Jan 19</td>
+<td style="text-align: left;">GDW Ch.4 &amp; 6; EC: <em>The Magic Circle</em>; GDW Ch.12 (team structures)</td>
+<td style="text-align: left;">Game Ideas + Worldbuilding <code>WORLD</code></td>
+<td style="text-align: left;">Ideation; dramatic elements; worlds that pay rent</td>
+<td style="text-align: left;">Agile roles, team formation, project structure &amp; git</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">W</td>
+<td style="text-align: left;">Jan 20</td>
+<td style="text-align: left;">EC: <em>Board Games</em>; <em>The Quiet Year</em> rules</td>
+<td style="text-align: left;">The Quiet Year</td>
+<td style="text-align: left;">Play <em>The Quiet Year</em> as a worldbuilding engine</td>
+<td style="text-align: left;">Concept → design doc draft; greybox the slice</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Th</td>
+<td style="text-align: left;">Jan 21</td>
+<td style="text-align: left;">Devs Play: <em>Doom</em>; GMTK: <em>SM3DW’s 4-step level design</em>; GDW Ch.14</td>
+<td style="text-align: left;">Level Design <code>LEVELS</code></td>
+<td style="text-align: left;">Levels as teaching; landmarks &amp; sightlines</td>
+<td style="text-align: left;">Workday — <strong>Design Doc due</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: left;">Jan 22</td>
+<td style="text-align: left;"><a href="https://gdquest.com/tutorial/godot/2d/tilemap_basics_cheatsheet/">tilemap basics cheat sheet</a></td>
+<td style="text-align: left;">Level Design <code>LEVELS</code></td>
+<td style="text-align: left;">Pacing, rhythm, difficulty curves, iteration</td>
+<td style="text-align: left;">Physical prototype demos</td>
+</tr>
+</tbody>
+</table>
+<p>Over the weekend, complete <a href="../CA.html">critical analysis #3</a> and submit your team <strong>progress check</strong></p>
+<section id="session-plans-2" class="level3">
+<h3 class="anchored" data-anchor-id="session-plans-2">Session plans</h3>
+<section id="monday-jan-18-exam-1-project-kickoff" class="level4">
+<h4 class="anchored" data-anchor-id="monday-jan-18-exam-1-project-kickoff">Monday, Jan 18 — Exam 1 &amp; project kickoff</h4>
+<p><strong>Morning — Exam 1</strong></p>
+<ul>
+<li><em>Warm-up:</em> Five minutes, closed notes, ungraded: list every formal element you can remember, then compare with a neighbor.</li>
+<li>Covers Block A: definitions of games, formal elements, MDA, loops and feedback, procedures vs.&nbsp;rules, physics/collision/AI concepts.</li>
+<li>Format: short answer plus one applied design question (given a mechanic, predict the dynamics).</li>
+<li><em>Reflection:</em> Which concept do you still not trust yourself to use? Name it — this is what to ask about this week.</li>
+</ul>
+<p><strong>Afternoon — Team project kickoff (build off the mini prototype jam)</strong></p>
+<ul>
+<li><em>Warm-up:</em> Which jam prototype would you want to work on for nine days, and what would you change about it first?</li>
+<li>Two-minute pitches of surviving jam prototypes, then dot-voting to a shortlist.</li>
+<li>Scope reality check: nine working days, a team of four, one vertical slice — not a full game.</li>
+<li>Form provisional teams around the surviving pitches; each team names its one-sentence player fantasy.</li>
+<li><em>Reflection:</em> Name one thing your team has already decided <strong>not</strong> to build.</li>
+</ul>
+</section>
+<section id="tuesday-jan-19-game-ideas-worldbuilding-world" class="level4">
+<h4 class="anchored" data-anchor-id="tuesday-jan-19-game-ideas-worldbuilding-world">Tuesday, Jan 19 — Game Ideas + Worldbuilding <code>WORLD</code></h4>
+<p><strong>Morning — Ideas and worlds</strong></p>
+<ul>
+<li><em>Warm-up:</em> The magic circle — name a moment when it broke for you mid-play. What broke it?</li>
+<li>Ideation techniques (GDW Ch.6): structured brainstorming, constraint-driven generation, the “what if” chain.</li>
+<li>Dramatic elements (GDW Ch.4): premise, character, and story as <em>pressure on mechanics</em>, not decoration.</li>
+<li>Worldbuilding that pays rent: every fiction choice should justify or explain a mechanic.</li>
+<li><em>Reflection:</em> State your world in one sentence and your core mechanic in one. Do they actually need each other?</li>
+</ul>
+<p><strong>Afternoon — Agile roles, team formation, project structure</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the worst team project you have been part of? What actually caused it?</li>
+<li>Roles (design lead, tech lead, art/audio, producer), rotating standups, and a working agreement in writing.</li>
+<li>Project structure: folder and scene conventions, naming, and a <code>.gitignore</code> for Godot; asset and version control workflow.</li>
+<li>Backlog: epics → tasks → this-week board, plus an explicit definition of done.</li>
+<li><em>Reflection:</em> Which role do you least want, and who on your team is covering it?</li>
+</ul>
+</section>
+<section id="wednesday-jan-20-the-quiet-year" class="level4">
+<h4 class="anchored" data-anchor-id="wednesday-jan-20-the-quiet-year">Wednesday, Jan 20 — The Quiet Year</h4>
+<p><strong>Morning — Worldbuilding by map</strong></p>
+<ul>
+<li><em>Warm-up:</em> Name a game world you could describe convincingly without describing its plot.</li>
+<li>Play <em>The Quiet Year</em> in teams: deck-driven, GM-less, collaboratively drawing a map.</li>
+<li>The map is the artifact — landmarks, scarcity, contested spaces, and abandoned projects.</li>
+<li>From board-game worldbuilding to level space: which places on your map want to be walked through?</li>
+<li><em>Reflection:</em> Which spot on your map is the most interesting place to stand? What would a player do there?</li>
+</ul>
+<p><strong>Afternoon — Concept → design doc draft</strong></p>
+<ul>
+<li><em>Warm-up:</em> What does your player <em>do</em> in the first thirty seconds?</li>
+<li>Turn the map into a concept: player fantasy, core loop, one page of formal elements.</li>
+<li>Write the scope cut list — a ranked list of features you will drop, in the order you will drop them.</li>
+<li>Greybox the vertical slice in Godot with placeholder art; no polish today.</li>
+<li><em>Reflection:</em> What is the riskiest assumption in your concept, and how would you test it this week?</li>
+</ul>
+</section>
+<section id="thursday-jan-21-level-design-levels" class="level4">
+<h4 class="anchored" data-anchor-id="thursday-jan-21-level-design-levels">Thursday, Jan 21 — Level Design <code>LEVELS</code></h4>
+<p><strong>Morning — Levels as teaching</strong></p>
+<ul>
+<li><em>Warm-up:</em> Describe the first room of a game you know well. What did it teach you, and how?</li>
+<li>The 4-step structure: introduce, develop, twist, conclude — one mechanic at a time.</li>
+<li><em>Doom</em> (Devs Play): sightlines, landmarks, arena shapes, looping non-linear layouts, and reward for exploration.</li>
+<li>Teaching without text: affordances, safe failure, and the designed first death.</li>
+<li><em>Reflection:</em> Sketch how your level teaches your hardest mechanic with no tutorial text at all.</li>
+</ul>
+<p><strong>Afternoon — Workday (Design Doc due)</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the riskiest unknown in your build right now?</li>
+<li>Finish and submit the design doc, including the scope cut list.</li>
+<li>Assign vertical-slice tasks against the board; every task has an owner and a day.</li>
+<li>Instructor check-in with each team: scope, risk, and one thing to cut.</li>
+<li><em>Reflection:</em> If you lost one team member tomorrow, what would you cut first?</li>
+</ul>
+</section>
+<section id="friday-jan-22-level-design-pacing-flow-levels" class="level4">
+<h4 class="anchored" data-anchor-id="friday-jan-22-level-design-pacing-flow-levels">Friday, Jan 22 — Level Design: pacing &amp; flow <code>LEVELS</code></h4>
+<p><strong>Morning — Rhythm and iteration</strong></p>
+<ul>
+<li><em>Warm-up:</em> Chart the intensity of your favorite level over time. Where is the peak, and what follows it?</li>
+<li>Pacing and rhythm: tension, release, rest beats, and why unbroken intensity reads as flat.</li>
+<li>Difficulty curves and the flow channel; gating, critical path vs.&nbsp;optional content, and backtracking.</li>
+<li>Level iteration in practice: greybox → test → cut; the level you keep is the third one you made.</li>
+<li><em>Reflection:</em> Where is the rest beat in your vertical slice? If there isn’t one, where will you put it?</li>
+</ul>
+<p><strong>Afternoon — Physical prototype demos</strong></p>
+<ul>
+<li><em>Warm-up:</em> What should we deliberately ignore in your demo today?</li>
+<li>Each team demos a paper or greybox version of one level to another team.</li>
+<li>Silent-observation protocol; feedback given only as “I noticed…” and “I wondered…”</li>
+<li>Teams log every point of confusion with a timestamp.</li>
+<li><em>Reflection:</em> What will you change before Monday, and what did you decide to defend?</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="week-4-balance-polish-and-expo-block-b-week-2" class="level2">
+<h2 class="anchored" data-anchor-id="week-4-balance-polish-and-expo-block-b-week-2">Week 4: Balance, Polish, and Expo (Block B, Week 2)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 30%">
+<col style="width: 15%">
+<col style="width: 22%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>dow</strong></th>
+<th style="text-align: left;"><strong>date</strong></th>
+<th style="text-align: left;"><strong>prepare</strong></th>
+<th style="text-align: left;"><strong>topic</strong></th>
+<th style="text-align: left;"><strong>morning (lecture &amp; RE)</strong></th>
+<th style="text-align: left;"><strong>afternoon (lab / project)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">Jan 25</td>
+<td style="text-align: left;">EC: <em>Perfect Imbalance</em>; EC: <em>First Moves</em>; GDW Ch.10</td>
+<td style="text-align: left;">Game Balancing <code>BALANCE</code></td>
+<td style="text-align: left;">Balance for whom; dominant strategies; curves</td>
+<td style="text-align: left;">Balancing your game — tuning pass &amp; difficulty modes</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T</td>
+<td style="text-align: left;">Jan 26</td>
+<td style="text-align: left;">GDW Ch.9 (playtesting); GDW Ch.11 (fun &amp; accessibility)</td>
+<td style="text-align: left;">Playtesting <code>TESTING</code></td>
+<td style="text-align: left;">Test scripts; SMB 1-1 watch &amp; play</td>
+<td style="text-align: left;">Flex lab — audio, UI, juice, accessibility</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">W</td>
+<td style="text-align: left;">Jan 27</td>
+<td style="text-align: left;">instructor readings on copyright, fair use &amp; asset licenses</td>
+<td style="text-align: left;">Legal Issues + ROM Hacking <code>IP</code></td>
+<td style="text-align: left;">Copyright vs.&nbsp;trademark; clones; preservation</td>
+<td style="text-align: left;">Cross-team playtest — <strong>working game due</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Th</td>
+<td style="text-align: left;">Jan 28</td>
+<td style="text-align: left;">review Block B</td>
+<td style="text-align: left;"><strong>Exam 2</strong></td>
+<td style="text-align: left;">Exam 2</td>
+<td style="text-align: left;">Workday — feature freeze &amp; build dry run</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: left;">Jan 29</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Game Expo</td>
+<td style="text-align: left;">Wrap-up, postmortems, expo setup</td>
+<td style="text-align: left;">Game Expo — <strong>final game due</strong></td>
+</tr>
+</tbody>
+</table>
+<section id="session-plans-3" class="level3">
+<h3 class="anchored" data-anchor-id="session-plans-3">Session plans</h3>
+<section id="monday-jan-25-game-balancing-balance" class="level4">
+<h4 class="anchored" data-anchor-id="monday-jan-25-game-balancing-balance">Monday, Jan 25 — Game Balancing <code>BALANCE</code></h4>
+<p><strong>Morning — Balance for whom?</strong></p>
+<ul>
+<li><em>Warm-up:</em> Name a “broken” option in a game you play. Why do you think it has not been fixed?</li>
+<li>Two different problems: the single-player difficulty curve vs.&nbsp;multiplayer symmetry and viability.</li>
+<li>Perfect imbalance: why a permanently shifting metagame can be healthier than a solved one.</li>
+<li>Dominant strategies, cost curves, and the spreadsheet as a design tool.</li>
+<li>First moves: opening decisions, information asymmetry, and the paradox of too much choice.</li>
+<li><em>Reflection:</em> What is the dominant strategy in your own game right now? (If you don’t know, that’s the answer.)</li>
+</ul>
+<p><strong>Afternoon — Balancing your game</strong></p>
+<ul>
+<li><em>Warm-up:</em> Which number in your project has never been changed since the moment you first typed it?</li>
+<li>Pull tuning constants out of code into exported variables or a resource file.</li>
+<li>Build a deliberate difficulty pass: forgiving / intended / punishing, and decide which one strangers get at the expo.</li>
+<li>Test with someone outside your team; record time-to-first-failure and time-to-first-success.</li>
+<li><em>Reflection:</em> Did your tester fail for the reason you designed, or a different one?</li>
+</ul>
+</section>
+<section id="tuesday-jan-26-playtesting-testing" class="level4">
+<h4 class="anchored" data-anchor-id="tuesday-jan-26-playtesting-testing">Tuesday, Jan 26 — Playtesting <code>TESTING</code></h4>
+<p><strong>Morning — How to run a test</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the difference between “do you like it?” and a question that actually produces usable data?</li>
+<li>GDW Ch.9: who to test with, when to stop using friends, and the rule against teaching or defending.</li>
+<li>Kinds of tests: usability, fun, difficulty, balance, accessibility — each needs a different script.</li>
+<li>SMB 1-1 (watch &amp; play): what the level intends to teach vs.&nbsp;what players actually do in it.</li>
+<li>What to instrument: deaths by location, time per section, retries, and abandonment.</li>
+<li><em>Reflection:</em> Write your team’s test script — three tasks and three questions, nothing more.</li>
+</ul>
+<p><strong>Afternoon — Flex lab</strong></p>
+<ul>
+<li><em>Warm-up:</em> Turn your game’s sound off. Now describe what a player loses.</li>
+<li>Pick one track and ship it today: audio (<a href="https://gdquest.com/tutorial/godot/audio/pickup-sound-effect/">SFX</a> and <a href="https://gdquest.com/tutorial/godot/audio/background-music/">music</a>), UI and menus, juice (screenshake, tweens, particles), or accessibility (remappable input, colorblind-safe palettes, readable text).</li>
+<li>Time-boxed: whatever you choose must be in the build by end of session.</li>
+<li>Demo the improvement to one other team and get a yes/no on whether it landed.</li>
+<li><em>Reflection:</em> Was that polish, or was it a missing piece of feedback you had been ignoring?</li>
+</ul>
+</section>
+<section id="wednesday-jan-27-legal-issues-rom-hacking-ip" class="level4">
+<h4 class="anchored" data-anchor-id="wednesday-jan-27-legal-issues-rom-hacking-ip">Wednesday, Jan 27 — Legal Issues + ROM Hacking <code>IP</code></h4>
+<p><strong>Morning — What you can and cannot own</strong></p>
+<ul>
+<li><em>Warm-up:</em> Is a game mechanic copyrightable? Make a guess and commit to it.</li>
+<li>Copyright, trademark, and patent in games: code, art, and audio are protected; rules and mechanics largely are not.</li>
+<li>Clones, parody, and fair use — why legal and advisable are different questions.</li>
+<li>ROM hacking, emulation, DMCA takedowns, fan projects, and the preservation problem.</li>
+<li>Asset licenses in practice: CC0 vs.&nbsp;CC-BY vs.&nbsp;“free to use,” and what attribution actually obligates you to do.</li>
+<li><em>Reflection:</em> Audit your project: list every asset you did not make and the license it came under.</li>
+</ul>
+<p><strong>Afternoon — Cross-team playtest (working game due)</strong></p>
+<ul>
+<li><em>Warm-up:</em> What is the single thing you most need to learn from today’s testers?</li>
+<li>Submit the working build before testing begins — no last-minute changes.</li>
+<li>Rotation: each team runs its test script on two other teams, silently observing.</li>
+<li>Triage the results immediately into must-fix / nice-to-have / won’t-fix, and put must-fix on the board.</li>
+<li><em>Reflection:</em> Which piece of feedback do you disagree with, and can you justify overruling it?</li>
+</ul>
+</section>
+<section id="thursday-jan-28-exam-2-workday" class="level4">
+<h4 class="anchored" data-anchor-id="thursday-jan-28-exam-2-workday">Thursday, Jan 28 — Exam 2 &amp; workday</h4>
+<p><strong>Morning — Exam 2</strong></p>
+<ul>
+<li><em>Warm-up:</em> In pairs, five minutes: each of you explains one Block B concept to the other without notes.</li>
+<li>Covers Block B: worldbuilding and dramatic elements, level design and pacing, balancing, playtesting methodology, IP basics.</li>
+<li>Format: short answer plus an applied question on a level or balance problem.</li>
+<li><em>Reflection:</em> Which idea from this course will you still be using in a year?</li>
+</ul>
+<p><strong>Afternoon — Workday: feature freeze</strong></p>
+<ul>
+<li><em>Warm-up:</em> Say out loud the feature you are still hoping to sneak in. Now cut it.</li>
+<li>Must-fix bugs only; the feature list is frozen.</li>
+<li>Export and run the build on a machine that is not yours — the classic expo-day failure.</li>
+<li>Prepare expo materials: title card, controls diagram, and a sixty-second pitch.</li>
+<li><em>Reflection:</em> What is your rollback plan if the build breaks tomorrow morning?</li>
+</ul>
+</section>
+<section id="friday-jan-29-game-expo" class="level4">
+<h4 class="anchored" data-anchor-id="friday-jan-29-game-expo">Friday, Jan 29 — Game Expo</h4>
+<p><strong>Morning — Wrap-up &amp; setup</strong></p>
+<ul>
+<li><em>Warm-up:</em> What would you tell yourself on January 4th, knowing what you know now?</li>
+<li>The through-line: formal elements → prototype → playtest → iterate → ship, and where each stage caught a problem.</li>
+<li>Postmortem structure: what went right, what went wrong, what we would do differently — with evidence.</li>
+<li>Set up stations, controls cards, and rehearse the sixty-second pitch.</li>
+<li><em>Reflection:</em> Which decision this month improved your game the most, and when did you make it?</li>
+</ul>
+<p><strong>Afternoon — Game Expo (final game due)</strong></p>
+<ul>
+<li><em>Warm-up:</em> Who is your ideal player walking into this room today?</li>
+<li>Rotate in shifts: half the team demos, half plays other teams’ games.</li>
+<li>Collect visitor feedback cards; watch at least three strangers play without intervening.</li>
+<li>Submit the final build and the written postmortem by end of day.</li>
+<li><em>Reflection:</em> What is the next thing you would build, and which mechanic from this project would you keep?</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/chefs-kiss\.github\.io\/GameDesign_J2027\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
