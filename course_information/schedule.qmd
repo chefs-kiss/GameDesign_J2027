@@ -1,4 +1,4 @@
-# Course Schedule
+![](/static/schedule_purple.png)
 
 **Primary sources:** Fullerton, *Game Design Workshop* (GDW), Extra Credits (EC), [GDQuest Godot Beginner Learning Path](https://www.gdquest.com/tutorial/godot/learning-paths/beginner/)
 
@@ -55,3 +55,4 @@ Over the weekend, complete [critical analysis #3](../CA.qmd) and submit your tea
 |    W    | Jan 27   | instructor readings on copyright, fair use & asset licenses       | Legal Issues + ROM Hacking `IP`   | Copyright vs. trademark; clones; preservation | Cross-team playtest — **working game due**          |
 |    Th   | Jan 28   | review Block B                                                    | **Exam 2**                        | Exam 2                                        | Workday — feature freeze & build dry run            |
 |    F    | Jan 29   | —                                                                 | Game Expo                         | Wrap-up, postmortems, expo setup              | Game Expo — **final game due**                      |
+

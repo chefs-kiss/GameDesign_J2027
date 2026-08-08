@@ -4,11 +4,12 @@ project:
 
 website:
   title: "Game Design"
+  favicon: "static/GD_blue.png"
   search:
     type: textbox
   sidebar:
     background: primary
-    # logo: "images/logo.png"
+    logo: "static/GD_blue_400x300.png" #"static/logo_purple.png"
     pinned: true
     align: center
     tools:
@@ -49,6 +50,7 @@ website:
         - href: CA.qmd
           text: Critical Analysis
 
+
 format:
   html:
     theme: vapor  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
@@ -57,4 +59,3 @@ format:
 
 execute:
   freeze: auto
-

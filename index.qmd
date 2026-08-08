@@ -1,12 +1,10 @@
----
-title: "Game Design"
----
 
+![](static/gamedesign_blue.png)
 
-This is the homepage for CSCI 200 - Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.
+This is the homepage for CSCI 200 - Introduction to Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.
 
 We will be using our Moodle page to [submit assignments](https://mdl.stolaf.edu/course/section.php?id=1379416) and host our class [discussion forum](https://mdl.stolaf.edu/mod/forum/view.php?id=514243)
 
 Click here for the [course syllabus](course_information/syllabus.qmd) or here for the [course schedule](course_information/schedule.qmd)
 
-![](static/tired.jpg)
+![](static/Ketnipz_tired_laptop.gif)
