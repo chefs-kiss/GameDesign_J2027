@@ -37,9 +37,9 @@
   {
     "objectID": "course_information/schedule.html",
     "href": "course_information/schedule.html",
-    "title": "Course Schedule",
+    "title": "Game Design",
     "section": "",
-    "text": "Primary sources: Fullerton, Game Design Workshop (GDW), Extra Credits (EC), GDQuest Godot Beginner Learning Path\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus; GDW Ch.1; EC: Making Your First Game — Basics\nHistory of the Game Industry HISTORY\nWhat is a game? Industry eras & business models\nGame Design Kits Lab\n\n\nT\nJan 5\nMDA paper (Hunicke, LeBlanc & Zubek); install Godot 4\nMechanics, Dynamics, Aesthetics MDA\nThe MDA framework; the aesthetics vocabulary\nGodot lab 1 — editor & first scene\n\n\nW\nJan 6\nGDW Ch.2; skim GDW Ch.14 (design documentation)\nFormal Elements of Games ELEMENTS\nFormal elements; introducing the Design Doc\nDesign Doc lab (SM3DW, Celeste, A Short Hike, Portal)\n\n\nTh\nJan 7\nGDW Ch.5 (system dynamics)\nThe Game Loop GAMELOOP\nCore / session / meta loops; feedback\nGodot lab 2 — GDScript & signals\n\n\nF\nJan 8\nGDW Ch.3\nProcedures vs. Rules PROCEDURES\nWho enforces what; rules into code\nGodot lab 3 — first complete 2D game\n\n\n\nOver the weekend, complete critical analysis #1\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nEC: Graphics vs. Aesthetics; pixel art in Godot 4\nSprite Graphics SPRITES\nReadability, silhouette, animation as info\nGodot lab 4 — pixel art & animation\n\n\nT\nJan 12\nkinematic jump formulas\nPhysics PHYSICS\nGame feel vs. simulation; jump math\nGodot lab 5 — CharacterBody2D & jump tuning\n\n\nW\nJan 13\nSF2 hit boxes; hit & hurt boxes\nCollision Detection HITBOX\nHitbox vs. hurtbox; frame data; layers & masks\nGodot lab 6 — hitboxes, hazards, i-frames\n\n\nTh\nJan 14\nfinite state machine pattern\nGame AI AI+PATH\nReadable behavior; FSMs; pathfinding\nGodot lab 7 — enemy AI & pathfinding\n\n\nF\nJan 15\nGDW Ch.7 & 8\nPhysical Prototypes PHYPROT\nPrototyping to answer a question; jam launch\nMini Game Jam — playtest physical prototypes\n\n\n\nOver the weekend, complete critical analysis #2\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept to design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due",
+    "text": "Primary sources: Fullerton, Game Design Workshop (GDW), Extra Credits (EC), GDQuest Godot Beginner Learning Path",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -48,9 +48,9 @@
   {
     "objectID": "course_information/schedule.html#week-1-foundations",
     "href": "course_information/schedule.html#week-1-foundations",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus; GDW Ch.1; EC: Making Your First Game — Basics\nHistory of the Game Industry HISTORY\nWhat is a game? Industry eras & business models\nGame Design Kits Lab\n\n\nT\nJan 5\nMDA paper (Hunicke, LeBlanc & Zubek); install Godot 4\nMechanics, Dynamics, Aesthetics MDA\nThe MDA framework; the aesthetics vocabulary\nGodot lab 1 — editor & first scene\n\n\nW\nJan 6\nGDW Ch.2; skim GDW Ch.14 (design documentation)\nFormal Elements of Games ELEMENTS\nFormal elements; introducing the Design Doc\nDesign Doc lab (SM3DW, Celeste, A Short Hike, Portal)\n\n\nTh\nJan 7\nGDW Ch.5 (system dynamics)\nThe Game Loop GAMELOOP\nCore / session / meta loops; feedback\nGodot lab 2 — GDScript & signals\n\n\nF\nJan 8\nGDW Ch.3\nProcedures vs. Rules PROCEDURES\nWho enforces what; rules into code\nGodot lab 3 — first complete 2D game\n\n\n\nOver the weekend, complete critical analysis #1",
+    "title": "Game Design",
+    "section": "Week 1: Foundations",
+    "text": "Week 1: Foundations\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus; GDW Ch.1; EC: Making Your First Game — Basics\nHistory of the Game Industry HISTORY\nWhat is a game? Industry eras & business models\nGame Design Kits Lab\n\n\nT\nJan 5\nMDA paper (Hunicke, LeBlanc & Zubek); install Godot 4\nMechanics, Dynamics, Aesthetics MDA\nThe MDA framework; the aesthetics vocabulary\nGodot lab 1 — editor & first scene\n\n\nW\nJan 6\nGDW Ch.2; skim GDW Ch.14 (design documentation)\nFormal Elements of Games ELEMENTS\nFormal elements; introducing the Design Doc\nDesign Doc lab (SM3DW, Celeste, A Short Hike, Portal)\n\n\nTh\nJan 7\nGDW Ch.5 (system dynamics)\nThe Game Loop GAMELOOP\nCore / session / meta loops; feedback\nGodot lab 2 — GDScript & signals\n\n\nF\nJan 8\nGDW Ch.3\nProcedures vs. Rules PROCEDURES\nWho enforces what; rules into code\nGodot lab 3 — first complete 2D game\n\n\n\nOver the weekend, complete critical analysis #1",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -59,9 +59,9 @@
   {
     "objectID": "course_information/schedule.html#week-2-mechanics-and-systems",
     "href": "course_information/schedule.html#week-2-mechanics-and-systems",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nEC: Graphics vs. Aesthetics; pixel art in Godot 4\nSprite Graphics SPRITES\nReadability, silhouette, animation as info\nGodot lab 4 — pixel art & animation\n\n\nT\nJan 12\nkinematic jump formulas\nPhysics PHYSICS\nGame feel vs. simulation; jump math\nGodot lab 5 — CharacterBody2D & jump tuning\n\n\nW\nJan 13\nSF2 hit boxes; hit & hurt boxes\nCollision Detection HITBOX\nHitbox vs. hurtbox; frame data; layers & masks\nGodot lab 6 — hitboxes, hazards, i-frames\n\n\nTh\nJan 14\nfinite state machine pattern\nGame AI AI+PATH\nReadable behavior; FSMs; pathfinding\nGodot lab 7 — enemy AI & pathfinding\n\n\nF\nJan 15\nGDW Ch.7 & 8\nPhysical Prototypes PHYPROT\nPrototyping to answer a question; jam launch\nMini Game Jam — playtest physical prototypes\n\n\n\nOver the weekend, complete critical analysis #2",
+    "title": "Game Design",
+    "section": "Week 2: Mechanics and Systems",
+    "text": "Week 2: Mechanics and Systems\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nEC: Graphics vs. Aesthetics; pixel art in Godot 4\nSprite Graphics SPRITES\nReadability, silhouette, animation as info\nGodot lab 4 — pixel art & animation\n\n\nT\nJan 12\nkinematic jump formulas\nPhysics PHYSICS\nGame feel vs. simulation; jump math\nGodot lab 5 — CharacterBody2D & jump tuning\n\n\nW\nJan 13\nSF2 hit boxes; hit & hurt boxes\nCollision Detection HITBOX\nHitbox vs. hurtbox; frame data; layers & masks\nGodot lab 6 — hitboxes, hazards, i-frames\n\n\nTh\nJan 14\nfinite state machine pattern\nGame AI AI+PATH\nReadable behavior; FSMs; pathfinding\nGodot lab 7 — enemy AI & pathfinding\n\n\nF\nJan 15\nGDW Ch.7 & 8\nPhysical Prototypes PHYPROT\nPrototyping to answer a question; jam launch\nMini Game Jam — playtest physical prototypes\n\n\n\nOver the weekend, complete critical analysis #2",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -70,9 +70,9 @@
   {
     "objectID": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
     "href": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept to design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check",
+    "title": "Game Design",
+    "section": "Week 3: Worldbuilding and Leveling",
+    "text": "Week 3: Worldbuilding and Leveling\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept to design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -81,9 +81,9 @@
   {
     "objectID": "course_information/schedule.html#week-4-balancing-and-playtesting",
     "href": "course_information/schedule.html#week-4-balancing-and-playtesting",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due",
+    "title": "Game Design",
+    "section": "Week 4: Balancing and Playtesting",
+    "text": "Week 4: Balancing and Playtesting\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -94,21 +94,10 @@
     "href": "index.html",
     "title": "Game Design",
     "section": "",
-    "text": "This is the homepage for CSCI 200 - Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
+    "text": "This is the homepage for CSCI 200 - Introduction to Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
     "crumbs": [
       "Course Information",
       "Home"
-    ]
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview",
-    "crumbs": [
-      "Materials",
-      "Project"
     ]
   },
   {
