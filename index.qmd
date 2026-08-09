@@ -1,8 +1,21 @@
 
 ![](static/gamedesign_blue.png)
 
-This is the homepage for CSCI 200 - Introduction to Game Design taught by Prof. Kim Mandery in January 2027 at St. Olaf College. All course materials will be posted on this site.
+# CSCI 200B - January 2027
 
+## Introduction to Game Design
+Our course is an introductory course in video game design and production. 
+We will focus on both the design and technical aspects of creating a game, 
+from concept inception and prototyping through coding and playtesting.
+
+## Staff Information
+Instructor: Prof. Kim Mandery<br>
+Office: RMS 407<br>
+Office Hours: by appt during Jterm<br>
+Email: mander1@stolaf.edu<br>
+
+
+--- 
 We will be using our Moodle page to [submit assignments](https://mdl.stolaf.edu/course/section.php?id=1379416) and host our class [discussion forum](https://mdl.stolaf.edu/mod/forum/view.php?id=514243)
 
 Click here for the [course syllabus](course_information/syllabus.qmd) or here for the [course schedule](course_information/schedule.qmd)

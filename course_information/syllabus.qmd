@@ -1,37 +1,44 @@
-# Syllabus
-CSCI 200B Interim 2026
-Special Topics: Machine Learning
-Morning Sessions: 10:40-12:40 in RNS 203
-Afternoon Sessions: 1-3 in RNS 203
+![](/static/syllabus_purple.png)
 
-## General Information
+CSCI 200B Interim 2027<br>
+Special Topics: Introduction to Game Design<br>
+Morning Sessions: 10:40-12:40 in RNS 203<br>
+Afternoon Sessions: 1-3 in RNS 203<br>
+
+# General Information
 *Mission*: This is a welcoming, inclusive, encouraging, and failure-tolerant class. <br>
 *Instructor*: Kim Mandery <br>
 *E-mail*: mander1@stolaf.edu <br>
 *Office*: RMS 407<br>
 
-*Textbook*: Introduction to Statistical Learning with Python (ISL-P). This book is free and available online, and is also hosted on this site. You can download your own pdf or access via your browser [here](../files/ISLP.pdf)<br>
-
+*Textbook*: Game Design Workshop 5e by Tracy Fullerton. 
+Selected excerpts are available on Moodle or the
+[library](https://bridge.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_globaltitleindex_catalog_347565988&context=PC&vid=01BRC_INST:SOC&lang=en&search_scope=CentralIndex&adaptor=Primo%20Central&tab=BeyondBridge&query=any,contains,tracy%20fullerton&sortby=rank&offset=0)
+.
 ## Course Description
-It has become increasingly common to use machine learning algorithms to analyze data,
-draw conclusions, and build models, without direct human instruction. These algorithms have been used in a wide
-variety of applications, including Netflix recommendations, predicting healthcare outcomes, criminal justice, and
-many more. In this course, we’ll explore several common machine learning algorithms, learning how they work, and
-applying them to real datasets. We will cover the strengths and limitations of machine learning algorithms. We
-will also explore real-world applications of machine learning, and discuss the ethical and societal consequences of
-the use of these algorithms.
+Video games have become one of the largest entertainment industries in the world, 
+and the software behind them draws on nearly every area of computer science at once. 
+Modern real-time games have been used not only for entertainment but also in education, 
+simulation, training, and scientific visualization. In this course, we'll explore how modern 
+2-D and 3-D interactive games are built, learning the concepts and tools behind them and 
+applying them to develop real, playable games. We'll cover core areas including graphics, 
+parallel processing, human-computer interaction, networking, artificial intelligence, 
+and software engineering, and see how they come together in a single interactive system. 
+We will also explore real-world applications of game technology and discuss the social 
+and ethical context in which games are developed, marketed, and played.
 
 ## Course Goals
-Through the lens of machine learning, we will:
+Upon successful completion of this course, students will be able to:
 
-- develop and interpret applications of algorithms to domain use-cases
-- develop working software that satisfies coding best practices
-- work effectively, both individually and in teams
-- communicate information effectively to both technical and non-technical audiences
+- explain the social and ethical context in which software and video games are developed, marketed, and used;
+- describe the technologies and platforms upon which modern interactive software and video games are built;
+- apply software engineering concepts necessary to develop video games within a development team;
+- analyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);
+- apply game theory to multi-player games, decision-making, and artificial intelligence.
 
 ## Course Schedule
 The schedule for this course is available by navigating to Course Information > Schedule on the navigation window to the left. 
-This page is likely to be updated throughout the semester, and will be announced in class if it is. 
+This page is likely to be updated throughout the semester, so keep an eye out on deadlines. 
 
 ## Active Learning and Engagement
 I expect you to take an active role in class each day, participating positively,
@@ -41,72 +48,53 @@ you to miss classes often, please speak with me as this may be evident of a poss
 your class dean as they are a great resource.
 
 # Course Breakdown
+
 ## Readings 
-(optional): Each module has selected readings related to the content covered in class, consisting of textbook passages from
-Introduction to Statistical Learning (ISL-P), as well as articles on ethics and/or domain use-cases. 
-In a typical semester-long course, these readings would be required. In our four-week course, these _readings are optional_. 
-If you find that you have questions on a particular topic, check out the readings to find related information.
+(tbd points): Each topic has resources related to the content covered in class, consisting of textbook passages from
+Game Design Workshop (GDW), articles, and/or videos. Come to each class having worked through the assigned material.
+Late work: _no late work will be accepted_.
 
-## Article Reviews
-(5pt * 3 → 15 pt): In place of readings, you will be required to find three (3) articles related to machine learning, and complete a review on each.
-The article reviews are due before the final exam, though it is recommended to finish them as early as possible. Read more about [article reviews](../articles.qmd) here.
+## Critical Analyses
 
-
-## Homework Assignments 
-(5pt * 8 → 40 pt): We will have a homework assignment for each module that we cover, which will be due at the start of class of the following class.
-These homework assignments consist of exercises to complete by hand (rather than programming), to reinforce your understanding of the concepts. 
-Collaboration on homework is encouraged, though you are responsible for understanding the computations as you will be assessed on similar
-questions during your quizzes. <br>
-Late work: Due to the short turn-around on turning homework in and taking the module quiz, _no late work will be accepted_.
-
-## Lab Assignments 
-(5pt * 9 → 45 pt): We will have labs associated with every module and you are encouraged to work on labs with one other person. 
-Only one partner needs to submit the lab for the group.
-Labs are due before we take the corresponding quiz. 
-These assignments consist of programming exercises to practice applying the techniques we cover. 
-Typically, these assignments will be completed by filling in missing code into Jupyter notebooks 
-using Google Colab, and then submitting your completed notebook. 
-Each exercise will be graded all-or-nothing, with no partial credit. 
-Late work: Due to the short turn-around on turning labs in and taking the module quiz, _no late work will be accepted_.
+## Lab Assignments
+We will be learning a game engine over the course of this class. Labs will consist of tutorials for the selected game engine.
+Late work: _no late work will be accepted_.
 
 ## Semester Project
-(80 pts): Over the entirty of this course, you will complete a *personal* project where you apply the concepts covered in the course to a topic of your choice.
-You can find more in-depth information regarding the project on the [project page](../project.qmd) 
-
-The project will be divided into the following components:
-
-- Progress Checks (4pt * 9 → 36 pt): There are nine progress checks during the semester, each worth 4 points (see the schedule).
-To receive full credit for a progress check, you must check in with your instructor before leaving class on the day of the check.
-- Final Submission (30 pts): The final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. 
-Submissions are due the night before finals. A detailed grading rubric will be available on the project page.
-- Small group presentations (9 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
-Grading is based on the quality of your peer review during these rounds. The peer review form will be available on the project page.
-- Reflection (5 pts): Complete the reflection form up on the project page. This form asks you what went well, what could be improved upon, ect.
-
+Over the entirty of this course, you will complete a *group* project where you apply the concepts covered in the course.
+You can find more in-depth information regarding the project on the [project page](../content/project.qmd) 
 Late Work: No late work will be accepted. 
 
-## Standards based Quizzes 
-(8pt * 9 → 72 pt): Each module will have a quiz that will be assessed using standards-based grading. 
-Each quiz will contain two (2) questions called standards. There will be a study guide for each quiz that indicates which standards are being assessed. 
-The full list of standards is in the section [ML Core Standards](#ml-core-standards) found on this page.
+## Standards-Based Exams
+(tbd points): You will take two exams, each graded using standards-based grading. 
+Rather than earning a single overall score, you are assessed on how well you 
+demonstrate mastery of individual standards.
 
-You will be given three attempts to pass each standard. 
-The first attempt will be during the module quiz as indicated in the course schedule. 
-The second attempt will be during the retake day associated with each module (see schedule). 
-All final attempts for standards will take place during our final exam time after presentations.
+Each exam assesses a selection of standards drawn from the 
+[Game Design Core Standards](#game-design-core-standards) listed on this page. 
+A study guide provided before each exam will tell you exactly which standards it covers, so you know what to prepare.
 
-The standards are graded on an 8-point scale and binned into four categories:
+### How standards are graded
+Each standard is scored on an 8-point scale, binned into four levels:
 
- - P  proficient (8 pt) 
- - R small revision needed 
- - N not satisfactory (4 pt) 
- - I incomplete (0 pt)
+| Level | Meaning | Points |
+| :---- | :------ | :----: |
+| **P** | Proficient | 8 |
+| **S** | Satisfactory | 6 |
+| **N** | Not satisfactory | 4 |
+| **I** | Incomplete | 0 |
 
-Revisions must be handed in before your next quiz. 
-Standards with an R have a fully correct solution handed in will be bumped up to a P. 
-Otherwise it will get bumped down to an N.
+Your exam grade is the combination of your scores across all assessed standards.
 
-Any student with N or I for three or more standards at the end of the course will be ineligible for a final grade greater than a B- in the course.
+### Revising a standard
+After you receive your exam back, you may revise any standard you wish to improve. 
+Each successful revision bumps that standard up one level: an *I* becomes an *N*, an *N* becomes an *S*, and an *S* becomes a *P*.
+
+To revise a standard, submit a response that addresses all three of the following:
+
+- **What went wrong:** identify the errors you made.
+- **How to fix it:** provide the corrected work and the correct reasoning.
+- **Reflection:** reflect on the question and what you learned from the mistake.
 
 ## Extra Credit
 Some projects have additional questions you can answer for extra credit.
@@ -114,10 +102,7 @@ Some projects have additional questions you can answer for extra credit.
 ## Final Exam
 The final exam is during the assigned period:
 
-Friday, Jan 30 from 10:40 - 3:00 P.M.
-
-Any final attempt on standards will take place during the second half of our final time. 
-If you successfully passed each standard, you do not have to attend the second half of our final exam. 
+Friday, Jan 29 from 10:40 - 3:00 P.M.
 
 ### Final Grade Scale
 97 ≤ A+ ≤ 100 87 ≤ B+ ≤ 90 77 ≤ C+ ≤ 80 67 ≤ D+ ≤ 70 <br>
@@ -126,8 +111,7 @@ If you successfully passed each standard, you do not have to attend the second h
 
 Explanations of each letter grade range can be found at [https://catalog.stolaf.edu/academic-regulations-procedures/grades/](https://catalog.stolaf.edu/academic-regulations-procedures/grades/)
 
-## Syllabus Changes
-All course information provided in this syllabus is subject to change and/or elimination.
+**Syllabus Changes**: All course information provided in this syllabus is subject to change and/or elimination.
 Changes will only be made when the instructor feels they are in the best interest of the class. It is the responsibility
 of every student to attend class, check e-mail, and communicate with the instructor to be informed and understand these changes.
 
@@ -135,75 +119,67 @@ Most importantly HAVE FUN – I am really looking forward to this semester!
 
 ---
 
-# ML Core Standards
-Adopted from ACM standards, the standards are grouped into nine categories that replicate a typical ML workflow.
+# Game Design Core Standards
 
-## Workflow
-- definition and examples of a broad variety of machine learning tasks:
-    - supervised learning (classification, regression)
-    - unsupervised learning (clustering); 
-- ability to identify, construct, and critique ML workflows
+### Games as a Medium `HIST`
+- define what constitutes a game and distinguish games from other interactive software
+- classify games by genre, formal elements, and business/distribution model
+- articulate the social and ethical context in which games are developed and played
 
-Standards include: **FLOW**, **FLOW2**, **FLOW-LIN**, **ALG-CLS**
+### Game Design Elements `ELMT`
+- identify and apply formal elements (rules, procedures, resources, conflict, objectives)
+- analyze how mechanics, dynamics, and aesthetics (MDA) interrelate in an existing game
+- author a design document that specifies a game's elements and intended experience
 
-## EDA 
-- understanding of statistical measures, distributions, and tests 
-- exploration of data to guide workflow design and model selection
+### Game Engines and Frameworks `ENG`
+- navigate a modern engine's editor, scene graph, and asset pipeline
+- implement game behavior using the engine's scripting language and event/signal system
+- structure a project for maintainability and version control in a team
 
-Standards include: **EDA-STAT**
+### Game Physics and Collision Detection `PHYS`
+- implement movement using kinematic bodies and tunable physics parameters
+- distinguish game feel from physical simulation and tune for the former
+- design collision detection using hitboxes, hurtboxes, layers, and masks
 
-## Data
-- data preprocessing (importance and pitfalls)
-- handling missing values (imputing, flag-as-missing, implications)
-- encoding categorical variables and real-valued data
-- normalization and standardization.
+### Game Mechanics `MECH`
+- translate a rule set into working, enforceable code
+- design core, session, and meta loops with appropriate feedback
+- evaluate a mechanic against the player experience it is meant to produce
 
-Standards include: **DATA-PREP**
+### Level Design `LVL`
+- design levels that teach mechanics through pacing, landmarks, and sightlines
+- construct playable levels using tilemaps and greyboxing
+- analyze difficulty curves and rhythm across a level or sequence of levels
 
-## Selection
-- importance of understanding what your model is actually doing, where its pitfalls or shortcomings are, and the implications of its decisions 
-- no free lunch (no one learner can solve all problems)
-- representational design decisions have consequences
-- sources of error and undecidability in machine learning
+### Character Design `CHAR`
+- design characters and sprites for readability, silhouette, and animation
+- use animation and visual design to communicate state and behavior
+- align character design with the game's mechanics and intended aesthetic
 
-Standards include: **FLOW-LIN**, **MOD-SEL**
+### Prototyping `PROT`
+- build a physical or digital prototype to answer a specific design question
+- scope a prototype to test one mechanic or hypothesis at a time
+- iterate on a prototype based on observed playtest results
 
-## Algorithms
-- fundamentals of understanding how common ML algorithms work (including but not limited to): 
-  - clustering
-  - tree-based
-  - regression-based
-  - ensemble
-  - neural nets
-  - deep learning
-- ability to explain algorithms and their associated terms to a non-technical audience (including but not limited to):
-    - objective function
-    - gradient descent
-    - regularization
-    - entropy
+### AI and Pathfinding `AI`
+- implement readable enemy behavior using finite state machines
+- apply pathfinding to navigate agents through a game environment
+- evaluate AI behavior for readability, challenge, and fairness
 
-Standards: **ALG-CLS**, **ALG-TREE**, **ALG-LIN**, **ALG-ESB**, **ALG-NN**, **ALG-DL**
+### Graphics and Lighting `GPH`
+- distinguish graphics from aesthetics and their roles in communication
+- apply lighting and visual effects to convey information and mood
+- optimize visual assets for performance and readability
 
-## Training
-- separation of train, validation, and test sets 
-- tuning the parameters of a machine learning model with a validation set
-- cross validation
-- overfitting problem / controlling solution complexity (regularization, pruning–intuition only)
-- the bias(underfitting) - variance (overfitting) tradeoff
-Standards: **TRAIN**, **TRAIN-TREE**
+### Statistics, Probability, and Game Theory `THEO`
+- apply probability and distributions to model randomness and outcomes
+- analyze multi-player interactions using game-theoretic reasoning
+- use statistical measures to characterize and predict game behavior
 
-## Evaluation
- performance metrics for classifiers; estimation of test performance on held-out data; other metrics for
-classification (e.g., error, precision, recall); performance metrics for regressors; confusion matrix;
-
-Standards: **EVAL**, **EVAL-CLS**
-
-## Ethics
-- focus on real data, scenarios, and case studies
-- bias present in datasets, algorithms, evaluation
-- privacy
-- fairness
-- ethical matrix
+### Game Balancing `BAL`
+- identify dominant strategies and sources of imbalance in a game
+- tune parameters and difficulty curves to achieve intended balance
+- design difficulty modes and accessibility options for varied players
 
 ---
 

@@ -31,23 +31,25 @@ website:
       contents:
         - href: index.qmd
           text: Home
+        - href: course_information/syllabus.qmd
+          text: Syllabus
         - href: course_information/schedule.qmd
           text: Schedule
         - href: https://mdl.stolaf.edu/mod/forum/view.php?id=514243
           text: Moodle Forum
     - section: "Materials"
       contents:
-        - href: RE.qmd
+        - href: content/RE.qmd
           text: Random Encounters
           #icon: file-earmark-text
-        - href: labs.qmd
+        - href: content/labs.qmd
           text: Labs
           #icon: journal-code
-        - href: project.qmd
+        - href: content/project.qmd
           text: Project
-        - href: slides.qmd
+        - href: content/slides.qmd
           text: Slides
-        - href: CA.qmd
+        - href: content/CA.qmd
           text: Critical Analysis
 
 
