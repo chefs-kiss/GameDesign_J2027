@@ -15,6 +15,7 @@ Afternoon Sessions: 1-3 in RNS 203<br>
 Selected excerpts are available on Moodle or the
 [library](https://bridge.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_globaltitleindex_catalog_347565988&context=PC&vid=01BRC_INST:SOC&lang=en&search_scope=CentralIndex&adaptor=Primo%20Central&tab=BeyondBridge&query=any,contains,tracy%20fullerton&sortby=rank&offset=0)
 .
+
 ## Course Description
 Video games have become one of the largest entertainment industries in the world, 
 and the software behind them draws on nearly every area of computer science at once. 
