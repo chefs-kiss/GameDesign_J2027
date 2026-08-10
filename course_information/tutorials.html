@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>labs – Game Design</title>
+<title>tutorials – Game Design</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/labs.html">Labs</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../course_information/game_analyses.html">Materials</a></li><li class="breadcrumb-item"><a href="../course_information/tutorials.html">Tutorials</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -162,32 +162,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/RE.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Random Encounters</span></a>
+  <a href="../course_information/game_analyses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Analyses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/labs.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Labs</span></a>
+  <a href="../course_information/tutorials.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Tutorials</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project</span></a>
+  <a href="../course_information/game_jams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Jams</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/slides.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course_information/slides.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slides</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/CA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Analysis</span></a>
   </div>
 </li>
       </ul>
@@ -202,40 +202,78 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lab-0" id="toc-lab-0" class="nav-link active" data-scroll-target="#lab-0">Lab 0</a></li>
-  <li><a href="#install-godot" id="toc-install-godot" class="nav-link" data-scroll-target="#install-godot">Install Godot</a></li>
-  <li><a href="#lab-1" id="toc-lab-1" class="nav-link" data-scroll-target="#lab-1">Lab 1</a></li>
-  <li><a href="#lab-2" id="toc-lab-2" class="nav-link" data-scroll-target="#lab-2">Lab 2</a></li>
-  <li><a href="#lab-3" id="toc-lab-3" class="nav-link" data-scroll-target="#lab-3">Lab 3</a></li>
-  <li><a href="#lab-4" id="toc-lab-4" class="nav-link" data-scroll-target="#lab-4">Lab 4</a></li>
+  <li><a href="#install-godot" id="toc-install-godot" class="nav-link active" data-scroll-target="#install-godot">Install Godot</a></li>
+  <li><a href="#lab-1-editor-nodes-and-scenes" id="toc-lab-1-editor-nodes-and-scenes" class="nav-link" data-scroll-target="#lab-1-editor-nodes-and-scenes">Lab 1: Editor, Nodes, and Scenes</a></li>
+  <li><a href="#lab-2-sprites-assets-and-movement" id="toc-lab-2-sprites-assets-and-movement" class="nav-link" data-scroll-target="#lab-2-sprites-assets-and-movement">Lab 2: Sprites, Assets, and Movement</a></li>
+  <li><a href="#lab-3-physics-hitboxes-and-collisions" id="toc-lab-3-physics-hitboxes-and-collisions" class="nav-link" data-scroll-target="#lab-3-physics-hitboxes-and-collisions">Lab 3: Physics, Hitboxes, and Collisions</a></li>
+  <li><a href="#lab-4-enemies-and-pathfinding" id="toc-lab-4-enemies-and-pathfinding" class="nav-link" data-scroll-target="#lab-4-enemies-and-pathfinding">Lab 4: Enemies and Pathfinding</a></li>
+  <li><a href="#lab-5-game-state-rules-and-winlose-conditions" id="toc-lab-5-game-state-rules-and-winlose-conditions" class="nav-link" data-scroll-target="#lab-5-game-state-rules-and-winlose-conditions">Lab 5: Game State, Rules, and Win/Lose Conditions</a></li>
+  <li><a href="#lab-6-ui-menus-and-levels" id="toc-lab-6-ui-menus-and-levels" class="nav-link" data-scroll-target="#lab-6-ui-menus-and-levels">Lab 6: UI, Menus, and Levels</a></li>
+  <li><a href="#lab-7-audio-and-polish" id="toc-lab-7-audio-and-polish" class="nav-link" data-scroll-target="#lab-7-audio-and-polish">Lab 7: Audio and Polish</a></li>
+  <li><a href="#lab-8-exporting-and-publishing" id="toc-lab-8-exporting-and-publishing" class="nav-link" data-scroll-target="#lab-8-exporting-and-publishing">Lab 8: Exporting and Publishing</a></li>
+  <li><a href="#extending-to-the-puzzle-game-jam" id="toc-extending-to-the-puzzle-game-jam" class="nav-link" data-scroll-target="#extending-to-the-puzzle-game-jam">Extending to the Puzzle Game Jam</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/labs.html">Labs</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../course_information/game_analyses.html">Materials</a></li><li class="breadcrumb-item"><a href="../course_information/tutorials.html">Tutorials</a></li></ol></nav></header>
 
 
 
 
-<p>We will have a series of Godot tutorials during some of our afternoon sessions. These are completion based, and will help you to learn specifics about the Godot game engine.</p>
-<p><a href="https://godotengine.org/">Godot</a> is an open source game engine</p>
-<section id="lab-0" class="level2">
-<h2 class="anchored" data-anchor-id="lab-0">Lab 0</h2>
-</section>
+<p>We will have a series of game engine tutorials during some of our class sessions that will walk you through the process of creating a platformer. These are completion based, and will help you to learn the specifics of a particular game engine.</p>
+<p>The game engine for this class will be <a href="https://godotengine.org/">Godot</a>, which is open source and easy to host on sites like <a href="https://itch.io">itch.io</a>. You are free to remix these tutorials to create your own games. Additional resources can be found under Content &gt; Resources.</p>
+<p><strong>Why a platformer first?</strong> A platformer touches nearly every system you need for any 2D game: the editor and scene tree, sprites and input, physics and collisions, enemies and logic, game state, UI, and publishing. Once you have these fundamentals, you’ll be able to reuse most of this code to build a <strong>puzzle game</strong> during the team game jam later on in the course.</p>
+<p><strong>What you’ll build</strong>: By the end of these tutorials you’ll have a small but complete platformer: a player that moves and jumps, a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an exported build you can upload to itch.io.</p>
+<p><strong>How these are graded</strong>: These labs are completion based. Follow along, get the result working, submit and you’re done. You are free to remix and extend them.</p>
 <section id="install-godot" class="level2">
 <h2 class="anchored" data-anchor-id="install-godot">Install Godot</h2>
+<p>Follow along the <a href="../content/godot_install.html">install tutorial</a> to get Godot 4 set up on your machine and confirm it launches.</p>
 </section>
-<section id="lab-1" class="level2">
-<h2 class="anchored" data-anchor-id="lab-1">Lab 1</h2>
+<section id="lab-1-editor-nodes-and-scenes" class="level2">
+<h2 class="anchored" data-anchor-id="lab-1-editor-nodes-and-scenes">Lab 1: Editor, Nodes, and Scenes</h2>
+<p>Follow along the <a href="../content/tutorial1.html">Lab 1 tutorial</a> to learn the Godot editor, nodes, and scenes. You’ll learn how the scene tree works, how nodes combine to make game objects, and how to save and instance reusable scenes.</p>
 </section>
-<section id="lab-2" class="level2">
-<h2 class="anchored" data-anchor-id="lab-2">Lab 2</h2>
+<section id="lab-2-sprites-assets-and-movement" class="level2">
+<h2 class="anchored" data-anchor-id="lab-2-sprites-assets-and-movement">Lab 2: Sprites, Assets, and Movement</h2>
+<p>Follow along the <a href="../content/tutorial2.html">Lab 2 tutorial</a> to learn about sprites, importing assets, and simple player movement. You’ll wire up the input map and move a character around the screen.</p>
 </section>
-<section id="lab-3" class="level2">
-<h2 class="anchored" data-anchor-id="lab-3">Lab 3</h2>
+<section id="lab-3-physics-hitboxes-and-collisions" class="level2">
+<h2 class="anchored" data-anchor-id="lab-3-physics-hitboxes-and-collisions">Lab 3: Physics, Hitboxes, and Collisions</h2>
+<p>Follow along the <a href="../content/tutorial3.html">Lab 3 tutorial</a> to learn about physics bodies, hitboxes, and collision detection. You’ll set up solid ground, walls, and areas that detect when the player enters them.</p>
 </section>
-<section id="lab-4" class="level2">
-<h2 class="anchored" data-anchor-id="lab-4">Lab 4</h2>
+<section id="lab-4-enemies-and-pathfinding" class="level2">
+<h2 class="anchored" data-anchor-id="lab-4-enemies-and-pathfinding">Lab 4: Enemies and Pathfinding</h2>
+<p>Follow along the <a href="../content/tutorial4.html">Lab 4 tutorial</a> to learn about enemies and pathfinding. You’ll add an enemy that moves along a path or navigates toward the player.</p>
+</section>
+<section id="lab-5-game-state-rules-and-winlose-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="lab-5-game-state-rules-and-winlose-conditions">Lab 5: Game State, Rules, and Win/Lose Conditions</h2>
+<p>Follow along the <a href="../content/tutorial5.html">Lab 5 tutorial</a> to learn how to track game state and define win and lose conditions. You’ll add a score or objective, detect when the player wins or loses, and reset or advance the level.</p>
+</section>
+<section id="lab-6-ui-menus-and-levels" class="level2">
+<h2 class="anchored" data-anchor-id="lab-6-ui-menus-and-levels">Lab 6: UI, Menus, and Levels</h2>
+<p>Follow along the <a href="../content/tutorial6.html">Lab 6 tutorial</a> to learn how to build a user interface, add a start and restart menu, and move between multiple levels or screens.</p>
+</section>
+<section id="lab-7-audio-and-polish" class="level2">
+<h2 class="anchored" data-anchor-id="lab-7-audio-and-polish">Lab 7: Audio and Polish</h2>
+<p>Follow along the <a href="../content/tutorial7.html">Lab 7 tutorial</a> to learn how to add sound effects and background music, and to apply small polish like simple animations and feedback.</p>
+</section>
+<section id="lab-8-exporting-and-publishing" class="level2">
+<h2 class="anchored" data-anchor-id="lab-8-exporting-and-publishing">Lab 8: Exporting and Publishing</h2>
+<p>Follow along the <a href="../content/tutorial8.html">Lab 8 tutorial</a> to learn how to export your game and upload it to itch.io. You’ll create a web (HTML5) export and publish a playable build.</p>
+</section>
+<section id="extending-to-the-puzzle-game-jam" class="level2">
+<h2 class="anchored" data-anchor-id="extending-to-the-puzzle-game-jam">Extending to the Puzzle Game Jam</h2>
+<p>Once you’ve completed these labs, you’ll have the pieces to build a puzzle game by remixing your platformer code. Puzzle games typically require:</p>
+<ul>
+<li>A grid or board — most puzzles live on a discrete grid of cells rather than in continuous space (reuse scenes and instancing from Lab 1).</li>
+<li>Discrete/snapped movement or placement — pieces move cell to cell or snap into position rather than moving freely (adapt movement from Lab 2).</li>
+<li>A clear rule set — the legal moves and constraints that define the puzzle (built on game logic from Labs 4–5).</li>
+<li>A solve/goal condition — a way to check whether the current board state satisfies the win condition (reuse state and win/lose logic from Lab 5).</li>
+<li>Level data — a way to define individual puzzles or levels, since puzzlers are usually hand-authored rather than continuous (reuse the multi-level structure from Lab 6).</li>
+<li>Feedback — clear audio and visual cues for valid moves, invalid moves, and solving the puzzle (reuse audio and polish from Lab 7).</li>
+<li>Undo/reset (recommended) — puzzle players expect to be able to undo a move or restart cleanly, which builds directly on how you store and reset game state.</li>
+</ul>
 <p><img src="../static/Ketnipz_buzz_laptop.gif" class="img-fluid"></p>
 
 

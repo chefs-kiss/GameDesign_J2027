@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>re – Game Design</title>
+<title>tutorial3 – Game Design</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/RE.html">Random Encounters</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -162,32 +162,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/RE.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Random Encounters</span></a>
+  <a href="../course_information/game_analyses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Analyses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/labs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Labs</span></a>
+  <a href="../course_information/tutorials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tutorials</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project</span></a>
+  <a href="../course_information/game_jams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Jams</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/slides.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course_information/slides.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slides</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/CA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Analysis</span></a>
   </div>
 </li>
       </ul>
@@ -197,17 +197,58 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps">Steps</a></li>
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
+  <li><a href="#deliverable-completion-check" id="toc-deliverable-completion-check" class="nav-link" data-scroll-target="#deliverable-completion-check">Deliverable / Completion Check</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/RE.html">Random Encounters</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>By the end of this lab, you will be able to: - Distinguish between the main 2D physics body types and when to use each. - Build solid ground and walls the player cannot pass through. - Add gravity and jumping to the player. - Use Area2D to detect overlaps (e.g., the player touching a hazard or collectible).</p>
+</section>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p>This lab adds the physical rules of the world. You’ll give the player gravity and a jump, build a level out of static collision bodies, and set up detection zones that fire an event when the player enters them. The key distinction here is between solid collision (things you stand on and bump into) and area detection (zones that notice you without stopping you). Together these two systems cover nearly every physical interaction a 2D game needs.</p>
+</section>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<ol type="1">
+<li>Add gravity to the player’s <code>_physics_process</code> and wire up a jump using <code>is_on_floor()</code>.</li>
+<li>Build a level using StaticBody2D nodes (or a TileMap) with collision shapes for ground and walls.</li>
+<li>Configure collision layers and masks so the right things collide.</li>
+<li>Add an Area2D hazard and connect its <code>body_entered</code> signal.</li>
+<li>Trigger a response (e.g., reset position or print “hit”) when the player enters the hazard.</li>
+</ol>
+</section>
+<section id="key-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="key-concepts">Key Concepts</h3>
+<ul>
+<li>StaticBody2D vs CharacterBody2D vs Area2D.</li>
+<li>Gravity, <code>is_on_floor()</code>, and jump velocity.</li>
+<li>Collision layers and masks.</li>
+<li>Signals, especially <code>body_entered</code> / <code>area_entered</code>.</li>
+</ul>
+</section>
+<section id="deliverable-completion-check" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-completion-check">Deliverable / Completion Check</h3>
+<p>A playable scene where the player walks on solid ground, jumps, and triggers a detectable event when entering a hazard area. Submit the running project or a screen recording demonstrating collision and area detection.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

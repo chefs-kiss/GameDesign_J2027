@@ -1,224 +1,13 @@
 [
   {
-    "objectID": "course_information/schedule_topics.html",
-    "href": "course_information/schedule_topics.html",
-    "title": "Course Schedule",
+    "objectID": "course_information/game_jams.html",
+    "href": "course_information/game_jams.html",
+    "title": "Overview",
     "section": "",
-    "text": "Primary sources: Fullerton, Game Design Workshop (GDW), Extra Credits (EC), GDQuest Godot Beginner Learning Path\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus; GDW Ch.1; EC: Making Your First Game — Basics\nHistory of the Game Industry HISTORY\nWhat is a game? Industry eras & business models\nGame Design Kits Lab\n\n\nT\nJan 5\nMDA paper (Hunicke, LeBlanc & Zubek); install Godot 4\nMechanics, Dynamics, Aesthetics MDA\nThe MDA framework; the aesthetics vocabulary\nGodot lab 1 — editor & first scene\n\n\nW\nJan 6\nGDW Ch.2; skim GDW Ch.14 (design documentation)\nFormal Elements of Games ELEMENTS\nFormal elements; introducing the Design Doc\nDesign Doc lab (SM3DW, Celeste, A Short Hike, Portal)\n\n\nTh\nJan 7\nGDW Ch.5 (system dynamics)\nThe Game Loop GAMELOOP\nCore / session / meta loops; feedback\nGodot lab 2 — GDScript & signals\n\n\nF\nJan 8\nGDW Ch.3\nProcedures vs. Rules PROCEDURES\nWho enforces what; rules into code\nGodot lab 3 — first complete 2D game\n\n\n\nOver the weekend, complete critical analysis #1\n\n\n\n\nMorning — What is a game?\n\nWarm-up: What is the first game you remember choosing to play rather than being handed? What made you choose it?\nIndustry eras as design constraints: arcade coin-op economics, cartridge limits, shareware/PC, mobile F2P retention, engine-era indies — each business model produces a different shape of game.\nFullerton’s definitional elements: players, objectives, procedures, rules, resources, conflict, boundaries, outcome.\nStress-testing the definition against edge cases: SimCity, Dwarf Fortress, walking sims, idle games, Twine pieces.\nReflection: Which formal element would you remove first before the thing stops being a game? What breaks when you do?\n\nAfternoon — Game Design Kits Lab\n\nWarm-up: With only a deck of cards, dice, and tokens, what is the smallest complete game you can describe in one sentence?\nIn pairs, build a playable game from a design kit in 45 minutes under a hard constraint (e.g. no reading required, one page of rules).\nSwap kits and play a classmate’s game with the designer silent — no clarifications allowed.\nReflection: What did players do that you did not design for? Was it a bug or a feature?\n\n\n\n\nMorning — The MDA framework\n\nWarm-up: Describe a game you love in one sentence without naming a single mechanic.\nMechanics → dynamics → aesthetics, and why designers and players travel that chain in opposite directions.\nThe eight aesthetics (sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission) as a replacement for the word “fun.”\nWorked example: change one mechanic in a familiar game and trace the dynamic and aesthetic consequences downstream.\nReflection: Take yesterday’s kit game — which aesthetic were you actually delivering, as opposed to the one you intended?\n\nAfternoon — Godot lab 1: the editor and your first scene\nResource: Godot Tours 101\n\nWarm-up: What do you expect a game engine to do for you that you would otherwise have to write yourself?\nInstall Godot 4; run the interactive editor tour; project and file layout.\nNodes, scenes, the scene tree, and instancing — the engine’s core mental model.\nBuild a scene in which one sprite responds to keyboard input.\nReflection: Name one thing the editor did for you today that you would not have known how to write.\n\n\n\n\nMorning — Formal elements & the design doc\n\nWarm-up: Rules or objectives — which one, changed slightly, would break your favorite game faster?\nEach formal element in detail, with an example and a counter-example from a game everyone has played.\nReading a game as a system rather than as a story or a genre label.\nWhat a design doc is for: a shared, revisable contract about the system — not a sales pitch.\nReflection: Which formal element is hardest to see from the outside when you only watch someone else play?\n\nAfternoon — Design Doc lab: SM3DW, Celeste, A Short Hike, Portal (sound off)\n\nWarm-up: Predict what you will lose when the sound goes off. Write it down; we check it at the end.\nRotate ~20 minutes per title, sound off, filling in a formal-elements table for each.\nCompare: which game taught you its rules fastest, and by what means — text, level geometry, animation, failure?\nNote what became illegible without audio: feedback, threat cues, reward confirmation.\nReflection: Which of the four has the tightest fit between its formal elements and its aesthetic goal? Defend it in three sentences.\n\n\n\n\nMorning — Loops and feedback\n\nWarm-up: Draw the action you repeat most often in any game you play. How many seconds does one repetition take?\nCore loop, session loop, meta loop — three timescales, three different reasons a player returns.\nFeedback as a chain: input → system response → readable outcome → next decision; what happens when a link is missing.\nSystem dynamics (GDW Ch.5): emergence, positive and negative feedback loops, runaway leaders and rubber-banding.\nReflection: Of your three loops, which is weakest in the game you would most like to build?\n\nAfternoon — Godot lab 2: GDScript & signals\nResources: Learn GDScript From Zero · Signals best practices\n\nWarm-up: How would you tell one object that something happened to another, without the two of them knowing about each other?\nGDScript foundations: variables, functions, conditionals, typed GDScript.\nSignals as the engine’s event system; connecting in the editor vs. in code.\nBuild a complete micro-loop: collect an item → score updates → visible and audible confirmation.\nReflection: Where did your loop feel dead? What single piece of feedback would fix it?\n\n\n\n\nMorning — Who enforces what\n\nWarm-up: Name one rule and one procedure in basketball. Which is easier to enforce in code, and why?\nRules constrain the space of legal states; procedures instruct players on how to act within it.\nEnforcement: the honor system, the referee, and the engine — and how automatic enforcement quietly changes a game’s texture.\nTranslating a rulebook clause into a function: preconditions, effects, edge cases.\nReflection: Which rule from your kit-lab game would be impossible (or miserable) to enforce digitally?\n\nAfternoon — Godot lab 3: your first complete 2D game\nResource: Your First 2D Game (Godot 4)\n\nWarm-up: What is the minimum a game needs before it can have a win state and a lose state?\nPlayer scene, enemy scenes, and spawning.\nA game manager / autoload holding score and state; scene transitions and restart.\nShip something playable end-to-end — start screen, play, lose, restart.\nReflection: Your game now enforces its own rules. Which rule did the engine let you be lazy about writing down?\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nEC: Graphics vs. Aesthetics; pixel art in Godot 4\nSprite Graphics SPRITES\nReadability, silhouette, animation as info\nGodot lab 4 — pixel art & animation\n\n\nT\nJan 12\nkinematic jump formulas\nPhysics PHYSICS\nGame feel vs. simulation; jump math\nGodot lab 5 — CharacterBody2D & jump tuning\n\n\nW\nJan 13\nSF2 hit boxes; hit & hurt boxes\nCollision Detection HITBOX\nHitbox vs. hurtbox; frame data; layers & masks\nGodot lab 6 — hitboxes, hazards, i-frames\n\n\nTh\nJan 14\nfinite state machine pattern\nGame AI AI+PATH\nReadable behavior; FSMs; pathfinding\nGodot lab 7 — enemy AI & pathfinding\n\n\nF\nJan 15\nGDW Ch.7 & 8\nPhysical Prototypes PHYPROT\nPrototyping to answer a question; jam launch\nMini Game Jam — playtest physical prototypes\n\n\n\nOver the weekend, complete critical analysis #2\n\n\n\n\nMorning — Graphics vs. aesthetics\n\nWarm-up: Name a game with dated graphics that still looks good to you. What is doing the work?\nFidelity is not style: why art direction outlives hardware, and why “better graphics” is the wrong axis.\nReadability first — silhouette, contrast, restricted palettes, figure/ground separation under motion.\nAnimation as information: anticipation, key poses, follow-through, and the frames that communicate state.\nReflection: Screenshot your Godot project. Can a stranger tell which thing is the player in under a second?\n\nAfternoon — Godot lab 4: pixel art & animation\n\nWarm-up: Why does pixel art usually look blurry or shimmery the first time you import it?\nImport settings, filtering, snapping, and viewport scaling for crisp 2D.\nAnimatedSprite2D / AnimationPlayer; driving animation from character state rather than from input.\nAdd idle, run, and jump animations, plus one piece of environmental motion.\nReflection: Which animation changed how the game felt rather than how it looked?\n\n\n\n\nMorning — Game feel vs. simulation\n\nWarm-up: Two platformers with identical jump height feel completely different. Name three things that could differ.\nWhy game physics is not physics: acceleration, friction, terminal velocity, asymmetric rise/fall gravity.\nForgiveness mechanics — coyote time, jump buffering, variable jump height — and the ethics of lying to the player.\nDeriving jump parameters from design intent (desired height and distance) instead of guessing numbers.\nReflection: Which single number in your project most controls how your game feels?\n\nAfternoon — Godot lab 5: CharacterBody2D & jump tuning\n\nWarm-up: What would you change first to make your character feel heavier?\nCharacterBody2D, move_and_slide, and frame-rate independence with delta.\nExported tuning variables so jump apex, fall speed, and run acceleration can be changed live.\nImplement coyote time and variable jump height; A/B test with a neighbor.\nReflection: Did the more forgiving version feel easier, or just better? What is the difference?\n\n\n\n\nMorning — Hitboxes and frame data\n\nWarm-up: In a fighting game, two attacks land on the same frame. Who should win, and how would you decide?\nCollision shapes: AABB, circle, capsule, polygon — the cost/precision tradeoff.\nHitbox vs. hurtbox vs. collision shape: three different jobs, routinely confused.\nSF2 analysis: startup / active / recovery frames, priority, and why hitboxes rarely match the sprite.\nReflection: Sketch the hitbox and hurtbox for one attack in a game you know. Where did you have to guess?\n\nAfternoon — Godot lab 6: hitboxes, hazards, and i-frames\n\nWarm-up: Which of your objects should collide with which? Sketch the matrix before you write anything.\nThe Area2D hit/hurtbox pattern; separating “what I damage” from “what damages me.”\nPhysics layers and masks as a design document in disguise.\nAdd a damaging hazard, a health value, invincibility frames, and hit feedback.\nReflection: Where did your collision setup produce a result that was technically correct but felt unfair?\n\n\n\n\nMorning — Readable behavior\n\nWarm-up: Name an enemy whose behavior you can predict perfectly. Is that a design failure?\nReadable beats smart: the player must be able to build a mental model and act on it.\nFinite state machines, steering behaviors, and simple patrol/chase/flee architectures.\nPathfinding: grids, navigation regions, and A* — and when pathfinding is overkill.\nTelegraphing, reaction windows, and enemy AI as a difficulty dial.\nReflection: What is the smallest set of states your enemy needs in order to be interesting?\n\nAfternoon — Godot lab 7: enemy AI & pathfinding\nResources: Navigation2D tilemap pathfinding · Intro to steering behaviors\n\nWarm-up: Write your enemy’s states and the exact condition for each transition — before you open Godot.\nImplement an FSM-driven enemy: patrol, detect, chase, lose interest.\nAdd pathfinding or steering so the enemy handles terrain it was not authored for.\nTune detection radius and telegraph duration, then playtest with someone who has not seen it.\nReflection: Your tester died. Could they explain why? If not, do you fix the AI or the telegraph?\n\n\n\n\nMorning — Prototyping & Mini Game Jam launch\n\nWarm-up: What can you learn from paper in ten minutes that would take ten hours in Godot?\nGDW Ch.7–8: a prototype answers one question; it is not a small version of the finished game.\nThe 7-step worldbuilding exercise as a generator of constrained premises.\nJam rules: one verifiable design question per prototype, physical materials only, playable by 11:30.\nReflection: Write the single question your prototype exists to answer. Tape it to the table.\n\nAfternoon — Mini Game Jam: playtest physical prototypes\n\nWarm-up: What is the one thing you want to see a stranger do with your prototype?\nRotate tables every 15 minutes; designers observe silently and take notes.\nRecord what players did, not what they said; timestamp confusion and hesitation.\nOne revision between rounds, then test again with fresh players.\nReflection: Which prototype in the room — yours or someone else’s — deserves nine more days of work, and why?\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept → design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check\n\n\n\n\nMorning — Exam 1\n\nWarm-up: Five minutes, closed notes, ungraded: list every formal element you can remember, then compare with a neighbor.\nCovers Block A: definitions of games, formal elements, MDA, loops and feedback, procedures vs. rules, physics/collision/AI concepts.\nFormat: short answer plus one applied design question (given a mechanic, predict the dynamics).\nReflection: Which concept do you still not trust yourself to use? Name it — this is what to ask about this week.\n\nAfternoon — Team project kickoff (build off the mini prototype jam)\n\nWarm-up: Which jam prototype would you want to work on for nine days, and what would you change about it first?\nTwo-minute pitches of surviving jam prototypes, then dot-voting to a shortlist.\nScope reality check: nine working days, a team of four, one vertical slice — not a full game.\nForm provisional teams around the surviving pitches; each team names its one-sentence player fantasy.\nReflection: Name one thing your team has already decided not to build.\n\n\n\n\nMorning — Ideas and worlds\n\nWarm-up: The magic circle — name a moment when it broke for you mid-play. What broke it?\nIdeation techniques (GDW Ch.6): structured brainstorming, constraint-driven generation, the “what if” chain.\nDramatic elements (GDW Ch.4): premise, character, and story as pressure on mechanics, not decoration.\nWorldbuilding that pays rent: every fiction choice should justify or explain a mechanic.\nReflection: State your world in one sentence and your core mechanic in one. Do they actually need each other?\n\nAfternoon — Agile roles, team formation, project structure\n\nWarm-up: What is the worst team project you have been part of? What actually caused it?\nRoles (design lead, tech lead, art/audio, producer), rotating standups, and a working agreement in writing.\nProject structure: folder and scene conventions, naming, and a .gitignore for Godot; asset and version control workflow.\nBacklog: epics → tasks → this-week board, plus an explicit definition of done.\nReflection: Which role do you least want, and who on your team is covering it?\n\n\n\n\nMorning — Worldbuilding by map\n\nWarm-up: Name a game world you could describe convincingly without describing its plot.\nPlay The Quiet Year in teams: deck-driven, GM-less, collaboratively drawing a map.\nThe map is the artifact — landmarks, scarcity, contested spaces, and abandoned projects.\nFrom board-game worldbuilding to level space: which places on your map want to be walked through?\nReflection: Which spot on your map is the most interesting place to stand? What would a player do there?\n\nAfternoon — Concept → design doc draft\n\nWarm-up: What does your player do in the first thirty seconds?\nTurn the map into a concept: player fantasy, core loop, one page of formal elements.\nWrite the scope cut list — a ranked list of features you will drop, in the order you will drop them.\nGreybox the vertical slice in Godot with placeholder art; no polish today.\nReflection: What is the riskiest assumption in your concept, and how would you test it this week?\n\n\n\n\nMorning — Levels as teaching\n\nWarm-up: Describe the first room of a game you know well. What did it teach you, and how?\nThe 4-step structure: introduce, develop, twist, conclude — one mechanic at a time.\nDoom (Devs Play): sightlines, landmarks, arena shapes, looping non-linear layouts, and reward for exploration.\nTeaching without text: affordances, safe failure, and the designed first death.\nReflection: Sketch how your level teaches your hardest mechanic with no tutorial text at all.\n\nAfternoon — Workday (Design Doc due)\n\nWarm-up: What is the riskiest unknown in your build right now?\nFinish and submit the design doc, including the scope cut list.\nAssign vertical-slice tasks against the board; every task has an owner and a day.\nInstructor check-in with each team: scope, risk, and one thing to cut.\nReflection: If you lost one team member tomorrow, what would you cut first?\n\n\n\n\nMorning — Rhythm and iteration\n\nWarm-up: Chart the intensity of your favorite level over time. Where is the peak, and what follows it?\nPacing and rhythm: tension, release, rest beats, and why unbroken intensity reads as flat.\nDifficulty curves and the flow channel; gating, critical path vs. optional content, and backtracking.\nLevel iteration in practice: greybox → test → cut; the level you keep is the third one you made.\nReflection: Where is the rest beat in your vertical slice? If there isn’t one, where will you put it?\n\nAfternoon — Physical prototype demos\n\nWarm-up: What should we deliberately ignore in your demo today?\nEach team demos a paper or greybox version of one level to another team.\nSilent-observation protocol; feedback given only as “I noticed…” and “I wondered…”\nTeams log every point of confusion with a timestamp.\nReflection: What will you change before Monday, and what did you decide to defend?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due\n\n\n\n\n\n\n\nMorning — Balance for whom?\n\nWarm-up: Name a “broken” option in a game you play. Why do you think it has not been fixed?\nTwo different problems: the single-player difficulty curve vs. multiplayer symmetry and viability.\nPerfect imbalance: why a permanently shifting metagame can be healthier than a solved one.\nDominant strategies, cost curves, and the spreadsheet as a design tool.\nFirst moves: opening decisions, information asymmetry, and the paradox of too much choice.\nReflection: What is the dominant strategy in your own game right now? (If you don’t know, that’s the answer.)\n\nAfternoon — Balancing your game\n\nWarm-up: Which number in your project has never been changed since the moment you first typed it?\nPull tuning constants out of code into exported variables or a resource file.\nBuild a deliberate difficulty pass: forgiving / intended / punishing, and decide which one strangers get at the expo.\nTest with someone outside your team; record time-to-first-failure and time-to-first-success.\nReflection: Did your tester fail for the reason you designed, or a different one?\n\n\n\n\nMorning — How to run a test\n\nWarm-up: What is the difference between “do you like it?” and a question that actually produces usable data?\nGDW Ch.9: who to test with, when to stop using friends, and the rule against teaching or defending.\nKinds of tests: usability, fun, difficulty, balance, accessibility — each needs a different script.\nSMB 1-1 (watch & play): what the level intends to teach vs. what players actually do in it.\nWhat to instrument: deaths by location, time per section, retries, and abandonment.\nReflection: Write your team’s test script — three tasks and three questions, nothing more.\n\nAfternoon — Flex lab\n\nWarm-up: Turn your game’s sound off. Now describe what a player loses.\nPick one track and ship it today: audio (SFX and music), UI and menus, juice (screenshake, tweens, particles), or accessibility (remappable input, colorblind-safe palettes, readable text).\nTime-boxed: whatever you choose must be in the build by end of session.\nDemo the improvement to one other team and get a yes/no on whether it landed.\nReflection: Was that polish, or was it a missing piece of feedback you had been ignoring?\n\n\n\n\nMorning — What you can and cannot own\n\nWarm-up: Is a game mechanic copyrightable? Make a guess and commit to it.\nCopyright, trademark, and patent in games: code, art, and audio are protected; rules and mechanics largely are not.\nClones, parody, and fair use — why legal and advisable are different questions.\nROM hacking, emulation, DMCA takedowns, fan projects, and the preservation problem.\nAsset licenses in practice: CC0 vs. CC-BY vs. “free to use,” and what attribution actually obligates you to do.\nReflection: Audit your project: list every asset you did not make and the license it came under.\n\nAfternoon — Cross-team playtest (working game due)\n\nWarm-up: What is the single thing you most need to learn from today’s testers?\nSubmit the working build before testing begins — no last-minute changes.\nRotation: each team runs its test script on two other teams, silently observing.\nTriage the results immediately into must-fix / nice-to-have / won’t-fix, and put must-fix on the board.\nReflection: Which piece of feedback do you disagree with, and can you justify overruling it?\n\n\n\n\nMorning — Exam 2\n\nWarm-up: In pairs, five minutes: each of you explains one Block B concept to the other without notes.\nCovers Block B: worldbuilding and dramatic elements, level design and pacing, balancing, playtesting methodology, IP basics.\nFormat: short answer plus an applied question on a level or balance problem.\nReflection: Which idea from this course will you still be using in a year?\n\nAfternoon — Workday: feature freeze\n\nWarm-up: Say out loud the feature you are still hoping to sneak in. Now cut it.\nMust-fix bugs only; the feature list is frozen.\nExport and run the build on a machine that is not yours — the classic expo-day failure.\nPrepare expo materials: title card, controls diagram, and a sixty-second pitch.\nReflection: What is your rollback plan if the build breaks tomorrow morning?\n\n\n\n\nMorning — Wrap-up & setup\n\nWarm-up: What would you tell yourself on January 4th, knowing what you know now?\nThe through-line: formal elements → prototype → playtest → iterate → ship, and where each stage caught a problem.\nPostmortem structure: what went right, what went wrong, what we would do differently — with evidence.\nSet up stations, controls cards, and rehearse the sixty-second pitch.\nReflection: Which decision this month improved your game the most, and when did you make it?\n\nAfternoon — Game Expo (final game due)\n\nWarm-up: Who is your ideal player walking into this room today?\nRotate in shifts: half the team demos, half plays other teams’ games.\nCollect visitor feedback cards; watch at least three strangers play without intervening.\nSubmit the final build and the written postmortem by end of day.\nReflection: What is the next thing you would build, and which mechanic from this project would you keep?"
-  },
-  {
-    "objectID": "course_information/schedule_topics.html#week-1-foundations",
-    "href": "course_information/schedule_topics.html#week-1-foundations",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 4\nsyllabus; GDW Ch.1; EC: Making Your First Game — Basics\nHistory of the Game Industry HISTORY\nWhat is a game? Industry eras & business models\nGame Design Kits Lab\n\n\nT\nJan 5\nMDA paper (Hunicke, LeBlanc & Zubek); install Godot 4\nMechanics, Dynamics, Aesthetics MDA\nThe MDA framework; the aesthetics vocabulary\nGodot lab 1 — editor & first scene\n\n\nW\nJan 6\nGDW Ch.2; skim GDW Ch.14 (design documentation)\nFormal Elements of Games ELEMENTS\nFormal elements; introducing the Design Doc\nDesign Doc lab (SM3DW, Celeste, A Short Hike, Portal)\n\n\nTh\nJan 7\nGDW Ch.5 (system dynamics)\nThe Game Loop GAMELOOP\nCore / session / meta loops; feedback\nGodot lab 2 — GDScript & signals\n\n\nF\nJan 8\nGDW Ch.3\nProcedures vs. Rules PROCEDURES\nWho enforces what; rules into code\nGodot lab 3 — first complete 2D game\n\n\n\nOver the weekend, complete critical analysis #1\n\n\n\n\nMorning — What is a game?\n\nWarm-up: What is the first game you remember choosing to play rather than being handed? What made you choose it?\nIndustry eras as design constraints: arcade coin-op economics, cartridge limits, shareware/PC, mobile F2P retention, engine-era indies — each business model produces a different shape of game.\nFullerton’s definitional elements: players, objectives, procedures, rules, resources, conflict, boundaries, outcome.\nStress-testing the definition against edge cases: SimCity, Dwarf Fortress, walking sims, idle games, Twine pieces.\nReflection: Which formal element would you remove first before the thing stops being a game? What breaks when you do?\n\nAfternoon — Game Design Kits Lab\n\nWarm-up: With only a deck of cards, dice, and tokens, what is the smallest complete game you can describe in one sentence?\nIn pairs, build a playable game from a design kit in 45 minutes under a hard constraint (e.g. no reading required, one page of rules).\nSwap kits and play a classmate’s game with the designer silent — no clarifications allowed.\nReflection: What did players do that you did not design for? Was it a bug or a feature?\n\n\n\n\nMorning — The MDA framework\n\nWarm-up: Describe a game you love in one sentence without naming a single mechanic.\nMechanics → dynamics → aesthetics, and why designers and players travel that chain in opposite directions.\nThe eight aesthetics (sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission) as a replacement for the word “fun.”\nWorked example: change one mechanic in a familiar game and trace the dynamic and aesthetic consequences downstream.\nReflection: Take yesterday’s kit game — which aesthetic were you actually delivering, as opposed to the one you intended?\n\nAfternoon — Godot lab 1: the editor and your first scene\nResource: Godot Tours 101\n\nWarm-up: What do you expect a game engine to do for you that you would otherwise have to write yourself?\nInstall Godot 4; run the interactive editor tour; project and file layout.\nNodes, scenes, the scene tree, and instancing — the engine’s core mental model.\nBuild a scene in which one sprite responds to keyboard input.\nReflection: Name one thing the editor did for you today that you would not have known how to write.\n\n\n\n\nMorning — Formal elements & the design doc\n\nWarm-up: Rules or objectives — which one, changed slightly, would break your favorite game faster?\nEach formal element in detail, with an example and a counter-example from a game everyone has played.\nReading a game as a system rather than as a story or a genre label.\nWhat a design doc is for: a shared, revisable contract about the system — not a sales pitch.\nReflection: Which formal element is hardest to see from the outside when you only watch someone else play?\n\nAfternoon — Design Doc lab: SM3DW, Celeste, A Short Hike, Portal (sound off)\n\nWarm-up: Predict what you will lose when the sound goes off. Write it down; we check it at the end.\nRotate ~20 minutes per title, sound off, filling in a formal-elements table for each.\nCompare: which game taught you its rules fastest, and by what means — text, level geometry, animation, failure?\nNote what became illegible without audio: feedback, threat cues, reward confirmation.\nReflection: Which of the four has the tightest fit between its formal elements and its aesthetic goal? Defend it in three sentences.\n\n\n\n\nMorning — Loops and feedback\n\nWarm-up: Draw the action you repeat most often in any game you play. How many seconds does one repetition take?\nCore loop, session loop, meta loop — three timescales, three different reasons a player returns.\nFeedback as a chain: input → system response → readable outcome → next decision; what happens when a link is missing.\nSystem dynamics (GDW Ch.5): emergence, positive and negative feedback loops, runaway leaders and rubber-banding.\nReflection: Of your three loops, which is weakest in the game you would most like to build?\n\nAfternoon — Godot lab 2: GDScript & signals\nResources: Learn GDScript From Zero · Signals best practices\n\nWarm-up: How would you tell one object that something happened to another, without the two of them knowing about each other?\nGDScript foundations: variables, functions, conditionals, typed GDScript.\nSignals as the engine’s event system; connecting in the editor vs. in code.\nBuild a complete micro-loop: collect an item → score updates → visible and audible confirmation.\nReflection: Where did your loop feel dead? What single piece of feedback would fix it?\n\n\n\n\nMorning — Who enforces what\n\nWarm-up: Name one rule and one procedure in basketball. Which is easier to enforce in code, and why?\nRules constrain the space of legal states; procedures instruct players on how to act within it.\nEnforcement: the honor system, the referee, and the engine — and how automatic enforcement quietly changes a game’s texture.\nTranslating a rulebook clause into a function: preconditions, effects, edge cases.\nReflection: Which rule from your kit-lab game would be impossible (or miserable) to enforce digitally?\n\nAfternoon — Godot lab 3: your first complete 2D game\nResource: Your First 2D Game (Godot 4)\n\nWarm-up: What is the minimum a game needs before it can have a win state and a lose state?\nPlayer scene, enemy scenes, and spawning.\nA game manager / autoload holding score and state; scene transitions and restart.\nShip something playable end-to-end — start screen, play, lose, restart.\nReflection: Your game now enforces its own rules. Which rule did the engine let you be lazy about writing down?"
-  },
-  {
-    "objectID": "course_information/schedule_topics.html#week-2-mechanics-and-systems-block-a-week-2",
-    "href": "course_information/schedule_topics.html#week-2-mechanics-and-systems-block-a-week-2",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 11\nEC: Graphics vs. Aesthetics; pixel art in Godot 4\nSprite Graphics SPRITES\nReadability, silhouette, animation as info\nGodot lab 4 — pixel art & animation\n\n\nT\nJan 12\nkinematic jump formulas\nPhysics PHYSICS\nGame feel vs. simulation; jump math\nGodot lab 5 — CharacterBody2D & jump tuning\n\n\nW\nJan 13\nSF2 hit boxes; hit & hurt boxes\nCollision Detection HITBOX\nHitbox vs. hurtbox; frame data; layers & masks\nGodot lab 6 — hitboxes, hazards, i-frames\n\n\nTh\nJan 14\nfinite state machine pattern\nGame AI AI+PATH\nReadable behavior; FSMs; pathfinding\nGodot lab 7 — enemy AI & pathfinding\n\n\nF\nJan 15\nGDW Ch.7 & 8\nPhysical Prototypes PHYPROT\nPrototyping to answer a question; jam launch\nMini Game Jam — playtest physical prototypes\n\n\n\nOver the weekend, complete critical analysis #2\n\n\n\n\nMorning — Graphics vs. aesthetics\n\nWarm-up: Name a game with dated graphics that still looks good to you. What is doing the work?\nFidelity is not style: why art direction outlives hardware, and why “better graphics” is the wrong axis.\nReadability first — silhouette, contrast, restricted palettes, figure/ground separation under motion.\nAnimation as information: anticipation, key poses, follow-through, and the frames that communicate state.\nReflection: Screenshot your Godot project. Can a stranger tell which thing is the player in under a second?\n\nAfternoon — Godot lab 4: pixel art & animation\n\nWarm-up: Why does pixel art usually look blurry or shimmery the first time you import it?\nImport settings, filtering, snapping, and viewport scaling for crisp 2D.\nAnimatedSprite2D / AnimationPlayer; driving animation from character state rather than from input.\nAdd idle, run, and jump animations, plus one piece of environmental motion.\nReflection: Which animation changed how the game felt rather than how it looked?\n\n\n\n\nMorning — Game feel vs. simulation\n\nWarm-up: Two platformers with identical jump height feel completely different. Name three things that could differ.\nWhy game physics is not physics: acceleration, friction, terminal velocity, asymmetric rise/fall gravity.\nForgiveness mechanics — coyote time, jump buffering, variable jump height — and the ethics of lying to the player.\nDeriving jump parameters from design intent (desired height and distance) instead of guessing numbers.\nReflection: Which single number in your project most controls how your game feels?\n\nAfternoon — Godot lab 5: CharacterBody2D & jump tuning\n\nWarm-up: What would you change first to make your character feel heavier?\nCharacterBody2D, move_and_slide, and frame-rate independence with delta.\nExported tuning variables so jump apex, fall speed, and run acceleration can be changed live.\nImplement coyote time and variable jump height; A/B test with a neighbor.\nReflection: Did the more forgiving version feel easier, or just better? What is the difference?\n\n\n\n\nMorning — Hitboxes and frame data\n\nWarm-up: In a fighting game, two attacks land on the same frame. Who should win, and how would you decide?\nCollision shapes: AABB, circle, capsule, polygon — the cost/precision tradeoff.\nHitbox vs. hurtbox vs. collision shape: three different jobs, routinely confused.\nSF2 analysis: startup / active / recovery frames, priority, and why hitboxes rarely match the sprite.\nReflection: Sketch the hitbox and hurtbox for one attack in a game you know. Where did you have to guess?\n\nAfternoon — Godot lab 6: hitboxes, hazards, and i-frames\n\nWarm-up: Which of your objects should collide with which? Sketch the matrix before you write anything.\nThe Area2D hit/hurtbox pattern; separating “what I damage” from “what damages me.”\nPhysics layers and masks as a design document in disguise.\nAdd a damaging hazard, a health value, invincibility frames, and hit feedback.\nReflection: Where did your collision setup produce a result that was technically correct but felt unfair?\n\n\n\n\nMorning — Readable behavior\n\nWarm-up: Name an enemy whose behavior you can predict perfectly. Is that a design failure?\nReadable beats smart: the player must be able to build a mental model and act on it.\nFinite state machines, steering behaviors, and simple patrol/chase/flee architectures.\nPathfinding: grids, navigation regions, and A* — and when pathfinding is overkill.\nTelegraphing, reaction windows, and enemy AI as a difficulty dial.\nReflection: What is the smallest set of states your enemy needs in order to be interesting?\n\nAfternoon — Godot lab 7: enemy AI & pathfinding\nResources: Navigation2D tilemap pathfinding · Intro to steering behaviors\n\nWarm-up: Write your enemy’s states and the exact condition for each transition — before you open Godot.\nImplement an FSM-driven enemy: patrol, detect, chase, lose interest.\nAdd pathfinding or steering so the enemy handles terrain it was not authored for.\nTune detection radius and telegraph duration, then playtest with someone who has not seen it.\nReflection: Your tester died. Could they explain why? If not, do you fix the AI or the telegraph?\n\n\n\n\nMorning — Prototyping & Mini Game Jam launch\n\nWarm-up: What can you learn from paper in ten minutes that would take ten hours in Godot?\nGDW Ch.7–8: a prototype answers one question; it is not a small version of the finished game.\nThe 7-step worldbuilding exercise as a generator of constrained premises.\nJam rules: one verifiable design question per prototype, physical materials only, playable by 11:30.\nReflection: Write the single question your prototype exists to answer. Tape it to the table.\n\nAfternoon — Mini Game Jam: playtest physical prototypes\n\nWarm-up: What is the one thing you want to see a stranger do with your prototype?\nRotate tables every 15 minutes; designers observe silently and take notes.\nRecord what players did, not what they said; timestamp confusion and hesitation.\nOne revision between rounds, then test again with fresh players.\nReflection: Which prototype in the room — yours or someone else’s — deserves nine more days of work, and why?"
-  },
-  {
-    "objectID": "course_information/schedule_topics.html#week-3-worldbuilding-and-team-project-block-b-week-1",
-    "href": "course_information/schedule_topics.html#week-3-worldbuilding-and-team-project-block-b-week-1",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 18\nreview Block A\nExam 1\nExam 1\nTeam project kickoff — pitches from the jam\n\n\nT\nJan 19\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nGame Ideas + Worldbuilding WORLD\nIdeation; dramatic elements; worlds that pay rent\nAgile roles, team formation, project structure & git\n\n\nW\nJan 20\nEC: Board Games; The Quiet Year rules\nThe Quiet Year\nPlay The Quiet Year as a worldbuilding engine\nConcept → design doc draft; greybox the slice\n\n\nTh\nJan 21\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevel Design LEVELS\nLevels as teaching; landmarks & sightlines\nWorkday — Design Doc due\n\n\nF\nJan 22\ntilemap basics cheat sheet\nLevel Design LEVELS\nPacing, rhythm, difficulty curves, iteration\nPhysical prototype demos\n\n\n\nOver the weekend, complete critical analysis #3 and submit your team progress check\n\n\n\n\nMorning — Exam 1\n\nWarm-up: Five minutes, closed notes, ungraded: list every formal element you can remember, then compare with a neighbor.\nCovers Block A: definitions of games, formal elements, MDA, loops and feedback, procedures vs. rules, physics/collision/AI concepts.\nFormat: short answer plus one applied design question (given a mechanic, predict the dynamics).\nReflection: Which concept do you still not trust yourself to use? Name it — this is what to ask about this week.\n\nAfternoon — Team project kickoff (build off the mini prototype jam)\n\nWarm-up: Which jam prototype would you want to work on for nine days, and what would you change about it first?\nTwo-minute pitches of surviving jam prototypes, then dot-voting to a shortlist.\nScope reality check: nine working days, a team of four, one vertical slice — not a full game.\nForm provisional teams around the surviving pitches; each team names its one-sentence player fantasy.\nReflection: Name one thing your team has already decided not to build.\n\n\n\n\nMorning — Ideas and worlds\n\nWarm-up: The magic circle — name a moment when it broke for you mid-play. What broke it?\nIdeation techniques (GDW Ch.6): structured brainstorming, constraint-driven generation, the “what if” chain.\nDramatic elements (GDW Ch.4): premise, character, and story as pressure on mechanics, not decoration.\nWorldbuilding that pays rent: every fiction choice should justify or explain a mechanic.\nReflection: State your world in one sentence and your core mechanic in one. Do they actually need each other?\n\nAfternoon — Agile roles, team formation, project structure\n\nWarm-up: What is the worst team project you have been part of? What actually caused it?\nRoles (design lead, tech lead, art/audio, producer), rotating standups, and a working agreement in writing.\nProject structure: folder and scene conventions, naming, and a .gitignore for Godot; asset and version control workflow.\nBacklog: epics → tasks → this-week board, plus an explicit definition of done.\nReflection: Which role do you least want, and who on your team is covering it?\n\n\n\n\nMorning — Worldbuilding by map\n\nWarm-up: Name a game world you could describe convincingly without describing its plot.\nPlay The Quiet Year in teams: deck-driven, GM-less, collaboratively drawing a map.\nThe map is the artifact — landmarks, scarcity, contested spaces, and abandoned projects.\nFrom board-game worldbuilding to level space: which places on your map want to be walked through?\nReflection: Which spot on your map is the most interesting place to stand? What would a player do there?\n\nAfternoon — Concept → design doc draft\n\nWarm-up: What does your player do in the first thirty seconds?\nTurn the map into a concept: player fantasy, core loop, one page of formal elements.\nWrite the scope cut list — a ranked list of features you will drop, in the order you will drop them.\nGreybox the vertical slice in Godot with placeholder art; no polish today.\nReflection: What is the riskiest assumption in your concept, and how would you test it this week?\n\n\n\n\nMorning — Levels as teaching\n\nWarm-up: Describe the first room of a game you know well. What did it teach you, and how?\nThe 4-step structure: introduce, develop, twist, conclude — one mechanic at a time.\nDoom (Devs Play): sightlines, landmarks, arena shapes, looping non-linear layouts, and reward for exploration.\nTeaching without text: affordances, safe failure, and the designed first death.\nReflection: Sketch how your level teaches your hardest mechanic with no tutorial text at all.\n\nAfternoon — Workday (Design Doc due)\n\nWarm-up: What is the riskiest unknown in your build right now?\nFinish and submit the design doc, including the scope cut list.\nAssign vertical-slice tasks against the board; every task has an owner and a day.\nInstructor check-in with each team: scope, risk, and one thing to cut.\nReflection: If you lost one team member tomorrow, what would you cut first?\n\n\n\n\nMorning — Rhythm and iteration\n\nWarm-up: Chart the intensity of your favorite level over time. Where is the peak, and what follows it?\nPacing and rhythm: tension, release, rest beats, and why unbroken intensity reads as flat.\nDifficulty curves and the flow channel; gating, critical path vs. optional content, and backtracking.\nLevel iteration in practice: greybox → test → cut; the level you keep is the third one you made.\nReflection: Where is the rest beat in your vertical slice? If there isn’t one, where will you put it?\n\nAfternoon — Physical prototype demos\n\nWarm-up: What should we deliberately ignore in your demo today?\nEach team demos a paper or greybox version of one level to another team.\nSilent-observation protocol; feedback given only as “I noticed…” and “I wondered…”\nTeams log every point of confusion with a timestamp.\nReflection: What will you change before Monday, and what did you decide to defend?"
-  },
-  {
-    "objectID": "course_information/schedule_topics.html#week-4-balance-polish-and-expo-block-b-week-2",
-    "href": "course_information/schedule_topics.html#week-4-balance-polish-and-expo-block-b-week-2",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "dow\ndate\nprepare\ntopic\nmorning (lecture & RE)\nafternoon (lab / project)\n\n\n\n\nM\nJan 25\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nGame Balancing BALANCE\nBalance for whom; dominant strategies; curves\nBalancing your game — tuning pass & difficulty modes\n\n\nT\nJan 26\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nPlaytesting TESTING\nTest scripts; SMB 1-1 watch & play\nFlex lab — audio, UI, juice, accessibility\n\n\nW\nJan 27\ninstructor readings on copyright, fair use & asset licenses\nLegal Issues + ROM Hacking IP\nCopyright vs. trademark; clones; preservation\nCross-team playtest — working game due\n\n\nTh\nJan 28\nreview Block B\nExam 2\nExam 2\nWorkday — feature freeze & build dry run\n\n\nF\nJan 29\n—\nGame Expo\nWrap-up, postmortems, expo setup\nGame Expo — final game due\n\n\n\n\n\n\n\nMorning — Balance for whom?\n\nWarm-up: Name a “broken” option in a game you play. Why do you think it has not been fixed?\nTwo different problems: the single-player difficulty curve vs. multiplayer symmetry and viability.\nPerfect imbalance: why a permanently shifting metagame can be healthier than a solved one.\nDominant strategies, cost curves, and the spreadsheet as a design tool.\nFirst moves: opening decisions, information asymmetry, and the paradox of too much choice.\nReflection: What is the dominant strategy in your own game right now? (If you don’t know, that’s the answer.)\n\nAfternoon — Balancing your game\n\nWarm-up: Which number in your project has never been changed since the moment you first typed it?\nPull tuning constants out of code into exported variables or a resource file.\nBuild a deliberate difficulty pass: forgiving / intended / punishing, and decide which one strangers get at the expo.\nTest with someone outside your team; record time-to-first-failure and time-to-first-success.\nReflection: Did your tester fail for the reason you designed, or a different one?\n\n\n\n\nMorning — How to run a test\n\nWarm-up: What is the difference between “do you like it?” and a question that actually produces usable data?\nGDW Ch.9: who to test with, when to stop using friends, and the rule against teaching or defending.\nKinds of tests: usability, fun, difficulty, balance, accessibility — each needs a different script.\nSMB 1-1 (watch & play): what the level intends to teach vs. what players actually do in it.\nWhat to instrument: deaths by location, time per section, retries, and abandonment.\nReflection: Write your team’s test script — three tasks and three questions, nothing more.\n\nAfternoon — Flex lab\n\nWarm-up: Turn your game’s sound off. Now describe what a player loses.\nPick one track and ship it today: audio (SFX and music), UI and menus, juice (screenshake, tweens, particles), or accessibility (remappable input, colorblind-safe palettes, readable text).\nTime-boxed: whatever you choose must be in the build by end of session.\nDemo the improvement to one other team and get a yes/no on whether it landed.\nReflection: Was that polish, or was it a missing piece of feedback you had been ignoring?\n\n\n\n\nMorning — What you can and cannot own\n\nWarm-up: Is a game mechanic copyrightable? Make a guess and commit to it.\nCopyright, trademark, and patent in games: code, art, and audio are protected; rules and mechanics largely are not.\nClones, parody, and fair use — why legal and advisable are different questions.\nROM hacking, emulation, DMCA takedowns, fan projects, and the preservation problem.\nAsset licenses in practice: CC0 vs. CC-BY vs. “free to use,” and what attribution actually obligates you to do.\nReflection: Audit your project: list every asset you did not make and the license it came under.\n\nAfternoon — Cross-team playtest (working game due)\n\nWarm-up: What is the single thing you most need to learn from today’s testers?\nSubmit the working build before testing begins — no last-minute changes.\nRotation: each team runs its test script on two other teams, silently observing.\nTriage the results immediately into must-fix / nice-to-have / won’t-fix, and put must-fix on the board.\nReflection: Which piece of feedback do you disagree with, and can you justify overruling it?\n\n\n\n\nMorning — Exam 2\n\nWarm-up: In pairs, five minutes: each of you explains one Block B concept to the other without notes.\nCovers Block B: worldbuilding and dramatic elements, level design and pacing, balancing, playtesting methodology, IP basics.\nFormat: short answer plus an applied question on a level or balance problem.\nReflection: Which idea from this course will you still be using in a year?\n\nAfternoon — Workday: feature freeze\n\nWarm-up: Say out loud the feature you are still hoping to sneak in. Now cut it.\nMust-fix bugs only; the feature list is frozen.\nExport and run the build on a machine that is not yours — the classic expo-day failure.\nPrepare expo materials: title card, controls diagram, and a sixty-second pitch.\nReflection: What is your rollback plan if the build breaks tomorrow morning?\n\n\n\n\nMorning — Wrap-up & setup\n\nWarm-up: What would you tell yourself on January 4th, knowing what you know now?\nThe through-line: formal elements → prototype → playtest → iterate → ship, and where each stage caught a problem.\nPostmortem structure: what went right, what went wrong, what we would do differently — with evidence.\nSet up stations, controls cards, and rehearse the sixty-second pitch.\nReflection: Which decision this month improved your game the most, and when did you make it?\n\nAfternoon — Game Expo (final game due)\n\nWarm-up: Who is your ideal player walking into this room today?\nRotate in shifts: half the team demos, half plays other teams’ games.\nCollect visitor feedback cards; watch at least three strangers play without intervening.\nSubmit the final build and the written postmortem by end of day.\nReflection: What is the next thing you would build, and which mechanic from this project would you keep?"
-  },
-  {
-    "objectID": "course_information/schedule.html#week-1-foundations",
-    "href": "course_information/schedule.html#week-1-foundations",
-    "title": "Game Design",
-    "section": "Week 1: Foundations",
-    "text": "Week 1: Foundations\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM Jan 4\nMorning\nread syllabus \nGame History\n\n\n\nM Jan 4\nAfternoon\nEC: Making Your First Game\nLab 0: Game Design Kits\n\n\n\nT Jan 5\nMorning\nGDW Ch.1  MDA paper\nMechanics, Dynamics, Aethetics\n\n\n\nT Jan 5\nAfternoon\ninstall Godot 4\nLab 1: Godot 4 & GDScript\n\n\n\nW Jan 6\nMorning\nGDW Ch.2\nFormal Elements of Games\n\n\n\nW Jan 6\nAfternoon\nskim GDW Ch.14\nLab 2: Let’s Play Super Mario 3D World\n\n\n\nTh Jan 7\nMorning\nGDW Ch.5\nThe Game Loop\n\n\n\nTh Jan 7\nAfternoon\n\nLab 3\n\n\n\nF Jan 8\nMorning\nGDW Ch.3\nProcedures vs Rules\n\n\n\nF Jan 8\nAfternoon\n\nLab 4\nCritical Analysis 1",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-2-mechanics-and-systems",
-    "href": "course_information/schedule.html#week-2-mechanics-and-systems",
-    "title": "Game Design",
-    "section": "Week 2: Mechanics and Systems",
-    "text": "Week 2: Mechanics and Systems\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM Jan 11\nMorning\nEC: Graphics vs. Aesthetics\nSprite Graphics\n\n\n\nM Jan 11\nAfternoon\npixel art in Godot 4\nLab 5: pixel art & animation\n\n\n\nT Jan 12\nMorning\n\nPhysics\n\n\n\nT Jan 12\nAfternoon\nkinematic jump formulas\nLab 5: CharacterBody2D & jump tuning\n\n\n\nW Jan 13\nMorning\nSF2 hit boxes;\nCollision Detection\n\n\n\nW Jan 13\nAfternoon\nhit & hurt boxes\nLab 6: hitboxes, hazards, i-frames\n\n\n\nTh Jan 14\nMorning\nfinite state machine pattern\nReadable behavior; FSMs; pathfinding AI+PATH\n\n\n\nTh Jan 14\nAfternoon\n\nGodot lab 7 — enemy AI & pathfinding\n\n\n\nF Jan 15\nMorning\nGDW Ch.7 & 8\nPrototyping to answer a question; jam launch PHYPROT\n\n\n\nF Jan 15\nAfternoon\n\nMini Game Jam — playtest physical prototypes\nCritical analysis #2 due over the weekend — link",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
-    "href": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
-    "title": "Game Design",
-    "section": "Week 3: Worldbuilding and Leveling",
-    "text": "Week 3: Worldbuilding and Leveling\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM Jan 18\nMorning\nreview Block A\nExam 1\n\n\n\nM Jan 18\nAfternoon\n\nTeam project kickoff — pitches from the jam\n\n\n\nT Jan 19\nMorning\nGDW Ch.4 & 6; EC: The Magic Circle; GDW Ch.12 (team structures)\nIdeation; dramatic elements; worlds that pay rent WORLD\n\n\n\nT Jan 19\nAfternoon\n\nAgile roles, team formation, project structure & git\n\n\n\nW Jan 20\nMorning\nEC: Board Games; The Quiet Year rules\nPlay The Quiet Year as a worldbuilding engine\n\n\n\nW Jan 20\nAfternoon\n\nConcept to design doc draft; greybox the slice\n\n\n\nTh Jan 21\nMorning\nDevs Play: Doom; GMTK: SM3DW’s 4-step level design; GDW Ch.14\nLevels as teaching; landmarks & sightlines LEVELS\n\n\n\nTh Jan 21\nAfternoon\n\nWorkday — Design Doc due\n\n\n\nF Jan 22\nMorning\ntilemap basics cheat sheet\nPacing, rhythm, difficulty curves, iteration LEVELS\n\n\n\nF Jan 22\nAfternoon\n\nPhysical prototype demos\nCritical analysis #3 and team progress check due over the weekend — link",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#week-4-balancing-and-playtesting",
-    "href": "course_information/schedule.html#week-4-balancing-and-playtesting",
-    "title": "Game Design",
-    "section": "Week 4: Balancing and Playtesting",
-    "text": "Week 4: Balancing and Playtesting\n\n\n\n\n\n\n\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM Jan 25\nMorning\nEC: Perfect Imbalance; EC: First Moves; GDW Ch.10\nBalance for whom; dominant strategies; curves BALANCE\n\n\n\nM Jan 25\nAfternoon\n\nBalancing your game — tuning pass & difficulty modes\n\n\n\nT Jan 26\nMorning\nGDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility)\nTest scripts; SMB 1-1 watch & play TESTING\n\n\n\nT Jan 26\nAfternoon\n\nFlex lab — audio, UI, juice, accessibility\n\n\n\nW Jan 27\nMorning\ninstructor readings on copyright, fair use & asset licenses\nCopyright vs. trademark; clones; preservation IP\n\n\n\nW Jan 27\nAfternoon\n\nCross-team playtest — working game due\n\n\n\nTh Jan 28\nMorning\nreview Block B\nExam 2\n\n\n\nTh Jan 28\nAfternoon\n\nWorkday — feature freeze & build dry run\n\n\n\nF Jan 29\nMorning\n—\nWrap-up, postmortems, expo setup\n\n\n\nF Jan 29\nAfternoon\n\nGame Expo — final game due",
-    "crumbs": [
-      "Course Information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "content/CA.html#selected-games",
-    "href": "content/CA.html#selected-games",
-    "title": "Game Design",
-    "section": "Selected Games",
-    "text": "Selected Games",
+    "text": "Overview\n\n\nBoard Game Jam\n\n\nTeam Game Jam",
     "crumbs": [
       "Materials",
-      "Critical Analysis"
-    ]
-  },
-  {
-    "objectID": "content/CA.html#critical-analysis-1",
-    "href": "content/CA.html#critical-analysis-1",
-    "title": "Game Design",
-    "section": "Critical Analysis 1",
-    "text": "Critical Analysis 1",
-    "crumbs": [
-      "Materials",
-      "Critical Analysis"
-    ]
-  },
-  {
-    "objectID": "content/CA.html#critical-analysis-2",
-    "href": "content/CA.html#critical-analysis-2",
-    "title": "Game Design",
-    "section": "Critical Analysis 2",
-    "text": "Critical Analysis 2",
-    "crumbs": [
-      "Materials",
-      "Critical Analysis"
-    ]
-  },
-  {
-    "objectID": "content/CA.html#grading",
-    "href": "content/CA.html#grading",
-    "title": "Game Design",
-    "section": "Grading",
-    "text": "Grading",
-    "crumbs": [
-      "Materials",
-      "Critical Analysis"
-    ]
-  },
-  {
-    "objectID": "index.html#introduction-to-game-design",
-    "href": "index.html#introduction-to-game-design",
-    "title": "CSCI 200B - January 2027",
-    "section": "Introduction to Game Design",
-    "text": "Introduction to Game Design\nOur course is an introductory course in video game design and production. We will focus on both the design and technical aspects of creating a game, from concept inception and prototyping through coding and playtesting.",
-    "crumbs": [
-      "Course Information",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#staff-information",
-    "href": "index.html#staff-information",
-    "title": "CSCI 200B - January 2027",
-    "section": "Staff Information",
-    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
-    "crumbs": [
-      "Course Information",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/labs.html",
-    "href": "content/labs.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "We will have a series of Godot tutorials during some of our afternoon sessions. These are completion based, and will help you to learn specifics about the Godot game engine.\nGodot is an open source game engine",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#lab-0",
-    "href": "content/labs.html#lab-0",
-    "title": "Game Design",
-    "section": "Lab 0",
-    "text": "Lab 0",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#install-godot",
-    "href": "content/labs.html#install-godot",
-    "title": "Game Design",
-    "section": "Install Godot",
-    "text": "Install Godot",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#lab-1",
-    "href": "content/labs.html#lab-1",
-    "title": "Game Design",
-    "section": "Lab 1",
-    "text": "Lab 1",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#lab-2",
-    "href": "content/labs.html#lab-2",
-    "title": "Game Design",
-    "section": "Lab 2",
-    "text": "Lab 2",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#lab-3",
-    "href": "content/labs.html#lab-3",
-    "title": "Game Design",
-    "section": "Lab 3",
-    "text": "Lab 3",
-    "crumbs": [
-      "Materials",
-      "Labs"
-    ]
-  },
-  {
-    "objectID": "content/labs.html#lab-4",
-    "href": "content/labs.html#lab-4",
-    "title": "Game Design",
-    "section": "Lab 4",
-    "text": "Lab 4",
-    "crumbs": [
-      "Materials",
-      "Labs"
+      "Game Jams"
     ]
   },
   {
@@ -277,44 +66,44 @@
     ]
   },
   {
-    "objectID": "course_information/syllabus.html#readings",
-    "href": "course_information/syllabus.html#readings",
+    "objectID": "course_information/syllabus.html#log-book",
+    "href": "course_information/syllabus.html#log-book",
     "title": "General Information",
-    "section": "Readings",
-    "text": "Readings\n(tbd points): Each topic has resources related to the content covered in class, consisting of textbook passages from Game Design Workshop (GDW), articles, and/or videos. Come to each class having worked through the assigned material. Late work: no late work will be accepted.",
+    "section": "Log Book",
+    "text": "Log Book\n(tbd points): To assist you in organizing ideas and commentary about the topics covered in class, each student will document their work in a log book. The log book will also include in-class prompts and end-of-day reflections. Each topic has resources related to the content covered in class, consisting of textbook passages from Game Design Workshop (GDW), articles, and/or videos. You can take notes in your log book, and you are expected to come to each class having worked through the assigned material. Log books will be checked randomly throughout the course. Late work: no late work will be accepted.",
     "crumbs": [
       "Course Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course_information/syllabus.html#critical-analyses",
-    "href": "course_information/syllabus.html#critical-analyses",
+    "objectID": "course_information/syllabus.html#game-analyses",
+    "href": "course_information/syllabus.html#game-analyses",
     "title": "General Information",
-    "section": "Critical Analyses",
-    "text": "Critical Analyses",
+    "section": "Game Analyses",
+    "text": "Game Analyses\n(tbd points): We will be critically analyzing two games over the course of the semester to better understand the mechanics and design decisions that lead to good game play. Read more about the games we’ll be analyzing by going to Materials &gt; Game Analyses.",
     "crumbs": [
       "Course Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course_information/syllabus.html#lab-assignments",
-    "href": "course_information/syllabus.html#lab-assignments",
+    "objectID": "course_information/syllabus.html#tutorials",
+    "href": "course_information/syllabus.html#tutorials",
     "title": "General Information",
-    "section": "Lab Assignments",
-    "text": "Lab Assignments\nWe will be learning a game engine over the course of this class. Labs will consist of tutorials for the selected game engine. Late work: no late work will be accepted.",
+    "section": "Tutorials",
+    "text": "Tutorials\n(tbd points): We will be learning one game engine over the course of this class using tutorials. These tutorials will act like labs and should be completed and submitted by midnight the day they are introducted. There are completion based. No late work will be accepted.",
     "crumbs": [
       "Course Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course_information/syllabus.html#semester-project",
-    "href": "course_information/syllabus.html#semester-project",
+    "objectID": "course_information/syllabus.html#game-jams",
+    "href": "course_information/syllabus.html#game-jams",
     "title": "General Information",
-    "section": "Semester Project",
-    "text": "Semester Project\nOver the entirty of this course, you will complete a group project where you apply the concepts covered in the course. You can find more in-depth information regarding the project on the project page Late Work: No late work will be accepted.",
+    "section": "Game Jams",
+    "text": "Game Jams\n(tbd points): In place of projects, we will have two game jams. Game Jams are a great way to scope out small ideas for games to see if they are worth investing more time into. Game jams vary in length, from a couple days to several weeks. Our first game jam will take place over two sessions the last day of week 2, and will focus on the ideation and paper prototyping stage of game creation. The second game jam will take up the last two weeks of the course, with various stages and documents due before a final game expo. Each game jam will be completed in teams. Find more information on the game jam specifics by going to the Materials &gt; Game Jams tab. No late work will be accepted.",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -472,6 +261,344 @@
     "crumbs": [
       "Course Information",
       "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-1-fundamentals",
+    "href": "course_information/schedule.html#week-1-fundamentals",
+    "title": "Game Design",
+    "section": "Week 1: Fundamentals",
+    "text": "Week 1: Fundamentals\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 4\nMorning\n\nGame History\n\n\n\nM 4\nAfternoon\n\nGame Design Kits Activity\n\n\n\nT 5\nMorning\n\nMechanics, Dynamics, Aesthetics\n\n\n\nT 5\nAfternoon\n\nFormal Elements of Games\n\n\n\nW 6\nMorning\n\nLet’s Play Super Mario 3D World\n\n\n\nW 6\nAfternoon\n\nThe Game Loop\n\n\n\nTh 7\nMorning\n\nProcedures vs Rules\n\n\n\nTh 7\nAfternoon\n\nTutorials &gt; Install Godot  Tutorials &gt; Lab 1\n\n\n\nF 8\nMorning\n\nSprite Graphics\n\n\n\nF 8\nAfternoon\n\nTutorials &gt; Lab 2\nCritical Analysis 1",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-2-mechanics-and-systems",
+    "href": "course_information/schedule.html#week-2-mechanics-and-systems",
+    "title": "Game Design",
+    "section": "Week 2: Mechanics and Systems",
+    "text": "Week 2: Mechanics and Systems\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 11\nMorning\n\nPhysics & Collision Detection\n\n\n\nM 11\nAfternoon\n\nTutorials &gt; Lab 3\n\n\n\nT 11\nMorning\n\nGame AI\n\n\n\nT 12\nAfternoon\n\nTutorials &gt; Lab 4\n\n\n\nW 12\nMorning\n\nTutorials &gt; Lab 5\n\n\n\nW 12\nAfternoon\n\nSFX\n\n\n\nTh 13\nMorning\n\nTutorials &gt; Lab 6\nstudy Exam 1\n\n\nTh 13\nAfternoon\n\nExam 1\n\n\n\nF 14\nMorning\n\nBoard Game Jam &gt; Overview  Board Game Jam &gt; Ideation  Board Game Jam &gt; Paper Prototype\n\n\n\nF 15\nAfternoon\n\nBoard Game Jam &gt; Playtesting  Board Game Jam &gt; Feedback and Iteration\nBoard Game Jam Reflection",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
+    "href": "course_information/schedule.html#week-3-worldbuilding-and-leveling",
+    "title": "Game Design",
+    "section": "Week 3: Worldbuilding and Leveling",
+    "text": "Week 3: Worldbuilding and Leveling\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nT 19\nMorning\n\nBoard Game Jam wrap up  Puzzle Game Jam &gt; Overview  Puzzle Game Exploration\n\n\n\nT 19\nAfternoon\n\nGame Architectures\n\n\n\nW 20\nMorning\n\nGame Ideas  Puzzle Game Jam &gt; Design Document\nDesign Doc due tonight\n\n\nW 20\nAfternoon\n\nPhysical Prototypes\n\n\n\nTh 21\nMorning\n\nTutorials &gt; Lab 7\n\n\n\nTh 21\nAfternoon\n\nWorldbuilding  The Quiet Year\nPhysical Prototypes due Friday\n\n\nF 22\nMorning\n\nPhysical Prototypes Demo\n\n\n\nF 22\nAfternoon\n\nCharacter Design\nCritical Analysis 2",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#week-4-balancing-and-playtesting",
+    "href": "course_information/schedule.html#week-4-balancing-and-playtesting",
+    "title": "Game Design",
+    "section": "Week 4: Balancing and Playtesting",
+    "text": "Week 4: Balancing and Playtesting\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 25\nMorning\n\nLevel Design\n\n\n\nM 25\nAfternoon\n\nProject Workday\n\n\n\nT 26\nMorning\n\nGame Balancing\n\n\n\nT 26\nAfternoon\n\nTutorials &gt; Lab 8\nWorking team demo due Wednesday\n\n\nW 27\nMorning\n\nPlaytesting\n\n\n\nW 27\nAfternoon\n\nPlaytesting Games in Class\nstudy Exam 2\n\n\nTh 28\nMorning\n\nExam 2\n\n\n\nTh 28\nAfternoon\n\nProject Workday\nTeam game due Friday\n\n\nF 29\nMorning\n\nLegal Issues + ROM Hacking\n\n\n\nF 29\nAfternoon\n\nGame Expo\nTeam Game Jam Reflection",
+    "crumbs": [
+      "Course Information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "content/tutorial3.html",
+    "href": "content/tutorial3.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Distinguish between the main 2D physics body types and when to use each. - Build solid ground and walls the player cannot pass through. - Add gravity and jumping to the player. - Use Area2D to detect overlaps (e.g., the player touching a hazard or collectible).\n\n\nOverview\nThis lab adds the physical rules of the world. You’ll give the player gravity and a jump, build a level out of static collision bodies, and set up detection zones that fire an event when the player enters them. The key distinction here is between solid collision (things you stand on and bump into) and area detection (zones that notice you without stopping you). Together these two systems cover nearly every physical interaction a 2D game needs.\n\n\nSteps\n\nAdd gravity to the player’s _physics_process and wire up a jump using is_on_floor().\nBuild a level using StaticBody2D nodes (or a TileMap) with collision shapes for ground and walls.\nConfigure collision layers and masks so the right things collide.\nAdd an Area2D hazard and connect its body_entered signal.\nTrigger a response (e.g., reset position or print “hit”) when the player enters the hazard.\n\n\n\nKey Concepts\n\nStaticBody2D vs CharacterBody2D vs Area2D.\nGravity, is_on_floor(), and jump velocity.\nCollision layers and masks.\nSignals, especially body_entered / area_entered.\n\n\n\nDeliverable / Completion Check\nA playable scene where the player walks on solid ground, jumps, and triggers a detectable event when entering a hazard area. Submit the running project or a screen recording demonstrating collision and area detection."
+  },
+  {
+    "objectID": "content/tutorial8.html",
+    "href": "content/tutorial8.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Install export templates and configure an export preset. - Produce an HTML5 (web) build of your game. - Test the exported build locally before publishing. - Upload and configure a playable build on itch.io.\n\n\nOverview\nThis lab gets your game off your machine and onto the internet where others can play it. You’ll install Godot’s export templates, configure a Web export preset, and generate an HTML5 build. After testing it locally, you’ll upload it to itch.io and set it to run in the browser. This publishing process is identical regardless of what kind of game you make, so once you’ve done it here you can publish anything you build in this course the same way.\n\n\nSteps\n\nInstall the matching export templates in Godot.\nCreate a Web (HTML5) export preset and set the main scene.\nExport the project to a folder of web files.\nTest the build locally (via a local server) to confirm it runs in a browser.\nZip the build, upload it to itch.io, and set it to play in-browser.\n\n\n\nKey Concepts\n\nExport templates and export presets.\nHTML5/web export and its constraints.\nLocal testing before publishing.\nUploading and configuring a web build on itch.io.\n\n\n\nDeliverable / Completion Check\nA published, in-browser playable build of your platformer on itch.io. Submit the itch.io link."
+  },
+  {
+    "objectID": "content/tutorial2.html",
+    "href": "content/tutorial2.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Import image assets and assign them to a sprite node. - Configure the Input Map to define named actions (left, right, jump). - Read player input in a script and translate it into movement. - Use a CharacterBody2D to move a character in response to input.\n\n\nOverview\nThis lab brings a character to life on screen. You’ll import sprite assets, place them in a scene, and then write the script that reads keyboard/controller input and moves the player. Rather than hard-coding specific keys, you’ll use Godot’s Input Map so your actions have names and can be rebound later. This is your first real gameplay code, and the input-to-movement pattern you learn here is the template for controlling anything in a game.\n\n\nSteps\n\nImport a sprite sheet or image asset into the project’s FileSystem.\nBuild a player scene rooted at a CharacterBody2D with a Sprite2D and CollisionShape2D.\nDefine “move_left”, “move_right”, and “jump” in Project Settings &gt; Input Map.\nWrite a script that reads input each frame and sets a velocity vector.\nCall move_and_slide() to apply movement and test in the running game.\n\n\n\nKey Concepts\n\nImporting and referencing assets.\nCharacterBody2D, Sprite2D, and CollisionShape2D.\nThe Input Map and Input.get_axis() / Input.is_action_pressed().\n_physics_process(delta), velocity, and move_and_slide().\n\n\n\nDeliverable / Completion Check\nA player character that moves left and right based on mapped input. Submit the running project or a short screen recording of the character moving."
+  },
+  {
+    "objectID": "content/tutorial7.html",
+    "href": "content/tutorial7.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Import and play sound effects and background music. - Trigger audio in response to gameplay events. - Add simple animation and visual feedback (juice) to actions. - Explain why clear feedback improves playability.\n\n\nOverview\nThis lab makes the game feel responsive and finished. You’ll add background music and sound effects tied to events — jumping, collecting, winning, losing — and layer in small visual touches like animations, tweens, or a screen effect that confirm the player’s actions landed. None of this changes the rules of the game, but feedback is what makes a game feel good to play and helps players understand what just happened.\n\n\nSteps\n\nImport audio assets and add AudioStreamPlayer nodes for music and effects.\nPlay looping background music from a menu or level.\nTrigger sound effects from gameplay signals (jump, collect, hit, win).\nAdd a simple animation with AnimationPlayer or a Tween for a key action.\nAdd one piece of visual feedback (flash, shake, or pop) to reinforce an event.\n\n\n\nKey Concepts\n\nAudioStreamPlayer and audio buses.\nTriggering audio from signals/events.\nAnimationPlayer and Tween basics.\nFeedback / “game juice” and its role in usability.\n\n\n\nDeliverable / Completion Check\nA game with background music, at least two event-triggered sound effects, and at least one visual feedback effect. Submit the running project or a recording with audio."
+  },
+  {
+    "objectID": "content/tutorial1.html",
+    "href": "content/tutorial1.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Navigate the Godot editor: the viewport, Scene dock, FileSystem dock, Inspector, and bottom panels. - Explain what a node is and how nodes form a tree to create game objects. - Create, save, and instance a reusable scene. - Attach a script to a node and run the project.\n\n\nOverview\nThis lab orients you inside the Godot editor and introduces the single most important idea in the engine: everything is a node, and nodes are arranged in a tree to build scenes. You’ll build a simple scene by hand, save it as its own file, and then instance it — placing multiple copies in another scene. Understanding scenes and instancing now pays off in every later lab, because reusable, self-contained scenes are how well-organized Godot projects are built.\n\n\nSteps\n\nTour the editor layout and dock a couple of panels to get comfortable.\nCreate a root node and add child nodes to form a small tree.\nSave the node tree as a scene (.tscn) file.\nInstance that saved scene inside a second scene to see reuse in action.\nAttach a GDScript file to a node, print to the Output panel, and run the project.\n\n\n\nKey Concepts\n\nNodes, the scene tree, and parent/child relationships.\nScenes as reusable, saved node trees (.tscn).\nInstancing a scene multiple times.\nAttaching a script and the _ready() function.\n\n\n\nDeliverable / Completion Check\nA project containing at least one saved scene that is instanced at least twice inside another scene, with a script that prints to the Output panel on run. Submit a screenshot showing the instanced scenes and console output."
+  },
+  {
+    "objectID": "index.html#introduction-to-game-design",
+    "href": "index.html#introduction-to-game-design",
+    "title": "CSCI 200B - January 2027",
+    "section": "Introduction to Game Design",
+    "text": "Introduction to Game Design\nOur course is an introductory course in video game design and production. We will focus on both the design and technical aspects of creating a game, from concept inception and prototyping through coding and playtesting.",
+    "crumbs": [
+      "Course Information",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#staff-information",
+    "href": "index.html#staff-information",
+    "title": "CSCI 200B - January 2027",
+    "section": "Staff Information",
+    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
+    "crumbs": [
+      "Course Information",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/tutorial4.html",
+    "href": "content/tutorial4.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Create an enemy as its own reusable scene. - Implement simple autonomous behavior (patrolling between points). - Use Godot’s navigation system to move an enemy toward a target. - Handle enemy/player interaction using signals.\n\n\nOverview\nThis lab introduces autonomous, rule-driven behavior. You’ll build an enemy that acts on its own — either patrolling a fixed route or navigating toward the player using Godot’s navigation tools. The broader lesson is how to write logic that reads the current state of the game and decides what to do next, which is the same kind of thinking behind any AI or rule system you’ll write later. You’ll also connect enemy and player so contact produces a consequence.\n\n\nSteps\n\nBuild an enemy scene (body + sprite + collision) so it can be instanced.\nImplement a simple patrol: move between two points, flipping direction at each end.\nSet up a NavigationRegion2D and use a NavigationAgent2D to path toward the player.\nConnect a signal so contact between enemy and player triggers a response.\nInstance several enemies to confirm each behaves independently.\n\n\n\nKey Concepts\n\nReusable enemy scenes and instancing (callback to Lab 1).\nState-driven behavior and simple decision logic.\nNavigationRegion2D and NavigationAgent2D.\nSignals for entity interaction.\n\n\n\nDeliverable / Completion Check\nA level with at least one autonomous enemy that either patrols or pathfinds toward the player, and a defined consequence when it reaches the player. Submit the running project or a screen recording."
+  },
+  {
+    "objectID": "content/resources.html",
+    "href": "content/resources.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "A plethora of Godot tutorials exist, and many can be found on video hosting platforms.",
+    "crumbs": [
+      "Materials",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/resources.html#godot",
+    "href": "content/resources.html#godot",
+    "title": "Game Design",
+    "section": "",
+    "text": "A plethora of Godot tutorials exist, and many can be found on video hosting platforms.",
+    "crumbs": [
+      "Materials",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/resources.html#assets",
+    "href": "content/resources.html#assets",
+    "title": "Game Design",
+    "section": "Assets",
+    "text": "Assets\nFree assets can be found at itchi.io including sprites, sound effects, and music.",
+    "crumbs": [
+      "Materials",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/resources.html#other-game-engines",
+    "href": "content/resources.html#other-game-engines",
+    "title": "Game Design",
+    "section": "Other Game Engines",
+    "text": "Other Game Engines\nThere are many game engines out there. I’ve included a few below that I’d recommend checking out.\n\nPICO-8\nPICO-8 is an 8-bit game engine which is great for creating small prototypes. I’d recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)\n\n\nGameMakerStudio\nGMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable.\n\n\nUnity\nUnity can be quite difficult for beginners to learn, but has been the industry standard for many years.",
+    "crumbs": [
+      "Materials",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/tutorial6.html",
+    "href": "content/tutorial6.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Build a heads-up display (HUD) using Control nodes. - Bind on-screen UI elements to live game state. - Create start, restart, and “you win / game over” menus. - Load and transition between multiple levels or scenes.\n\n\nOverview\nThis lab wraps your game in the screens and information players expect. You’ll build a HUD that displays state from Lab 5 (score, lives, timer), then create menu scenes for starting, restarting, and ending the game. Finally, you’ll implement level/scene transitions so the game can move between discrete screens or levels. Godot’s UI uses a separate family of Control nodes with their own layout and anchoring rules, which this lab introduces.\n\n\nSteps\n\nBuild a HUD with Control nodes (Label, container nodes) and anchor it to the screen.\nUpdate HUD elements live from your GameState values.\nCreate a main menu scene with a start button and a game-over scene with a restart button.\nWire buttons to scene changes using change_scene_to_file() or change_scene_to_packed().\nSplit your game into at least two levels and transition between them.\n\n\n\nKey Concepts\n\nControl nodes, containers, anchors, and layout.\nBinding UI to game state.\nButton signals (pressed).\nScene/level loading and transitions.\n\n\n\nDeliverable / Completion Check\nA game with a live HUD, a start menu, a restart/game-over screen, and at least two levels the player can move between. Submit the running project or a recording showing the full menu-to-level flow."
+  },
+  {
+    "objectID": "content/godot_install.html",
+    "href": "content/godot_install.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this tutorial, you will be able to: - Download and install the correct version of Godot 4 for your operating system. - Launch the Godot Project Manager and create a new project. - Identify the standard (non-.NET) build and explain when you’d need the .NET/C# build instead.\n\n\nOverview\nThis short setup tutorial gets your development environment ready. Godot 4 ships as a single, small executable with no separate installer required, which makes it easy to run on lab machines and personal computers alike. You’ll create a project folder, open the editor for the first time, and confirm everything works before Lab 1. You’ll also set up an itch.io account now so publishing later is frictionless.\n\n\nSteps\n\nGo to the Godot website and download the Godot 4 Standard build for your OS.\nUnzip and run the executable (no admin install required).\nIn the Project Manager, create a new project with the Compatibility or Forward+ renderer and note the project folder location.\nOpen the project and confirm the editor loads with an empty 2D scene.\nCreate a free itch.io account. You can browse assets (lots of free options) or view hosted games for inspiration.\n\n\n\nDeliverable / Completion Check\nA new, empty Godot project that opens in the editor without errors, and a created itch.io account. Submit a screenshot of the open editor."
+  },
+  {
+    "objectID": "content/tutorial5.html",
+    "href": "content/tutorial5.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Store and update global game state (score, lives, objective progress). - Use an autoload/singleton to share state across scenes. - Define explicit win and lose conditions and detect when they’re met. - Reset the level or advance the game when a condition is triggered.\n\n\nOverview\nThis lab turns a moving character in a world into an actual game with a goal. You’ll create a central place to hold game state — score, lives, whether the objective is complete — and write the checks that decide when the player wins or loses. Because this state needs to survive across scene changes, you’ll use an autoload singleton. This “state plus a rule that checks it” pattern is the core of game design, and it’s the exact pattern you’ll rebuild when defining a puzzle’s solve condition.\n\n\nSteps\n\nCreate an autoload singleton (e.g., GameState) to hold score, lives, and status.\nUpdate state from gameplay events (collecting an item, taking damage).\nWrite a win condition (e.g., reach the goal / collect all items) and a lose condition (e.g., lives reach zero).\nDetect when a condition is met and trigger the appropriate outcome.\nReset state cleanly when restarting or advancing.\n\n\n\nKey Concepts\n\nAutoload/singleton pattern for shared state.\nTracking and updating variables from gameplay events.\nExplicitly defined win/lose conditions.\nCleanly resetting state between attempts.\n\n\n\nDeliverable / Completion Check\nA playable game with a working score or objective, a win condition, and a lose condition, each producing a distinct outcome. Submit the running project or a recording showing both a win and a loss."
+  },
+  {
+    "objectID": "course_information/game_analyses.html#selected-games",
+    "href": "course_information/game_analyses.html#selected-games",
+    "title": "Game Design",
+    "section": "Selected Games",
+    "text": "Selected Games",
+    "crumbs": [
+      "Materials",
+      "Game Analyses"
+    ]
+  },
+  {
+    "objectID": "course_information/game_analyses.html#critical-analysis-1",
+    "href": "course_information/game_analyses.html#critical-analysis-1",
+    "title": "Game Design",
+    "section": "Critical Analysis 1",
+    "text": "Critical Analysis 1",
+    "crumbs": [
+      "Materials",
+      "Game Analyses"
+    ]
+  },
+  {
+    "objectID": "course_information/game_analyses.html#critical-analysis-2",
+    "href": "course_information/game_analyses.html#critical-analysis-2",
+    "title": "Game Design",
+    "section": "Critical Analysis 2",
+    "text": "Critical Analysis 2",
+    "crumbs": [
+      "Materials",
+      "Game Analyses"
+    ]
+  },
+  {
+    "objectID": "course_information/game_analyses.html#grading",
+    "href": "course_information/game_analyses.html#grading",
+    "title": "Game Design",
+    "section": "Grading",
+    "text": "Grading",
+    "crumbs": [
+      "Materials",
+      "Game Analyses"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html",
+    "href": "course_information/tutorials.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "We will have a series of game engine tutorials during some of our class sessions that will walk you through the process of creating a platformer. These are completion based, and will help you to learn the specifics of a particular game engine.\nThe game engine for this class will be Godot, which is open source and easy to host on sites like itch.io. You are free to remix these tutorials to create your own games. Additional resources can be found under Content &gt; Resources.\nWhy a platformer first? A platformer touches nearly every system you need for any 2D game: the editor and scene tree, sprites and input, physics and collisions, enemies and logic, game state, UI, and publishing. Once you have these fundamentals, you’ll be able to reuse most of this code to build a puzzle game during the team game jam later on in the course.\nWhat you’ll build: By the end of these tutorials you’ll have a small but complete platformer: a player that moves and jumps, a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an exported build you can upload to itch.io.\nHow these are graded: These labs are completion based. Follow along, get the result working, submit and you’re done. You are free to remix and extend them.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#install-godot",
+    "href": "course_information/tutorials.html#install-godot",
+    "title": "Game Design",
+    "section": "Install Godot",
+    "text": "Install Godot\nFollow along the install tutorial to get Godot 4 set up on your machine and confirm it launches.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-1-editor-nodes-and-scenes",
+    "href": "course_information/tutorials.html#lab-1-editor-nodes-and-scenes",
+    "title": "Game Design",
+    "section": "Lab 1: Editor, Nodes, and Scenes",
+    "text": "Lab 1: Editor, Nodes, and Scenes\nFollow along the Lab 1 tutorial to learn the Godot editor, nodes, and scenes. You’ll learn how the scene tree works, how nodes combine to make game objects, and how to save and instance reusable scenes.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-2-sprites-assets-and-movement",
+    "href": "course_information/tutorials.html#lab-2-sprites-assets-and-movement",
+    "title": "Game Design",
+    "section": "Lab 2: Sprites, Assets, and Movement",
+    "text": "Lab 2: Sprites, Assets, and Movement\nFollow along the Lab 2 tutorial to learn about sprites, importing assets, and simple player movement. You’ll wire up the input map and move a character around the screen.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-3-physics-hitboxes-and-collisions",
+    "href": "course_information/tutorials.html#lab-3-physics-hitboxes-and-collisions",
+    "title": "Game Design",
+    "section": "Lab 3: Physics, Hitboxes, and Collisions",
+    "text": "Lab 3: Physics, Hitboxes, and Collisions\nFollow along the Lab 3 tutorial to learn about physics bodies, hitboxes, and collision detection. You’ll set up solid ground, walls, and areas that detect when the player enters them.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-4-enemies-and-pathfinding",
+    "href": "course_information/tutorials.html#lab-4-enemies-and-pathfinding",
+    "title": "Game Design",
+    "section": "Lab 4: Enemies and Pathfinding",
+    "text": "Lab 4: Enemies and Pathfinding\nFollow along the Lab 4 tutorial to learn about enemies and pathfinding. You’ll add an enemy that moves along a path or navigates toward the player.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-5-game-state-rules-and-winlose-conditions",
+    "href": "course_information/tutorials.html#lab-5-game-state-rules-and-winlose-conditions",
+    "title": "Game Design",
+    "section": "Lab 5: Game State, Rules, and Win/Lose Conditions",
+    "text": "Lab 5: Game State, Rules, and Win/Lose Conditions\nFollow along the Lab 5 tutorial to learn how to track game state and define win and lose conditions. You’ll add a score or objective, detect when the player wins or loses, and reset or advance the level.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-6-ui-menus-and-levels",
+    "href": "course_information/tutorials.html#lab-6-ui-menus-and-levels",
+    "title": "Game Design",
+    "section": "Lab 6: UI, Menus, and Levels",
+    "text": "Lab 6: UI, Menus, and Levels\nFollow along the Lab 6 tutorial to learn how to build a user interface, add a start and restart menu, and move between multiple levels or screens.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-7-audio-and-polish",
+    "href": "course_information/tutorials.html#lab-7-audio-and-polish",
+    "title": "Game Design",
+    "section": "Lab 7: Audio and Polish",
+    "text": "Lab 7: Audio and Polish\nFollow along the Lab 7 tutorial to learn how to add sound effects and background music, and to apply small polish like simple animations and feedback.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#lab-8-exporting-and-publishing",
+    "href": "course_information/tutorials.html#lab-8-exporting-and-publishing",
+    "title": "Game Design",
+    "section": "Lab 8: Exporting and Publishing",
+    "text": "Lab 8: Exporting and Publishing\nFollow along the Lab 8 tutorial to learn how to export your game and upload it to itch.io. You’ll create a web (HTML5) export and publish a playable build.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "course_information/tutorials.html#extending-to-the-puzzle-game-jam",
+    "href": "course_information/tutorials.html#extending-to-the-puzzle-game-jam",
+    "title": "Game Design",
+    "section": "Extending to the Puzzle Game Jam",
+    "text": "Extending to the Puzzle Game Jam\nOnce you’ve completed these labs, you’ll have the pieces to build a puzzle game by remixing your platformer code. Puzzle games typically require:\n\nA grid or board — most puzzles live on a discrete grid of cells rather than in continuous space (reuse scenes and instancing from Lab 1).\nDiscrete/snapped movement or placement — pieces move cell to cell or snap into position rather than moving freely (adapt movement from Lab 2).\nA clear rule set — the legal moves and constraints that define the puzzle (built on game logic from Labs 4–5).\nA solve/goal condition — a way to check whether the current board state satisfies the win condition (reuse state and win/lose logic from Lab 5).\nLevel data — a way to define individual puzzles or levels, since puzzlers are usually hand-authored rather than continuous (reuse the multi-level structure from Lab 6).\nFeedback — clear audio and visual cues for valid moves, invalid moves, and solving the puzzle (reuse audio and polish from Lab 7).\nUndo/reset (recommended) — puzzle players expect to be able to undo a move or restart cleanly, which builds directly on how you store and reset game state.",
+    "crumbs": [
+      "Materials",
+      "Tutorials"
     ]
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>project – Game Design</title>
+<title>tutorial1 – Game Design</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/project.html">Project</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -162,32 +162,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/RE.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Random Encounters</span></a>
+  <a href="../course_information/game_analyses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Analyses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/labs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Labs</span></a>
+  <a href="../course_information/tutorials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tutorials</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/project.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Project</span></a>
+  <a href="../course_information/game_jams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Jams</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/slides.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course_information/slides.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slides</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/CA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Analysis</span></a>
   </div>
 </li>
       </ul>
@@ -197,18 +197,58 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps">Steps</a></li>
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
+  <li><a href="#deliverable-completion-check" id="toc-deliverable-completion-check" class="nav-link" data-scroll-target="#deliverable-completion-check">Deliverable / Completion Check</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/RE.html">Materials</a></li><li class="breadcrumb-item"><a href="../content/project.html">Project</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p><img src="../static/Ketnipz_thumbsup.gif" class="img-fluid"></p>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>By the end of this lab, you will be able to: - Navigate the Godot editor: the viewport, Scene dock, FileSystem dock, Inspector, and bottom panels. - Explain what a node is and how nodes form a tree to create game objects. - Create, save, and instance a reusable scene. - Attach a script to a node and run the project.</p>
+</section>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p>This lab orients you inside the Godot editor and introduces the single most important idea in the engine: everything is a node, and nodes are arranged in a tree to build scenes. You’ll build a simple scene by hand, save it as its own file, and then instance it — placing multiple copies in another scene. Understanding scenes and instancing now pays off in every later lab, because reusable, self-contained scenes are how well-organized Godot projects are built.</p>
+</section>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<ol type="1">
+<li>Tour the editor layout and dock a couple of panels to get comfortable.</li>
+<li>Create a root node and add child nodes to form a small tree.</li>
+<li>Save the node tree as a scene (<code>.tscn</code>) file.</li>
+<li>Instance that saved scene inside a second scene to see reuse in action.</li>
+<li>Attach a GDScript file to a node, print to the Output panel, and run the project.</li>
+</ol>
+</section>
+<section id="key-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="key-concepts">Key Concepts</h3>
+<ul>
+<li>Nodes, the scene tree, and parent/child relationships.</li>
+<li>Scenes as reusable, saved node trees (<code>.tscn</code>).</li>
+<li>Instancing a scene multiple times.</li>
+<li>Attaching a script and the <code>_ready()</code> function.</li>
+</ul>
+</section>
+<section id="deliverable-completion-check" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-completion-check">Deliverable / Completion Check</h3>
+<p>A project containing at least one saved scene that is instanced at least twice inside another scene, with a script that prints to the Output panel on run. Submit a screenshot showing the instanced scenes and console output.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
