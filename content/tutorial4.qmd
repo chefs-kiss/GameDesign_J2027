@@ -1,0 +1,35 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Create an enemy as its own reusable scene.
+- Implement simple autonomous behavior (patrolling between points).
+- Use Godot's navigation system to move an enemy toward a target.
+- Handle enemy/player interaction using signals.
+
+### Overview
+
+This lab introduces autonomous, rule-driven behavior. You'll build an enemy that acts 
+on its own — either patrolling a fixed route or navigating toward the player using Godot's 
+navigation tools. The broader lesson is how to write logic that reads the current state of 
+the game and decides what to do next, which is the same kind of thinking behind any AI or 
+rule system you'll write later. You'll also connect enemy and player so contact produces a consequence.
+ 
+### Steps
+
+1. Build an enemy scene (body + sprite + collision) so it can be instanced.
+2. Implement a simple patrol: move between two points, flipping direction at each end.
+3. Set up a NavigationRegion2D and use a NavigationAgent2D to path toward the player.
+4. Connect a signal so contact between enemy and player triggers a response.
+5. Instance several enemies to confirm each behaves independently.
+
+### Key Concepts
+
+- Reusable enemy scenes and instancing (callback to Lab 1).
+- State-driven behavior and simple decision logic.
+- NavigationRegion2D and NavigationAgent2D.
+- Signals for entity interaction.
+
+### Deliverable / Completion Check
+
+A level with at least one autonomous enemy that either patrols or pathfinds toward the player, 
+and a defined consequence when it reaches the player. Submit the running project or a screen recording.

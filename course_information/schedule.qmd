@@ -2,69 +2,56 @@
 
 ---
 
-## Week 1: Foundations
-
+## Week 1: Fundamentals
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| M Jan 4 | Morning | read syllabus <br>  | Game History | |
-| M Jan 4 | Afternoon | EC: *Making Your First Game* | Lab 0: Game Design Kits | |
-| T Jan 5 | Morning | GDW Ch.1 <br> MDA paper | Mechanics, Dynamics, Aethetics | |
-| T Jan 5 | Afternoon | install Godot 4 | Lab 1: Godot 4 & GDScript | |
-| W Jan 6 | Morning | GDW Ch.2 | Formal Elements of Games | |
-| W Jan 6 | Afternoon | skim GDW Ch.14| Lab 2: Let's Play Super Mario 3D World | |
-| Th Jan 7 | Morning | GDW Ch.5 | The Game Loop | |
-| Th Jan 7 | Afternoon | | Lab 3 | |
-| F Jan 8 | Morning | GDW Ch.3 | Procedures vs Rules | |
-| F Jan 8 | Afternoon | | Lab 4 | [Critical Analysis 1](/content/CA.qmd#critical-analysis-1) |
-
----
----
+| M 4 | Morning | | Game History | |
+| M 4 | Afternoon | | Game Design Kits Activity | |
+| T 5 | Morning | | Mechanics, Dynamics, Aesthetics | |
+| T 5 | Afternoon | | Formal Elements of Games | |
+| W 6 | Morning | | Let's Play Super Mario 3D World | |
+| W 6 | Afternoon | | The Game Loop | |
+| Th 7 | Morning | | Procedures vs Rules | |
+| Th 7 | Afternoon | | [Tutorials > Install Godot](../course_information/tutorials.qmd#install-godot) <br> [Tutorials > Lab 1](../course_information/tutorials.qmd) | |
+| F 8 | Morning | | Sprite Graphics | |
+| F 8 | Afternoon | | [Tutorials > Lab 2](../course_information/tutorials.qmd) | [Critical Analysis 1](Critical Analysis 1) |
 
 ## Week 2: Mechanics and Systems
-
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| M Jan 11 | Morning | EC: *Graphics vs. Aesthetics*  | Sprite Graphics | |
-| M Jan 11 | Afternoon | [pixel art in Godot 4](https://gdquest.com/tutorial/godot/2d/pixel-art-godot-4/) | Lab 5: pixel art & animation | |
-| T Jan 12 | Morning |  | Physics | |
-| T Jan 12 | Afternoon | [kinematic jump formulas](https://gdquest.com/tutorial/godot/2d/kinematic-jump-formulas/)| Lab 5: CharacterBody2D & jump tuning | |
-| W Jan 13 | Morning | SF2 hit boxes;  | Collision Detection| |
-| W Jan 13 | Afternoon | [hit & hurt boxes](https://gdquest.com/tutorial/godot/2d/hitbox_hurtbox_godot4/)| Lab 6: hitboxes, hazards, i-frames | |
-| Th Jan 14 | Morning | [finite state machine pattern](https://gdquest.com/tutorial/godot/design-patterns/finite-state-machine/) | Readable behavior; FSMs; pathfinding `AI+PATH` | |
-| Th Jan 14 | Afternoon | | Godot lab 7 — enemy AI & pathfinding | |
-| F Jan 15 | Morning | GDW Ch.7 & 8 | Prototyping to answer a question; jam launch `PHYPROT` | |
-| F Jan 15 | Afternoon | | Mini Game Jam — playtest physical prototypes | **Critical analysis #2** due over the weekend — [link](../CA.qmd) |
-
----
+| M 11 | Morning | | Physics & Collision Detection| |
+| M 11 | Afternoon | | [Tutorials > Lab 3](../course_information/tutorials.qmd) | |
+| T 11 | Morning | | Game AI | |
+| T 12 | Afternoon | | [Tutorials > Lab 4](../course_information/tutorials.qmd) | |
+| W 12 | Morning | | [Tutorials > Lab 5](../course_information/tutorials.qmd) | |
+| W 12 | Afternoon | | SFX | | 
+| Th 13 | Morning | | [Tutorials > Lab 6](../course_information/tutorials.qmd) | study Exam 1 |
+| Th 13 | Afternoon | | Exam 1 | |
+| F 14 | Morning | | [Board Game Jam > Overview](Board Game Jam#Overview) <br> [Board Game Jam > Ideation](Board Game Jam#Ideation) <br> [Board Game Jam > Paper Prototype](Board Game Jam#Paper Prototype) | |
+| F 15 | Afternoon | | [Board Game Jam > Playtesting](Board Game Jam#Playtesting) <br> [Board Game Jam > Feedback and Iteration](Board Game Jam#Feedback and Iteration) | [Board Game Jam Reflection](Board Game Jam Reflection) |
 
 ## Week 3: Worldbuilding and Leveling
-
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| M Jan 18 | Morning | review Block A | **Exam 1** | |
-| M Jan 18 | Afternoon | | Team project kickoff — pitches from the jam | |
-| T Jan 19 | Morning | GDW Ch.4 & 6; EC: *The Magic Circle*; GDW Ch.12 (team structures) | Ideation; dramatic elements; worlds that pay rent `WORLD` | |
-| T Jan 19 | Afternoon | | Agile roles, team formation, project structure & git | |
-| W Jan 20 | Morning | EC: *Board Games*; *The Quiet Year* rules | Play *The Quiet Year* as a worldbuilding engine | |
-| W Jan 20 | Afternoon | | Concept to design doc draft; greybox the slice | |
-| Th Jan 21 | Morning | Devs Play: *Doom*; GMTK: *SM3DW's 4-step level design*; GDW Ch.14 | Levels as teaching; landmarks & sightlines `LEVELS` | |
-| Th Jan 21 | Afternoon | | Workday — **Design Doc due** | |
-| F Jan 22 | Morning | [tilemap basics cheat sheet](https://gdquest.com/tutorial/godot/2d/tilemap_basics_cheatsheet/) | Pacing, rhythm, difficulty curves, iteration `LEVELS` | |
-| F Jan 22 | Afternoon | | Physical prototype demos | **Critical analysis #3** and team **progress check** due over the weekend — [link](../CA.qmd) |
-
----
+| T 19 | Morning | | Board Game Jam wrap up <br> [Puzzle Game Jam > Overview](Puzzle Game Jam#Overview) <br> Puzzle Game Exploration | |
+| T 19 | Afternoon | | Game Architectures | |
+| W 20 | Morning | | Game Ideas <br> [Puzzle Game Jam > Design Document](Puzzle Game Jam#Design Document) | Design Doc due tonight |
+| W 20 | Afternoon | | Physical Prototypes | |
+| Th 21 | Morning | | [Tutorials > Lab 7](../course_information/tutorials.qmd) | |
+| Th 21 | Afternoon | | Worldbuilding <br> The Quiet Year | Physical Prototypes due Friday |
+| F 22 | Morning | | Physical Prototypes Demo | |
+| F 22 | Afternoon | | Character Design | [Critical Analysis 2](Critical Analysis 2) |
 
 ## Week 4: Balancing and Playtesting
-
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| M Jan 25 | Morning | EC: *Perfect Imbalance*; EC: *First Moves*; GDW Ch.10 | Balance for whom; dominant strategies; curves `BALANCE` | |
-| M Jan 25 | Afternoon | | Balancing your game — tuning pass & difficulty modes | |
-| T Jan 26 | Morning | GDW Ch.9 (playtesting); GDW Ch.11 (fun & accessibility) | Test scripts; SMB 1-1 watch & play `TESTING` | |
-| T Jan 26 | Afternoon | | Flex lab — audio, UI, juice, accessibility | |
-| W Jan 27 | Morning | instructor readings on copyright, fair use & asset licenses | Copyright vs. trademark; clones; preservation `IP` | |
-| W Jan 27 | Afternoon | | Cross-team playtest — **working game due** | |
-| Th Jan 28 | Morning | review Block B | **Exam 2** | |
-| Th Jan 28 | Afternoon | | Workday — feature freeze & build dry run | |
-| F Jan 29 | Morning | — | Wrap-up, postmortems, expo setup | |
-| F Jan 29 | Afternoon | | Game Expo — **final game due** | |
+| M 25 | Morning | | Level Design | |
+| M 25 | Afternoon | | Project Workday | |
+| T 26 | Morning | | Game Balancing | |
+| T 26 | Afternoon | | [Tutorials > Lab 8](../course_information/tutorials.qmd) | Working team demo due Wednesday |
+| W 27 | Morning | | Playtesting | |
+| W 27 | Afternoon | | Playtesting Games in Class | study Exam 2 |
+| Th 28 | Morning | | Exam 2 | |
+| Th 28 | Afternoon | | Project Workday | Team game due Friday |
+| F 29 | Morning | | Legal Issues + ROM Hacking | |
+| F 29 | Afternoon | | Game Expo | [Team Game Jam Reflection](Team Game Jam Reflection) |

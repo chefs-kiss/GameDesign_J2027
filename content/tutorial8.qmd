@@ -1,0 +1,31 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Install export templates and configure an export preset.
+- Produce an HTML5 (web) build of your game.
+- Test the exported build locally before publishing.
+- Upload and configure a playable build on itch.io.
+
+### Overview
+This lab gets your game off your machine and onto the internet where others can play it. 
+You'll install Godot's export templates, configure a Web export preset, and generate an HTML5 build. 
+After testing it locally, you'll upload it to itch.io and set it to run in the browser. 
+This publishing process is identical regardless of what kind of game you make, so once you've done 
+it here you can publish anything you build in this course the same way.
+ 
+### Steps
+1. Install the matching export templates in Godot.
+2. Create a Web (HTML5) export preset and set the main scene.
+3. Export the project to a folder of web files.
+4. Test the build locally (via a local server) to confirm it runs in a browser.
+5. Zip the build, upload it to itch.io, and set it to play in-browser.
+
+### Key Concepts
+- Export templates and export presets.
+- HTML5/web export and its constraints.
+- Local testing before publishing.
+- Uploading and configuring a web build on itch.io.
+
+### Deliverable / Completion Check
+A published, in-browser playable build of your platformer on itch.io. Submit the itch.io link.
+ 

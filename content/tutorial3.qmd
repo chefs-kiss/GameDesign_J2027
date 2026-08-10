@@ -1,0 +1,31 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Distinguish between the main 2D physics body types and when to use each.
+- Build solid ground and walls the player cannot pass through.
+- Add gravity and jumping to the player.
+- Use Area2D to detect overlaps (e.g., the player touching a hazard or collectible).
+
+### Overview
+This lab adds the physical rules of the world. You'll give the player gravity and a jump, 
+build a level out of static collision bodies, and set up detection zones that fire an event 
+when the player enters them. The key distinction here is between solid collision (things you 
+stand on and bump into) and area detection (zones that notice you without stopping you). 
+Together these two systems cover nearly every physical interaction a 2D game needs.
+ 
+### Steps
+1. Add gravity to the player's `_physics_process` and wire up a jump using `is_on_floor()`.
+2. Build a level using StaticBody2D nodes (or a TileMap) with collision shapes for ground and walls.
+3. Configure collision layers and masks so the right things collide.
+4. Add an Area2D hazard and connect its `body_entered` signal.
+5. Trigger a response (e.g., reset position or print "hit") when the player enters the hazard.
+
+### Key Concepts
+- StaticBody2D vs CharacterBody2D vs Area2D.
+- Gravity, `is_on_floor()`, and jump velocity.
+- Collision layers and masks.
+- Signals, especially `body_entered` / `area_entered`.
+
+### Deliverable / Completion Check
+A playable scene where the player walks on solid ground, jumps, and triggers a detectable event when 
+entering a hazard area. Submit the running project or a screen recording demonstrating collision and area detection.

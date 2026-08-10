@@ -1,0 +1,32 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Navigate the Godot editor: the viewport, Scene dock, FileSystem dock, Inspector, and bottom panels.
+- Explain what a node is and how nodes form a tree to create game objects.
+- Create, save, and instance a reusable scene.
+- Attach a script to a node and run the project.
+
+### Overview
+This lab orients you inside the Godot editor and introduces the single most important 
+idea in the engine: everything is a node, and nodes are arranged in a tree to build scenes. 
+You'll build a simple scene by hand, save it as its own file, and then instance it — placing multiple 
+copies in another scene. Understanding scenes and instancing now pays off in every later lab, because 
+reusable, self-contained scenes are how well-organized Godot projects are built.
+ 
+### Steps
+1. Tour the editor layout and dock a couple of panels to get comfortable.
+2. Create a root node and add child nodes to form a small tree.
+3. Save the node tree as a scene (`.tscn`) file.
+4. Instance that saved scene inside a second scene to see reuse in action.
+5. Attach a GDScript file to a node, print to the Output panel, and run the project.
+
+### Key Concepts
+- Nodes, the scene tree, and parent/child relationships.
+- Scenes as reusable, saved node trees (`.tscn`).
+- Instancing a scene multiple times.
+- Attaching a script and the `_ready()` function.
+
+### Deliverable / Completion Check
+A project containing at least one saved scene that is instanced at least twice inside another scene, 
+with a script that prints to the Output panel on run. Submit a screenshot showing the instanced 
+scenes and console output.

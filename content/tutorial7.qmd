@@ -1,0 +1,35 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Import and play sound effects and background music.
+- Trigger audio in response to gameplay events.
+- Add simple animation and visual feedback (juice) to actions.
+- Explain why clear feedback improves playability.
+
+### Overview
+
+This lab makes the game feel responsive and finished. You'll add background music and sound 
+effects tied to events — jumping, collecting, winning, losing — and layer in small visual 
+touches like animations, tweens, or a screen effect that confirm the player's actions landed. 
+None of this changes the rules of the game, but feedback is what makes a game feel good to play 
+and helps players understand what just happened.
+ 
+### Steps
+
+1. Import audio assets and add AudioStreamPlayer nodes for music and effects.
+2. Play looping background music from a menu or level.
+3. Trigger sound effects from gameplay signals (jump, collect, hit, win).
+4. Add a simple animation with AnimationPlayer or a Tween for a key action.
+5. Add one piece of visual feedback (flash, shake, or pop) to reinforce an event.
+
+### Key Concepts
+
+- AudioStreamPlayer and audio buses.
+- Triggering audio from signals/events.
+- AnimationPlayer and Tween basics.
+- Feedback / "game juice" and its role in usability.
+
+### Deliverable / Completion Check
+
+A game with background music, at least two event-triggered sound effects, and at least one 
+visual feedback effect. Submit the running project or a recording with audio.

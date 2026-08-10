@@ -50,21 +50,28 @@ your class dean as they are a great resource.
 
 # Course Breakdown
 
-## Readings 
-(tbd points): Each topic has resources related to the content covered in class, consisting of textbook passages from
-Game Design Workshop (GDW), articles, and/or videos. Come to each class having worked through the assigned material.
+## Log Book
+(tbd points): To assist you in organizing ideas and commentary about the topics covered in class, each student will
+document their work in a log book. The log book will also include in-class prompts and end-of-day reflections.
+Each topic has resources related to the content covered in class, consisting of textbook passages from
+Game Design Workshop (GDW), articles, and/or videos. You can take notes in your log book, and you are expected to come 
+to each class having worked through the assigned material. Log books will be checked randomly throughout the course.
 Late work: _no late work will be accepted_.
 
-## Critical Analyses
+## Game Analyses
+(tbd points): We will be critically analyzing two games over the course of the semester to better understand the mechanics and design decisions 
+that lead to good game play. Read more about the games we'll be analyzing by going to Materials > Game Analyses.
 
-## Lab Assignments
-We will be learning a game engine over the course of this class. Labs will consist of tutorials for the selected game engine.
-Late work: _no late work will be accepted_.
+## Tutorials
+(tbd points): We will be learning one game engine over the course of this class using tutorials. These tutorials will act like 
+labs and should be completed and submitted by midnight the day they are introducted. There are completion based. _No late work will be accepted_.
 
-## Semester Project
-Over the entirty of this course, you will complete a *group* project where you apply the concepts covered in the course.
-You can find more in-depth information regarding the project on the [project page](../content/project.qmd) 
-Late Work: No late work will be accepted. 
+## Game Jams
+(tbd points): In place of projects, we will have two game jams. Game Jams are a great way to scope out small ideas for games to see if they are worth
+investing more time into. Game jams vary in length, from a couple days to several weeks. Our first game jam will take place over two
+sessions the last day of week 2, and will focus on the ideation and paper prototyping stage of game creation. The second game jam will take up
+the last two weeks of the course, with various stages and documents due before a final game expo. Each game jam will be completed
+in teams. Find more information on the game jam specifics by going to the Materials > Game Jams tab. _No late work will be accepted_. 
 
 ## Standards-Based Exams
 (tbd points): You will take two exams, each graded using standards-based grading. 

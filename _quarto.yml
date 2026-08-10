@@ -39,18 +39,16 @@ website:
           text: Moodle Forum
     - section: "Materials"
       contents:
-        - href: content/RE.qmd
-          text: Random Encounters
-          #icon: file-earmark-text
-        - href: content/labs.qmd
-          text: Labs
-          #icon: journal-code
-        - href: content/project.qmd
-          text: Project
-        - href: content/slides.qmd
+        - href: course_information/game_analyses.qmd
+          text: Game Analyses
+        - href: course_information/tutorials.qmd
+          text: Tutorials
+        - href: course_information/game_jams.qmd
+          text: Game Jams
+        - href: content/resources.qmd
+          text: Resources
+        - href: course_information/slides.qmd
           text: Slides
-        - href: content/CA.qmd
-          text: Critical Analysis
 
 
 format:

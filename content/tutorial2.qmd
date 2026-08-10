@@ -1,0 +1,30 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Import image assets and assign them to a sprite node.
+- Configure the Input Map to define named actions (left, right, jump).
+- Read player input in a script and translate it into movement.
+- Use a CharacterBody2D to move a character in response to input.
+
+### Overview
+This lab brings a character to life on screen. You'll import sprite assets, place them 
+in a scene, and then write the script that reads keyboard/controller input and moves the player. 
+Rather than hard-coding specific keys, you'll use Godot's Input Map so your actions have names 
+and can be rebound later. This is your first real gameplay code, and the input-to-movement pattern
+ you learn here is the template for controlling anything in a game.
+ 
+### Steps
+1. Import a sprite sheet or image asset into the project's FileSystem.
+2. Build a player scene rooted at a CharacterBody2D with a Sprite2D and CollisionShape2D.
+3. Define "move_left", "move_right", and "jump" in Project Settings > Input Map.
+4. Write a script that reads input each frame and sets a velocity vector.
+5. Call `move_and_slide()` to apply movement and test in the running game.
+
+### Key Concepts
+- Importing and referencing assets.
+- CharacterBody2D, Sprite2D, and CollisionShape2D.
+- The Input Map and `Input.get_axis()` / `Input.is_action_pressed()`.
+- `_physics_process(delta)`, velocity, and `move_and_slide()`.
+
+### Deliverable / Completion Check
+A player character that moves left and right based on mapped input. Submit the running project or a short screen recording of the character moving.

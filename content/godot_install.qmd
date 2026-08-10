@@ -1,0 +1,20 @@
+### Learning Objectives
+
+By the end of this tutorial, you will be able to:
+- Download and install the correct version of Godot 4 for your operating system.
+- Launch the Godot Project Manager and create a new project.
+- Identify the standard (non-.NET) build and explain when you'd need the .NET/C# build instead.
+
+### Overview
+This short setup tutorial gets your development environment ready. Godot 4 ships as a single, small executable with no separate installer required, which makes it easy to run on lab machines and personal computers alike. You'll create a project folder, open the editor for the first time, and confirm everything works before Lab 1. You'll also set up an itch.io account now so publishing later is frictionless.
+ 
+### Steps
+1. Go to the Godot website and download the Godot 4 Standard build for your OS.
+2. Unzip and run the executable (no admin install required).
+3. In the Project Manager, create a new project with the Compatibility or Forward+ renderer and note the project folder location.
+4. Open the project and confirm the editor loads with an empty 2D scene.
+5. Create a free itch.io account. You can browse assets (lots of free options) or view hosted games for inspiration.
+
+
+### Deliverable / Completion Check
+A new, empty Godot project that opens in the editor without errors, and a created itch.io account. Submit a screenshot of the open editor.

@@ -1,0 +1,32 @@
+### Learning Objectives
+
+By the end of this lab, you will be able to:
+- Store and update global game state (score, lives, objective progress).
+- Use an autoload/singleton to share state across scenes.
+- Define explicit win and lose conditions and detect when they're met.
+- Reset the level or advance the game when a condition is triggered. 
+
+### Overview
+This lab turns a moving character in a world into an actual game with a goal. 
+You'll create a central place to hold game state — score, lives, whether the objective 
+is complete — and write the checks that decide when the player wins or loses. Because 
+this state needs to survive across scene changes, you'll use an autoload singleton. 
+This "state plus a rule that checks it" pattern is the core of game design, and it's the 
+exact pattern you'll rebuild when defining a puzzle's solve condition.
+ 
+### Steps
+1. Create an autoload singleton (e.g., `GameState`) to hold score, lives, and status.
+2. Update state from gameplay events (collecting an item, taking damage).
+3. Write a win condition (e.g., reach the goal / collect all items) and a lose condition (e.g., lives reach zero).
+4. Detect when a condition is met and trigger the appropriate outcome.
+5. Reset state cleanly when restarting or advancing.
+
+### Key Concepts
+- Autoload/singleton pattern for shared state.
+- Tracking and updating variables from gameplay events.
+- Explicitly defined win/lose conditions.
+- Cleanly resetting state between attempts.
+
+### Deliverable / Completion Check
+A playable game with a working score or objective, a win condition, and a lose condition, 
+each producing a distinct outcome. Submit the running project or a recording showing both a win and a loss.
