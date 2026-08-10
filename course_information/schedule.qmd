@@ -12,9 +12,9 @@
 | W 6 | Morning | | Let's Play Super Mario 3D World | |
 | W 6 | Afternoon | | The Game Loop | |
 | Th 7 | Morning | | Procedures vs Rules | |
-| Th 7 | Afternoon | | [Tutorials > Install Godot](../course_information/tutorials.qmd#install-godot) <br> [Tutorials > Lab 1](../course_information/tutorials.qmd) | |
+| Th 7 | Afternoon | [Tutorials > Install Godot](../course_information/tutorials.qmd#install-godot) | [Tutorials > Lab 1](../course_information/tutorials.qmd) | |
 | F 8 | Morning | | Sprite Graphics | |
-| F 8 | Afternoon | | [Tutorials > Lab 2](../course_information/tutorials.qmd) | [Critical Analysis 1](Critical Analysis 1) |
+| F 8 | Afternoon | | [Tutorials > Lab 2](../course_information/tutorials.qmd) | [Critical Analysis 1](../course_information/game_analyses.qmd#critical-analysis-1) |
 
 ## Week 2: Mechanics and Systems
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
@@ -27,8 +27,8 @@
 | W 12 | Afternoon | | SFX | | 
 | Th 13 | Morning | | [Tutorials > Lab 6](../course_information/tutorials.qmd) | study Exam 1 |
 | Th 13 | Afternoon | | Exam 1 | |
-| F 14 | Morning | | [Board Game Jam > Overview](Board Game Jam#Overview) <br> [Board Game Jam > Ideation](Board Game Jam#Ideation) <br> [Board Game Jam > Paper Prototype](Board Game Jam#Paper Prototype) | |
-| F 15 | Afternoon | | [Board Game Jam > Playtesting](Board Game Jam#Playtesting) <br> [Board Game Jam > Feedback and Iteration](Board Game Jam#Feedback and Iteration) | [Board Game Jam Reflection](Board Game Jam Reflection) |
+| F 14 | Morning | | [Paper Game Jam](../course_information/game_jams/paper-game-jam) | |
+| F 15 | Afternoon | | Paper Game Jam Playtesting<br> | Paper Game Jam Reflection |
 
 ## Week 3: Worldbuilding and Leveling
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
@@ -40,7 +40,7 @@
 | Th 21 | Morning | | [Tutorials > Lab 7](../course_information/tutorials.qmd) | |
 | Th 21 | Afternoon | | Worldbuilding <br> The Quiet Year | Physical Prototypes due Friday |
 | F 22 | Morning | | Physical Prototypes Demo | |
-| F 22 | Afternoon | | Character Design | [Critical Analysis 2](Critical Analysis 2) |
+| F 22 | Afternoon | | Character Design | [Critical Analysis 2](../course_information/game_analyses.qmd#critical-analysis-2) |
 
 ## Week 4: Balancing and Playtesting
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
