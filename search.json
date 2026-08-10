@@ -4,7 +4,7 @@
     "href": "course_information/game_jams.html",
     "title": "Overview",
     "section": "",
-    "text": "Overview\n\n\nBoard Game Jam\n\n\nTeam Game Jam",
+    "text": "Overview\n\n\nPaper Game Jam\n\n\nTeam Game Jam",
     "crumbs": [
       "Materials",
       "Game Jams"
@@ -268,7 +268,7 @@
     "href": "course_information/schedule.html#week-1-fundamentals",
     "title": "Game Design",
     "section": "Week 1: Fundamentals",
-    "text": "Week 1: Fundamentals\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 4\nMorning\n\nGame History\n\n\n\nM 4\nAfternoon\n\nGame Design Kits Activity\n\n\n\nT 5\nMorning\n\nMechanics, Dynamics, Aesthetics\n\n\n\nT 5\nAfternoon\n\nFormal Elements of Games\n\n\n\nW 6\nMorning\n\nLet’s Play Super Mario 3D World\n\n\n\nW 6\nAfternoon\n\nThe Game Loop\n\n\n\nTh 7\nMorning\n\nProcedures vs Rules\n\n\n\nTh 7\nAfternoon\n\nTutorials &gt; Install Godot  Tutorials &gt; Lab 1\n\n\n\nF 8\nMorning\n\nSprite Graphics\n\n\n\nF 8\nAfternoon\n\nTutorials &gt; Lab 2\nCritical Analysis 1",
+    "text": "Week 1: Fundamentals\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 4\nMorning\n\nGame History\n\n\n\nM 4\nAfternoon\n\nGame Design Kits Activity\n\n\n\nT 5\nMorning\n\nMechanics, Dynamics, Aesthetics\n\n\n\nT 5\nAfternoon\n\nFormal Elements of Games\n\n\n\nW 6\nMorning\n\nLet’s Play Super Mario 3D World\n\n\n\nW 6\nAfternoon\n\nThe Game Loop\n\n\n\nTh 7\nMorning\n\nProcedures vs Rules\n\n\n\nTh 7\nAfternoon\nTutorials &gt; Install Godot\nTutorials &gt; Lab 1\n\n\n\nF 8\nMorning\n\nSprite Graphics\n\n\n\nF 8\nAfternoon\n\nTutorials &gt; Lab 2\nCritical Analysis 1",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -279,7 +279,7 @@
     "href": "course_information/schedule.html#week-2-mechanics-and-systems",
     "title": "Game Design",
     "section": "Week 2: Mechanics and Systems",
-    "text": "Week 2: Mechanics and Systems\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 11\nMorning\n\nPhysics & Collision Detection\n\n\n\nM 11\nAfternoon\n\nTutorials &gt; Lab 3\n\n\n\nT 11\nMorning\n\nGame AI\n\n\n\nT 12\nAfternoon\n\nTutorials &gt; Lab 4\n\n\n\nW 12\nMorning\n\nTutorials &gt; Lab 5\n\n\n\nW 12\nAfternoon\n\nSFX\n\n\n\nTh 13\nMorning\n\nTutorials &gt; Lab 6\nstudy Exam 1\n\n\nTh 13\nAfternoon\n\nExam 1\n\n\n\nF 14\nMorning\n\nBoard Game Jam &gt; Overview  Board Game Jam &gt; Ideation  Board Game Jam &gt; Paper Prototype\n\n\n\nF 15\nAfternoon\n\nBoard Game Jam &gt; Playtesting  Board Game Jam &gt; Feedback and Iteration\nBoard Game Jam Reflection",
+    "text": "Week 2: Mechanics and Systems\n\n\n\ndate\nsession\nprepare\ntopic\nupcoming\n\n\n\n\nM 11\nMorning\n\nPhysics & Collision Detection\n\n\n\nM 11\nAfternoon\n\nTutorials &gt; Lab 3\n\n\n\nT 11\nMorning\n\nGame AI\n\n\n\nT 12\nAfternoon\n\nTutorials &gt; Lab 4\n\n\n\nW 12\nMorning\n\nTutorials &gt; Lab 5\n\n\n\nW 12\nAfternoon\n\nSFX\n\n\n\nTh 13\nMorning\n\nTutorials &gt; Lab 6\nstudy Exam 1\n\n\nTh 13\nAfternoon\n\nExam 1\n\n\n\nF 14\nMorning\n\nPaper Game Jam\n\n\n\nF 15\nAfternoon\n\nPaper Game Jam Playtesting\nPaper Game Jam Reflection",
     "crumbs": [
       "Course Information",
       "Schedule"
