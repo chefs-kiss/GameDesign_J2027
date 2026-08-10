@@ -1,10 +1,22 @@
 
-## Overview
 
-## Selected Games
+::: {style="overflow: hidden;"}
+ 
+![](../static/Ketnipz_naruto.gif){style="float: right; width: 300px; margin: 0 0 1rem 1.5rem;"}
 
-## Critical Analysis 1
+### Overview
+blah
 
-## Critical Analysis 2
+### Selected Games
+heh 
 
-## Grading 
+### Critical Analysis 1
+bleh 
+
+### Critical Analysis 2
+blegh
+
+### Grading 
+laa 
+
+:::

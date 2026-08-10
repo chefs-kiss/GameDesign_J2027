@@ -1,19 +1,25 @@
-## Godot
+::: {style="overflow: hidden;"}
+ 
+![](../static/Ketnipz_swing_dance.gif){style="float: right; width: 400px; margin: 0 0 1rem 1.5rem;"}
+
+### Godot
 A plethora of Godot tutorials exist, and many can be found on video hosting platforms.
 
-## Assets 
+### Assets 
 Free assets can be found at itchi.io including sprites, sound effects, and music.
 
 
-## Other Game Engines
+### Other Game Engines
 There are many game engines out there. I've included a few below that I'd recommend checking out.
 
-### PICO-8 
+#### PICO-8 
 PICO-8 is an 8-bit game engine which is great for creating small prototypes. 
 I'd recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)
 
-### GameMakerStudio 
+#### GameMakerStudio 
 GMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable. 
 
-### Unity
+#### Unity
 Unity can be quite difficult for beginners to learn, but has been the industry standard for many years. 
+
+:::

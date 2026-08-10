@@ -1,20 +1,21 @@
-We will have a series of game engine tutorials during some of our class sessions that will walk you through the 
-process of creating a platformer. These are completion based, and will help you to learn the specifics of a particular game engine.
-
-The game engine for this class will be [Godot](https://godotengine.org/), which is open source and easy to 
-host on sites like [itch.io](https://itch.io). You are free to remix these tutorials to create your own games. 
-Additional resources can be found under Content > Resources.
-
+::: {style="overflow: hidden;"}
+ 
+![](/static/Ketnipz_buzz_laptop.gif){style="float: right; width: 300px; margin: 0 0 1rem 1.5rem;"}
+ 
+We will have a series of game engine tutorials during some of our class sessions that will walk you through 
+the process of creating a platformer. The game engine for this class will be [Godot](https://godotengine.org/), 
+which is open source and easy to host on sites like [itch.io](https://itch.io). You are free to remix these 
+tutorials to create your own games. Additional resources can be found under Content > Resources.
+ 
 **Why a platformer first?** A platformer touches nearly every system you need for any 2D game: the editor 
 and scene tree, sprites and input, physics and collisions, enemies and logic, game state, UI, and publishing. 
-Once you have these fundamentals, you'll be able to reuse most of this code to build a  **puzzle game** 
-during the team game jam later on in the course. 
-
-**What you'll build**: By the end of these tutorials you'll have a small but complete platformer: a player that moves and jumps, 
-a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an 
-exported build you can upload to itch.io.
-
+Once you have these fundamentals, you'll be able to reuse most of this code for our last game jam.
+ 
+**What you'll build**: By the end of these tutorials you'll have a small but complete platformer: a player that moves and jumps, a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an exported build you can upload to itch.io.
+ 
 **How these are graded**: These labs are completion based. Follow along, get the result working, submit and you're done. You are free to remix and extend them.
+ 
+:::
 
 ## Install Godot
 Follow along the [install tutorial](../content/godot_install.qmd) to get Godot 4 set up on your machine and confirm it launches.
@@ -56,6 +57,10 @@ Follow along the [Lab 8 tutorial](../content/tutorial8.qmd) to learn how to expo
 itch.io. You'll create a web (HTML5) export and publish a playable build.
 
 
+::: {style="overflow: hidden;"}
+ 
+![](/static/Ketnipz_eyes.gif){style="float: right; width: 200px; margin: 0 0 1rem 1.5rem;"}
+ 
 ## Extending to the Puzzle Game Jam
 
 Once you've completed these labs, you'll have the pieces to build a puzzle game by remixing your platformer code. 
@@ -68,5 +73,4 @@ Puzzle games typically require:
 - Level data — a way to define individual puzzles or levels, since puzzlers are usually hand-authored rather than continuous (reuse the multi-level structure from Lab 6).
 - Feedback — clear audio and visual cues for valid moves, invalid moves, and solving the puzzle (reuse audio and polish from Lab 7).
 - Undo/reset (recommended) — puzzle players expect to be able to undo a move or restart cleanly, which builds directly on how you store and reset game state.
-
-![](/static/Ketnipz_buzz_laptop.gif)
+:::
