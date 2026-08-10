@@ -1,10 +1,32 @@
 [
   {
-    "objectID": "course_information/game_jams.html",
-    "href": "course_information/game_jams.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview\n\n\nPaper Game Jam\n\n\nTeam Game Jam",
+    "objectID": "course_information/game_jams.html#overview",
+    "href": "course_information/game_jams.html#overview",
+    "title": "Game Design",
+    "section": "Overview",
+    "text": "Overview",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#paper-game-jam",
+    "href": "course_information/game_jams.html#paper-game-jam",
+    "title": "Game Design",
+    "section": "Paper Game Jam",
+    "text": "Paper Game Jam",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#team-game-jam",
+    "href": "course_information/game_jams.html#team-game-jam",
+    "title": "Game Design",
+    "section": "Team Game Jam",
+    "text": "Team Game Jam",
     "crumbs": [
       "Materials",
       "Game Jams"
@@ -376,40 +398,7 @@
     "href": "content/resources.html",
     "title": "Game Design",
     "section": "",
-    "text": "A plethora of Godot tutorials exist, and many can be found on video hosting platforms.",
-    "crumbs": [
-      "Materials",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/resources.html#godot",
-    "href": "content/resources.html#godot",
-    "title": "Game Design",
-    "section": "",
-    "text": "A plethora of Godot tutorials exist, and many can be found on video hosting platforms.",
-    "crumbs": [
-      "Materials",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/resources.html#assets",
-    "href": "content/resources.html#assets",
-    "title": "Game Design",
-    "section": "Assets",
-    "text": "Assets\nFree assets can be found at itchi.io including sprites, sound effects, and music.",
-    "crumbs": [
-      "Materials",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/resources.html#other-game-engines",
-    "href": "content/resources.html#other-game-engines",
-    "title": "Game Design",
-    "section": "Other Game Engines",
-    "text": "Other Game Engines\nThere are many game engines out there. I’ve included a few below that I’d recommend checking out.\n\nPICO-8\nPICO-8 is an 8-bit game engine which is great for creating small prototypes. I’d recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)\n\n\nGameMakerStudio\nGMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable.\n\n\nUnity\nUnity can be quite difficult for beginners to learn, but has been the industry standard for many years.",
+    "text": "Godot\nA plethora of Godot tutorials exist, and many can be found on video hosting platforms.\n\n\nAssets\nFree assets can be found at itchi.io including sprites, sound effects, and music.\n\n\nOther Game Engines\nThere are many game engines out there. I’ve included a few below that I’d recommend checking out.\n\nPICO-8\nPICO-8 is an 8-bit game engine which is great for creating small prototypes. I’d recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)\n\n\nGameMakerStudio\nGMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable.\n\n\nUnity\nUnity can be quite difficult for beginners to learn, but has been the industry standard for many years.",
     "crumbs": [
       "Materials",
       "Resources"
@@ -437,44 +426,11 @@
     "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Store and update global game state (score, lives, objective progress). - Use an autoload/singleton to share state across scenes. - Define explicit win and lose conditions and detect when they’re met. - Reset the level or advance the game when a condition is triggered.\n\n\nOverview\nThis lab turns a moving character in a world into an actual game with a goal. You’ll create a central place to hold game state — score, lives, whether the objective is complete — and write the checks that decide when the player wins or loses. Because this state needs to survive across scene changes, you’ll use an autoload singleton. This “state plus a rule that checks it” pattern is the core of game design, and it’s the exact pattern you’ll rebuild when defining a puzzle’s solve condition.\n\n\nSteps\n\nCreate an autoload singleton (e.g., GameState) to hold score, lives, and status.\nUpdate state from gameplay events (collecting an item, taking damage).\nWrite a win condition (e.g., reach the goal / collect all items) and a lose condition (e.g., lives reach zero).\nDetect when a condition is met and trigger the appropriate outcome.\nReset state cleanly when restarting or advancing.\n\n\n\nKey Concepts\n\nAutoload/singleton pattern for shared state.\nTracking and updating variables from gameplay events.\nExplicitly defined win/lose conditions.\nCleanly resetting state between attempts.\n\n\n\nDeliverable / Completion Check\nA playable game with a working score or objective, a win condition, and a lose condition, each producing a distinct outcome. Submit the running project or a recording showing both a win and a loss."
   },
   {
-    "objectID": "course_information/game_analyses.html#selected-games",
-    "href": "course_information/game_analyses.html#selected-games",
+    "objectID": "course_information/game_analyses.html",
+    "href": "course_information/game_analyses.html",
     "title": "Game Design",
-    "section": "Selected Games",
-    "text": "Selected Games",
-    "crumbs": [
-      "Materials",
-      "Game Analyses"
-    ]
-  },
-  {
-    "objectID": "course_information/game_analyses.html#critical-analysis-1",
-    "href": "course_information/game_analyses.html#critical-analysis-1",
-    "title": "Game Design",
-    "section": "Critical Analysis 1",
-    "text": "Critical Analysis 1",
-    "crumbs": [
-      "Materials",
-      "Game Analyses"
-    ]
-  },
-  {
-    "objectID": "course_information/game_analyses.html#critical-analysis-2",
-    "href": "course_information/game_analyses.html#critical-analysis-2",
-    "title": "Game Design",
-    "section": "Critical Analysis 2",
-    "text": "Critical Analysis 2",
-    "crumbs": [
-      "Materials",
-      "Game Analyses"
-    ]
-  },
-  {
-    "objectID": "course_information/game_analyses.html#grading",
-    "href": "course_information/game_analyses.html#grading",
-    "title": "Game Design",
-    "section": "Grading",
-    "text": "Grading",
+    "section": "",
+    "text": "Overview\nblah\n\n\nSelected Games\nheh\n\n\nCritical Analysis 1\nbleh\n\n\nCritical Analysis 2\nblegh\n\n\nGrading\nlaa",
     "crumbs": [
       "Materials",
       "Game Analyses"
@@ -485,7 +441,7 @@
     "href": "course_information/tutorials.html",
     "title": "Game Design",
     "section": "",
-    "text": "We will have a series of game engine tutorials during some of our class sessions that will walk you through the process of creating a platformer. These are completion based, and will help you to learn the specifics of a particular game engine.\nThe game engine for this class will be Godot, which is open source and easy to host on sites like itch.io. You are free to remix these tutorials to create your own games. Additional resources can be found under Content &gt; Resources.\nWhy a platformer first? A platformer touches nearly every system you need for any 2D game: the editor and scene tree, sprites and input, physics and collisions, enemies and logic, game state, UI, and publishing. Once you have these fundamentals, you’ll be able to reuse most of this code to build a puzzle game during the team game jam later on in the course.\nWhat you’ll build: By the end of these tutorials you’ll have a small but complete platformer: a player that moves and jumps, a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an exported build you can upload to itch.io.\nHow these are graded: These labs are completion based. Follow along, get the result working, submit and you’re done. You are free to remix and extend them.",
+    "text": "We will have a series of game engine tutorials during some of our class sessions that will walk you through the process of creating a platformer. The game engine for this class will be Godot, which is open source and easy to host on sites like itch.io. You are free to remix these tutorials to create your own games. Additional resources can be found under Content &gt; Resources.\nWhy a platformer first? A platformer touches nearly every system you need for any 2D game: the editor and scene tree, sprites and input, physics and collisions, enemies and logic, game state, UI, and publishing. Once you have these fundamentals, you’ll be able to reuse most of this code for our last game jam.\nWhat you’ll build: By the end of these tutorials you’ll have a small but complete platformer: a player that moves and jumps, a level with solid ground and hazards, at least one enemy, a win/lose condition, a simple UI, and an exported build you can upload to itch.io.\nHow these are graded: These labs are completion based. Follow along, get the result working, submit and you’re done. You are free to remix and extend them.",
     "crumbs": [
       "Materials",
       "Tutorials"
@@ -584,7 +540,7 @@
     "href": "course_information/tutorials.html#lab-8-exporting-and-publishing",
     "title": "Game Design",
     "section": "Lab 8: Exporting and Publishing",
-    "text": "Lab 8: Exporting and Publishing\nFollow along the Lab 8 tutorial to learn how to export your game and upload it to itch.io. You’ll create a web (HTML5) export and publish a playable build.",
+    "text": "Lab 8: Exporting and Publishing\nFollow along the Lab 8 tutorial to learn how to export your game and upload it to itch.io. You’ll create a web (HTML5) export and publish a playable build.\n\n\n\nExtending to the Puzzle Game Jam\nOnce you’ve completed these labs, you’ll have the pieces to build a puzzle game by remixing your platformer code. Puzzle games typically require:\n\nA grid or board — most puzzles live on a discrete grid of cells rather than in continuous space (reuse scenes and instancing from Lab 1).\nDiscrete/snapped movement or placement — pieces move cell to cell or snap into position rather than moving freely (adapt movement from Lab 2).\nA clear rule set — the legal moves and constraints that define the puzzle (built on game logic from Labs 4–5).\nA solve/goal condition — a way to check whether the current board state satisfies the win condition (reuse state and win/lose logic from Lab 5).\nLevel data — a way to define individual puzzles or levels, since puzzlers are usually hand-authored rather than continuous (reuse the multi-level structure from Lab 6).\nFeedback — clear audio and visual cues for valid moves, invalid moves, and solving the puzzle (reuse audio and polish from Lab 7).\nUndo/reset (recommended) — puzzle players expect to be able to undo a move or restart cleanly, which builds directly on how you store and reset game state.",
     "crumbs": [
       "Materials",
       "Tutorials"
