@@ -1,4 +1,6 @@
-
+---
+pagetitle: "Game Analyses"
+---
 
 ::: {style="overflow: hidden;"}
  

@@ -1,3 +1,7 @@
+---
+pagetitle: "Schedule"
+---
+
 ![](/static/schedule_purple.png)
 
 ---
@@ -5,53 +9,53 @@
 ## Week 1: Fundamentals
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| M 4 | Morning | | Game History | |
+| M 4 | Morning | | [Game History](../content/game_history.qmd) | |
 | M 4 | Afternoon | | Game Design Kits Activity | |
 | T 5 | Morning | | Mechanics, Dynamics, Aesthetics | |
 | T 5 | Afternoon | | Formal Elements of Games | |
 | W 6 | Morning | | Let's Play Super Mario 3D World | |
 | W 6 | Afternoon | | The Game Loop | |
 | Th 7 | Morning | | Procedures vs Rules | |
-| Th 7 | Afternoon | [Tutorials > Install Godot](../course_information/tutorials.qmd#install-godot) | [Tutorials > Lab 1](../course_information/tutorials.qmd) | |
+| Th 7 | Afternoon | [Tutorials > Install Godot](tutorials.qmd#install-godot) | [Tutorials > Nodes & Scenes](tutorials.qmd) | |
 | F 8 | Morning | | Sprite Graphics | |
-| F 8 | Afternoon | | [Tutorials > Lab 2](../course_information/tutorials.qmd) | [Critical Analysis 1](../course_information/game_analyses.qmd#critical-analysis-1) |
+| F 8 | Afternoon | | [Tutorials > Sprites, Assets, & Movement](tutorials.qmd) | [Critical Analysis 1](game_analyses.qmd#critical-analysis-1) |
 
 ## Week 2: Mechanics and Systems
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
 | M 11 | Morning | | Physics & Collision Detection| |
-| M 11 | Afternoon | | [Tutorials > Lab 3](../course_information/tutorials.qmd) | |
+| M 11 | Afternoon | | [Tutorials > Physics, Hitboxes, & Collisions](tutorials.qmd) | |
 | T 11 | Morning | | Game AI | |
-| T 12 | Afternoon | | [Tutorials > Lab 4](../course_information/tutorials.qmd) | |
-| W 12 | Morning | | [Tutorials > Lab 5](../course_information/tutorials.qmd) | |
+| T 12 | Afternoon | | [Tutorials > Enemies and Pathfinding](tutorials.qmd) | |
+| W 12 | Morning | | [Tutorials > Game State and Rules](tutorials.qmd) | |
 | W 12 | Afternoon | | SFX | | 
-| Th 13 | Morning | | [Tutorials > Lab 6](../course_information/tutorials.qmd) | study Exam 1 |
-| Th 13 | Afternoon | | Exam 1 | |
-| F 14 | Morning | | [Paper Game Jam](../course_information/game_jams/paper-game-jam) | |
+| Th 13 | Morning | | [Tutorials > Audio and Polish](tutorials.qmd) | study Exam 1 |
+| Th 13 | Afternoon | | [Exam 1](standards.qmd#exam-1) | |
+| F 14 | Morning | | [Paper Game Jam](game_jams.qmd#paper-game-jam) | |
 | F 15 | Afternoon | | Paper Game Jam Playtesting<br> | Paper Game Jam Reflection |
 
 ## Week 3: Worldbuilding and Leveling
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
-| T 19 | Morning | | Board Game Jam wrap up <br> [Puzzle Game Jam > Overview](Puzzle Game Jam#Overview) <br> Puzzle Game Exploration | |
+| T 19 | Morning | | Paper Game Jam wrap up <br> [Team Game Jam](game_jams.qmd#team-game-jam) <br> Game Genre Exploration | |
 | T 19 | Afternoon | | Game Architectures | |
-| W 20 | Morning | | Game Ideas <br> [Puzzle Game Jam > Design Document](Puzzle Game Jam#Design Document) | Design Doc due tonight |
+| W 20 | Morning | | Game Ideas <br> Design Document |  |
 | W 20 | Afternoon | | Physical Prototypes | |
-| Th 21 | Morning | | [Tutorials > Lab 7](../course_information/tutorials.qmd) | |
-| Th 21 | Afternoon | | Worldbuilding <br> The Quiet Year | Physical Prototypes due Friday |
+| Th 21 | Morning | | Project Workday | Design Doc due tonight |
+| Th 21 | Afternoon | | Worldbuilding <br> The Quiet Year | Team Prototypes due tomorrow |
 | F 22 | Morning | | Physical Prototypes Demo | |
-| F 22 | Afternoon | | Character Design | [Critical Analysis 2](../course_information/game_analyses.qmd#critical-analysis-2) |
+| F 22 | Afternoon | | Character Design | [Critical Analysis 2](game_analyses.qmd#critical-analysis-2) |
 
 ## Week 4: Balancing and Playtesting
 | **date** | **session** | **prepare** | **topic** | **upcoming** |
 | :--------- | :------ | :--------- | :--------- | :--------- |
 | M 25 | Morning | | Level Design | |
-| M 25 | Afternoon | | Project Workday | |
+| M 25 | Afternoon | | [Tutorials > UI and Levels](tutorials.qmd) | |
 | T 26 | Morning | | Game Balancing | |
-| T 26 | Afternoon | | [Tutorials > Lab 8](../course_information/tutorials.qmd) | Working team demo due Wednesday |
+| T 26 | Afternoon | | [Tutorials > Publishing](tutorials.qmd) | Working team demo due Wednesday |
 | W 27 | Morning | | Playtesting | |
 | W 27 | Afternoon | | Playtesting Games in Class | study Exam 2 |
-| Th 28 | Morning | | Exam 2 | |
+| Th 28 | Morning | | [Exam 2](standards.qmd#exam-2) | |
 | Th 28 | Afternoon | | Project Workday | Team game due Friday |
 | F 29 | Morning | | Legal Issues + ROM Hacking | |
-| F 29 | Afternoon | | Game Expo | [Team Game Jam Reflection](Team Game Jam Reflection) |
+| F 29 | Afternoon | | Game Expo | Team Game Jam Reflection |

@@ -1,32 +1,35 @@
 ### Learning Objectives
 
 By the end of this lab, you will be able to:
-- Build a heads-up display (HUD) using Control nodes.
-- Bind on-screen UI elements to live game state.
-- Create start, restart, and "you win / game over" menus.
-- Load and transition between multiple levels or scenes.
+- Import and play sound effects and background music.
+- Trigger audio in response to gameplay events.
+- Add simple animation and visual feedback (juice) to actions.
+- Explain why clear feedback improves playability.
 
 ### Overview
-This lab wraps your game in the screens and information players expect. 
-You'll build a HUD that displays state from Lab 5 (score, lives, timer), 
-then create menu scenes for starting, restarting, and ending the game. 
-Finally, you'll implement level/scene transitions so the game can move between 
-discrete screens or levels. Godot's UI uses a separate family of Control 
-nodes with their own layout and anchoring rules, which this lab introduces.
+
+This lab makes the game feel responsive and finished. You'll add background music and sound 
+effects tied to events — jumping, collecting, winning, losing — and layer in small visual 
+touches like animations, tweens, or a screen effect that confirm the player's actions landed. 
+None of this changes the rules of the game, but feedback is what makes a game feel good to play 
+and helps players understand what just happened.
  
 ### Steps
-1. Build a HUD with Control nodes (Label, container nodes) and anchor it to the screen.
-2. Update HUD elements live from your `GameState` values.
-3. Create a main menu scene with a start button and a game-over scene with a restart button.
-4. Wire buttons to scene changes using `change_scene_to_file()` or `change_scene_to_packed()`.
-5. Split your game into at least two levels and transition between them.
+
+1. Import audio assets and add AudioStreamPlayer nodes for music and effects.
+2. Play looping background music from a menu or level.
+3. Trigger sound effects from gameplay signals (jump, collect, hit, win).
+4. Add a simple animation with AnimationPlayer or a Tween for a key action.
+5. Add one piece of visual feedback (flash, shake, or pop) to reinforce an event.
 
 ### Key Concepts
-- Control nodes, containers, anchors, and layout.
-- Binding UI to game state.
-- Button signals (`pressed`).
-- Scene/level loading and transitions.
+
+- AudioStreamPlayer and audio buses.
+- Triggering audio from signals/events.
+- AnimationPlayer and Tween basics.
+- Feedback / "game juice" and its role in usability.
 
 ### Deliverable / Completion Check
-A game with a live HUD, a start menu, a restart/game-over screen, and at least two 
-levels the player can move between. Submit the running project or a recording showing the full menu-to-level flow.
+
+A game with background music, at least two event-triggered sound effects, and at least one 
+visual feedback effect. Submit the running project or a recording with audio.

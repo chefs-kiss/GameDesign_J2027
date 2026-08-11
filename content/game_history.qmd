@@ -1,0 +1,41 @@
+---
+title: "History of Video Games"
+subtitle: "Introduction to Game Design"
+institution: "St. Olaf College"
+format: revealjs
+theme: dracula 
+slide-number: true
+---
+
+## What's your gaming history?
+
+- name and year
+- first video game memory
+- favorite current game
+- favorite platform to play games
+
+## Early History
+
+Early games were made by researchers at universities to study how to dynamically create images on a screen
+
+::: {.absolute top="200" left="0" style="text-align: center"}
+![[OXO](https://en.wikipedia.org/wiki/OXO_(video_game))](https://upload.wikimedia.org/wikipedia/en/5/59/OXO_emulated_screenshot.png?...){width="350"}
+:::
+::: {.absolute top="200" left="370" style="text-align: center"}
+![[Tennis for Two](https://en.wikipedia.org/wiki/Tennis_for_Two)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tennis_For_Two_on_a_DuMont_Lab_Oscilloscope_Type_304-A.jpg/250px-Tennis_For_Two_on_a_DuMont_Lab_Oscilloscope_Type_304-A.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail){width="250"}
+:::
+::: {.absolute top="200" left="700" style="text-align: center"}
+![[Spacewar!](https://en.wikipedia.org/wiki/Spacewar!)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Spacewar%21-PDP-1-20070512.jpg/1280px-Spacewar%21-PDP-1-20070512.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="400"}
+:::
+
+## 
+
+```{=html}
+<style>
+.reveal figure figcaption {
+  text-align: center;
+  width: 300px;
+}
+</style>
+```
+

@@ -5,6 +5,7 @@ By the end of this lab, you will be able to:
 - Produce an HTML5 (web) build of your game.
 - Test the exported build locally before publishing.
 - Upload and configure a playable build on itch.io.
+- Add tutorial and how-to documentation
 
 ### Overview
 This lab gets your game off your machine and onto the internet where others can play it. 

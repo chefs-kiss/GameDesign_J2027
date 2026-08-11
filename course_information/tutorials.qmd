@@ -1,3 +1,7 @@
+---
+pagetitle: "Godot Tutorials"
+---
+
 ::: {style="overflow: hidden;"}
  
 ![](/static/Ketnipz_buzz_laptop.gif){style="float: right; width: 300px; margin: 0 0 1rem 1.5rem;"}
@@ -20,40 +24,38 @@ Once you have these fundamentals, you'll be able to reuse most of this code for 
 ## Install Godot
 Follow along the [install tutorial](../content/godot_install.qmd) to get Godot 4 set up on your machine and confirm it launches.
 
-## Lab 1: Editor, Nodes, and Scenes
-Follow along the [Lab 1 tutorial](../content/tutorial1.qmd) to learn the Godot editor, nodes, and scenes. 
+## Nodes and Scenes
+Follow along the [tutorial](../content/tutorial1.qmd) to learn the Godot editor, nodes, and scenes. 
 You'll learn how the scene tree works, how nodes combine to make game objects, and how to save and instance reusable scenes.
 
-## Lab 2: Sprites, Assets, and Movement
-Follow along the [Lab 2 tutorial](../content/tutorial2.qmd) to learn about sprites, importing assets, 
+## Sprites, Assets, and Movement
+Follow along the [tutorial](../content/tutorial2.qmd) to learn about sprites, importing assets, 
 and simple player movement. You'll wire up the input map and move a character around the screen.
 
 
-## Lab 3: Physics, Hitboxes, and Collisions
-Follow along the [Lab 3 tutorial](../content/tutorial3.qmd) to learn about physics bodies, hitboxes, 
+## Physics, Hitboxes, and Collisions
+Follow along the [tutorial](../content/tutorial3.qmd) to learn about physics bodies, hitboxes, 
 and collision detection. You'll set up solid ground, walls, and areas that detect when the player enters them.
 
-## Lab 4: Enemies and Pathfinding
-Follow along the [Lab 4 tutorial](../content/tutorial4.qmd) to learn about enemies and pathfinding. 
+## Enemies and Pathfinding
+Follow along the [tutorial](../content/tutorial4.qmd) to learn about enemies and pathfinding. 
 You'll add an enemy that moves along a path or navigates toward the player.
 
-## Lab 5: Game State, Rules, and Win/Lose Conditions
-Follow along the [Lab 5 tutorial](../content/tutorial5.qmd) to learn how to track game state and 
+## Game State and Rules
+Follow along the [tutorial](../content/tutorial5.qmd) to learn how to track game state and 
 define win and lose conditions. You'll add a score or objective, detect when the player wins or loses, and reset or advance the level.
 
+## Audio and Polish
+Follow along the [tutorial](../content/tutorial6.qmd) to learn how to add sound effects and background music, 
+and to apply small polish like simple animations and feedback.
 
-## Lab 6: UI, Menus, and Levels
-Follow along the [Lab 6 tutorial](../content/tutorial6.qmd) to learn how to build a user interface, 
+## UI and Levels
+Follow along the [tutorial](../content/tutorial7.qmd) to learn how to build a user interface, 
 add a start and restart menu, and move between multiple levels or screens.
 
 
-## Lab 7: Audio and Polish
-Follow along the [Lab 7 tutorial](../content/tutorial7.qmd) to learn how to add sound effects and background music, 
-and to apply small polish like simple animations and feedback.
-
-
-## Lab 8: Exporting and Publishing
-Follow along the [Lab 8 tutorial](../content/tutorial8.qmd) to learn how to export your game and upload it to 
+## Publishing
+Follow along the [tutorial](../content/tutorial8.qmd) to learn how to export your game and upload it to 
 itch.io. You'll create a web (HTML5) export and publish a playable build.
 
 

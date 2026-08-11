@@ -1,3 +1,7 @@
+---
+pagetitle: "Game Jams"
+---
+
 ![](/static/Ketnipz_thumbsup.gif)
 
 ## Overview
