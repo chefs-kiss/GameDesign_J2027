@@ -218,34 +218,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<p>By the end of this lab, you will be able to: - Build a heads-up display (HUD) using Control nodes. - Bind on-screen UI elements to live game state. - Create start, restart, and “you win / game over” menus. - Load and transition between multiple levels or scenes.</p>
+<p>By the end of this lab, you will be able to: - Import and play sound effects and background music. - Trigger audio in response to gameplay events. - Add simple animation and visual feedback (juice) to actions. - Explain why clear feedback improves playability.</p>
 </section>
 <section id="overview" class="level3">
 <h3 class="anchored" data-anchor-id="overview">Overview</h3>
-<p>This lab wraps your game in the screens and information players expect. You’ll build a HUD that displays state from Lab 5 (score, lives, timer), then create menu scenes for starting, restarting, and ending the game. Finally, you’ll implement level/scene transitions so the game can move between discrete screens or levels. Godot’s UI uses a separate family of Control nodes with their own layout and anchoring rules, which this lab introduces.</p>
+<p>This lab makes the game feel responsive and finished. You’ll add background music and sound effects tied to events — jumping, collecting, winning, losing — and layer in small visual touches like animations, tweens, or a screen effect that confirm the player’s actions landed. None of this changes the rules of the game, but feedback is what makes a game feel good to play and helps players understand what just happened.</p>
 </section>
 <section id="steps" class="level3">
 <h3 class="anchored" data-anchor-id="steps">Steps</h3>
 <ol type="1">
-<li>Build a HUD with Control nodes (Label, container nodes) and anchor it to the screen.</li>
-<li>Update HUD elements live from your <code>GameState</code> values.</li>
-<li>Create a main menu scene with a start button and a game-over scene with a restart button.</li>
-<li>Wire buttons to scene changes using <code>change_scene_to_file()</code> or <code>change_scene_to_packed()</code>.</li>
-<li>Split your game into at least two levels and transition between them.</li>
+<li>Import audio assets and add AudioStreamPlayer nodes for music and effects.</li>
+<li>Play looping background music from a menu or level.</li>
+<li>Trigger sound effects from gameplay signals (jump, collect, hit, win).</li>
+<li>Add a simple animation with AnimationPlayer or a Tween for a key action.</li>
+<li>Add one piece of visual feedback (flash, shake, or pop) to reinforce an event.</li>
 </ol>
 </section>
 <section id="key-concepts" class="level3">
 <h3 class="anchored" data-anchor-id="key-concepts">Key Concepts</h3>
 <ul>
-<li>Control nodes, containers, anchors, and layout.</li>
-<li>Binding UI to game state.</li>
-<li>Button signals (<code>pressed</code>).</li>
-<li>Scene/level loading and transitions.</li>
+<li>AudioStreamPlayer and audio buses.</li>
+<li>Triggering audio from signals/events.</li>
+<li>AnimationPlayer and Tween basics.</li>
+<li>Feedback / “game juice” and its role in usability.</li>
 </ul>
 </section>
 <section id="deliverable-completion-check" class="level3">
 <h3 class="anchored" data-anchor-id="deliverable-completion-check">Deliverable / Completion Check</h3>
-<p>A game with a live HUD, a start menu, a restart/game-over screen, and at least two levels the player can move between. Submit the running project or a recording showing the full menu-to-level flow.</p>
+<p>A game with background music, at least two event-triggered sound effects, and at least one visual feedback effect. Submit the running project or a recording with audio.</p>
 
 
 </section>

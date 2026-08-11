@@ -2,70 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/game_jams.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
   </url>
   <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/syllabus.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/schedule.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial3.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial8.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial2.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial7.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial1.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/index.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial4.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/resources.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial6.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/godot_install.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial5.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/game_analyses.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/standards.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
   </url>
   <url>
     <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/slides.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/game_analyses.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial5.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/godot_install.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial6.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/resources.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/game_history.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/index.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial4.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial1.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial7.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial2.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial8.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/content/tutorial3.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/schedule.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/syllabus.html</loc>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
   </url>
   <url>
     <loc>https://chefs-kiss.github.io/GameDesign_J2027/course_information/tutorials.html</loc>
-    <lastmod>2026-08-10T21:20:33.565Z</lastmod>
+    <lastmod>2026-08-11T22:16:38.754Z</lastmod>
   </url>
 </urlset>
