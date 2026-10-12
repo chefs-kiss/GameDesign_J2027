@@ -92,16 +92,37 @@
   {
     "objectID": "course_information/notes.html",
     "href": "course_information/notes.html",
-    "title": "Game Design",
+    "title": "Course Goals",
     "section": "",
-    "text": "Upon successful completion of this course, students will be able to:\n\nexplain the social and ethical context in which software and video games are developed, marketed, and used;\ndescribe the technologies and platforms upon which modern interactive software and video games are built;\napply software engineering concepts necessary to develop video games within a development team;\nanalyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);\napply game theory to multi-player games, decision-making, and artificial intelligence.\n\nGame design vs game development:"
+    "text": "(as of 10/10) Upon successful completion of this course, students will be able to:\n\nexplain the social and ethical context in which software and video games are developed, marketed, and used;\ndescribe the technologies and platforms upon which modern interactive software and video games are built;\napply software engineering concepts necessary to develop video games within a development team;\nanalyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);\napply game theory to multi-player games, decision-making, and artificial intelligence.\n\nGame design vs game development: course split into two blocks."
   },
   {
-    "objectID": "course_information/notes.html#course-goals",
-    "href": "course_information/notes.html#course-goals",
-    "title": "Game Design",
-    "section": "",
-    "text": "Upon successful completion of this course, students will be able to:\n\nexplain the social and ethical context in which software and video games are developed, marketed, and used;\ndescribe the technologies and platforms upon which modern interactive software and video games are built;\napply software engineering concepts necessary to develop video games within a development team;\nanalyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);\napply game theory to multi-player games, decision-making, and artificial intelligence.\n\nGame design vs game development:"
+    "objectID": "course_information/notes.html#block-a-game-design",
+    "href": "course_information/notes.html#block-a-game-design",
+    "title": "Course Goals",
+    "section": "Block A: game design",
+    "text": "Block A: game design\n\nWeek 1: history of games, game loop + mechanics, game engine intro\nWeek 2: implementing mechanics + tutorials (labs)\nCodebase: tutorials (assets preloaded) + finished example for inspiration?\nBlock A exam: Thursday 1/13\nBlock A project: Friday paper game jam"
+  },
+  {
+    "objectID": "course_information/notes.html#block-b-game-dev",
+    "href": "course_information/notes.html#block-b-game-dev",
+    "title": "Course Goals",
+    "section": "Block B: game dev",
+    "text": "Block B: game dev\n\nWeek 3: ideation, prototypes, character design\nWeek 4: level design, balance, playtesting\nCodebase: template for given genre?, or use tutorial as example?\nBlock B exam: Thursday 1/28\nBlock B project: genre game jam + pitch"
+  },
+  {
+    "objectID": "course_information/notes.html#timeline",
+    "href": "course_information/notes.html#timeline",
+    "title": "Course Goals",
+    "section": "Timeline:",
+    "text": "Timeline:\n\nOctober 12: goal setting, general structure of course.\nOctober 30: tutorial + game jam decisions made; standards for exam and game jams outlined.\nNovember 30: game jam implementations nearing completion.\nDecember 30: course ready"
+  },
+  {
+    "objectID": "course_information/notes.html#to-do",
+    "href": "course_information/notes.html#to-do",
+    "title": "Course Goals",
+    "section": "To-do:",
+    "text": "To-do:\n\nstand up"
   },
   {
     "objectID": "course_information/syllabus.html",
