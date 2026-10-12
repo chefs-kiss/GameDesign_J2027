@@ -1,84 +1,5 @@
 [
   {
-    "objectID": "course_information/game_jams.html#overview",
-    "href": "course_information/game_jams.html#overview",
-    "title": "Game Design",
-    "section": "Overview",
-    "text": "Overview",
-    "crumbs": [
-      "Materials",
-      "Game Jams"
-    ]
-  },
-  {
-    "objectID": "course_information/game_jams.html#paper-game-jam",
-    "href": "course_information/game_jams.html#paper-game-jam",
-    "title": "Game Design",
-    "section": "Paper Game Jam",
-    "text": "Paper Game Jam",
-    "crumbs": [
-      "Materials",
-      "Game Jams"
-    ]
-  },
-  {
-    "objectID": "course_information/game_jams.html#team-game-jam",
-    "href": "course_information/game_jams.html#team-game-jam",
-    "title": "Game Design",
-    "section": "Team Game Jam",
-    "text": "Team Game Jam",
-    "crumbs": [
-      "Materials",
-      "Game Jams"
-    ]
-  },
-  {
-    "objectID": "course_information/standards.html#exam-1",
-    "href": "course_information/standards.html#exam-1",
-    "title": "Game Design",
-    "section": "Exam 1",
-    "text": "Exam 1"
-  },
-  {
-    "objectID": "course_information/standards.html#exam-2",
-    "href": "course_information/standards.html#exam-2",
-    "title": "Game Design",
-    "section": "Exam 2",
-    "text": "Exam 2"
-  },
-  {
-    "objectID": "course_information/game_analyses.html",
-    "href": "course_information/game_analyses.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Overview\nblah\n\n\nSelected Games\nheh\n\n\nCritical Analysis 1\nbleh\n\n\nCritical Analysis 2\nblegh\n\n\nGrading\nlaa",
-    "crumbs": [
-      "Materials",
-      "Game Analyses"
-    ]
-  },
-  {
-    "objectID": "content/tutorial5.html",
-    "href": "content/tutorial5.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Store and update global game state (score, lives, objective progress). - Use an autoload/singleton to share state across scenes. - Define explicit win and lose conditions and detect when they’re met. - Reset the level or advance the game when a condition is triggered.\n\n\nOverview\nThis lab turns a moving character in a world into an actual game with a goal. You’ll create a central place to hold game state — score, lives, whether the objective is complete — and write the checks that decide when the player wins or loses. Because this state needs to survive across scene changes, you’ll use an autoload singleton. This “state plus a rule that checks it” pattern is the core of game design, and it’s the exact pattern you’ll rebuild when defining a puzzle’s solve condition.\n\n\nSteps\n\nCreate an autoload singleton (e.g., GameState) to hold score, lives, and status.\nUpdate state from gameplay events (collecting an item, taking damage).\nWrite a win condition (e.g., reach the goal / collect all items) and a lose condition (e.g., lives reach zero).\nDetect when a condition is met and trigger the appropriate outcome.\nReset state cleanly when restarting or advancing.\n\n\n\nKey Concepts\n\nAutoload/singleton pattern for shared state.\nTracking and updating variables from gameplay events.\nExplicitly defined win/lose conditions.\nCleanly resetting state between attempts.\n\n\n\nDeliverable / Completion Check\nA playable game with a working score or objective, a win condition, and a lose condition, each producing a distinct outcome. Submit the running project or a recording showing both a win and a loss."
-  },
-  {
-    "objectID": "content/godot_install.html",
-    "href": "content/godot_install.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this tutorial, you will be able to: - Download and install the correct version of Godot 4 for your operating system. - Launch the Godot Project Manager and create a new project. - Identify the standard (non-.NET) build and explain when you’d need the .NET/C# build instead.\n\n\nOverview\nThis short setup tutorial gets your development environment ready. Godot 4 ships as a single, small executable with no separate installer required, which makes it easy to run on lab machines and personal computers alike. You’ll create a project folder, open the editor for the first time, and confirm everything works before Lab 1. You’ll also set up an itch.io account now so publishing later is frictionless.\n\n\nSteps\n\nGo to the Godot website and download the Godot 4 Standard build for your OS.\nUnzip and run the executable (no admin install required).\nIn the Project Manager, create a new project with the Compatibility or Forward+ renderer and note the project folder location.\nOpen the project and confirm the editor loads with an empty 2D scene.\nCreate a free itch.io account. You can browse assets (lots of free options) or view hosted games for inspiration.\n\n\n\nDeliverable / Completion Check\nA new, empty Godot project that opens in the editor without errors, and a created itch.io account. Submit a screenshot of the open editor."
-  },
-  {
-    "objectID": "content/tutorial6.html",
-    "href": "content/tutorial6.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Import and play sound effects and background music. - Trigger audio in response to gameplay events. - Add simple animation and visual feedback (juice) to actions. - Explain why clear feedback improves playability.\n\n\nOverview\nThis lab makes the game feel responsive and finished. You’ll add background music and sound effects tied to events — jumping, collecting, winning, losing — and layer in small visual touches like animations, tweens, or a screen effect that confirm the player’s actions landed. None of this changes the rules of the game, but feedback is what makes a game feel good to play and helps players understand what just happened.\n\n\nSteps\n\nImport audio assets and add AudioStreamPlayer nodes for music and effects.\nPlay looping background music from a menu or level.\nTrigger sound effects from gameplay signals (jump, collect, hit, win).\nAdd a simple animation with AnimationPlayer or a Tween for a key action.\nAdd one piece of visual feedback (flash, shake, or pop) to reinforce an event.\n\n\n\nKey Concepts\n\nAudioStreamPlayer and audio buses.\nTriggering audio from signals/events.\nAnimationPlayer and Tween basics.\nFeedback / “game juice” and its role in usability.\n\n\n\nDeliverable / Completion Check\nA game with background music, at least two event-triggered sound effects, and at least one visual feedback effect. Submit the running project or a recording with audio."
-  },
-  {
     "objectID": "content/resources.html",
     "href": "content/resources.html",
     "title": "Game Design",
@@ -88,49 +9,6 @@
       "Materials",
       "Resources"
     ]
-  },
-  {
-    "objectID": "content/game_history.html#whats-your-gaming-history",
-    "href": "content/game_history.html#whats-your-gaming-history",
-    "title": "History of Video Games",
-    "section": "What’s your gaming history?",
-    "text": "What’s your gaming history?\n\nname and year\nfirst video game memory\nfavorite current game\nfavorite platform to play games"
-  },
-  {
-    "objectID": "content/game_history.html#early-history",
-    "href": "content/game_history.html#early-history",
-    "title": "History of Video Games",
-    "section": "Early History",
-    "text": "Early History\nEarly games were made by researchers at universities to study how to dynamically create images on a screen\n\n\n\n\nOXO\n\n\n\n\n\n\n\nTennis for Two\n\n\n\n\n\n\n\nSpacewar!"
-  },
-  {
-    "objectID": "index.html#introduction-to-game-design",
-    "href": "index.html#introduction-to-game-design",
-    "title": "CSCI 200B - January 2027",
-    "section": "Introduction to Game Design",
-    "text": "Introduction to Game Design\nOur course is an introductory course in video game design and production. We will focus on both the design and technical aspects of creating a game, from concept inception and prototyping through coding and playtesting.",
-    "crumbs": [
-      "Course Information",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#staff-information",
-    "href": "index.html#staff-information",
-    "title": "CSCI 200B - January 2027",
-    "section": "Staff Information",
-    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
-    "crumbs": [
-      "Course Information",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/tutorial4.html",
-    "href": "content/tutorial4.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Create an enemy as its own reusable scene. - Implement simple autonomous behavior (patrolling between points). - Use Godot’s navigation system to move an enemy toward a target. - Handle enemy/player interaction using signals.\n\n\nOverview\nThis lab introduces autonomous, rule-driven behavior. You’ll build an enemy that acts on its own — either patrolling a fixed route or navigating toward the player using Godot’s navigation tools. The broader lesson is how to write logic that reads the current state of the game and decides what to do next, which is the same kind of thinking behind any AI or rule system you’ll write later. You’ll also connect enemy and player so contact produces a consequence.\n\n\nSteps\n\nBuild an enemy scene (body + sprite + collision) so it can be instanced.\nImplement a simple patrol: move between two points, flipping direction at each end.\nSet up a NavigationRegion2D and use a NavigationAgent2D to path toward the player.\nConnect a signal so contact between enemy and player triggers a response.\nInstance several enemies to confirm each behaves independently.\n\n\n\nKey Concepts\n\nReusable enemy scenes and instancing (callback to Lab 1).\nState-driven behavior and simple decision logic.\nNavigationRegion2D and NavigationAgent2D.\nSignals for entity interaction.\n\n\n\nDeliverable / Completion Check\nA level with at least one autonomous enemy that either patrols or pathfinds toward the player, and a defined consequence when it reaches the player. Submit the running project or a screen recording."
   },
   {
     "objectID": "content/tutorial1.html",
@@ -147,25 +25,25 @@
     "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Build a heads-up display (HUD) using Control nodes. - Bind on-screen UI elements to live game state. - Create start, restart, and “you win / game over” menus. - Load and transition between multiple levels or scenes.\n\n\nOverview\nThis lab wraps your game in the screens and information players expect. You’ll build a HUD that displays state from Lab 5 (score, lives, timer), then create menu scenes for starting, restarting, and ending the game. Finally, you’ll implement level/scene transitions so the game can move between discrete screens or levels. Godot’s UI uses a separate family of Control nodes with their own layout and anchoring rules, which this lab introduces.\n\n\nSteps\n\nBuild a HUD with Control nodes (Label, container nodes) and anchor it to the screen.\nUpdate HUD elements live from your GameState values.\nCreate a main menu scene with a start button and a game-over scene with a restart button.\nWire buttons to scene changes using change_scene_to_file() or change_scene_to_packed().\nSplit your game into at least two levels and transition between them.\n\n\n\nKey Concepts\n\nControl nodes, containers, anchors, and layout.\nBinding UI to game state.\nButton signals (pressed).\nScene/level loading and transitions.\n\n\n\nDeliverable / Completion Check\nA game with a live HUD, a start menu, a restart/game-over screen, and at least two levels the player can move between. Submit the running project or a recording showing the full menu-to-level flow."
   },
   {
+    "objectID": "content/tutorial5.html",
+    "href": "content/tutorial5.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Store and update global game state (score, lives, objective progress). - Use an autoload/singleton to share state across scenes. - Define explicit win and lose conditions and detect when they’re met. - Reset the level or advance the game when a condition is triggered.\n\n\nOverview\nThis lab turns a moving character in a world into an actual game with a goal. You’ll create a central place to hold game state — score, lives, whether the objective is complete — and write the checks that decide when the player wins or loses. Because this state needs to survive across scene changes, you’ll use an autoload singleton. This “state plus a rule that checks it” pattern is the core of game design, and it’s the exact pattern you’ll rebuild when defining a puzzle’s solve condition.\n\n\nSteps\n\nCreate an autoload singleton (e.g., GameState) to hold score, lives, and status.\nUpdate state from gameplay events (collecting an item, taking damage).\nWrite a win condition (e.g., reach the goal / collect all items) and a lose condition (e.g., lives reach zero).\nDetect when a condition is met and trigger the appropriate outcome.\nReset state cleanly when restarting or advancing.\n\n\n\nKey Concepts\n\nAutoload/singleton pattern for shared state.\nTracking and updating variables from gameplay events.\nExplicitly defined win/lose conditions.\nCleanly resetting state between attempts.\n\n\n\nDeliverable / Completion Check\nA playable game with a working score or objective, a win condition, and a lose condition, each producing a distinct outcome. Submit the running project or a recording showing both a win and a loss."
+  },
+  {
+    "objectID": "content/tutorial6.html",
+    "href": "content/tutorial6.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Import and play sound effects and background music. - Trigger audio in response to gameplay events. - Add simple animation and visual feedback (juice) to actions. - Explain why clear feedback improves playability.\n\n\nOverview\nThis lab makes the game feel responsive and finished. You’ll add background music and sound effects tied to events — jumping, collecting, winning, losing — and layer in small visual touches like animations, tweens, or a screen effect that confirm the player’s actions landed. None of this changes the rules of the game, but feedback is what makes a game feel good to play and helps players understand what just happened.\n\n\nSteps\n\nImport audio assets and add AudioStreamPlayer nodes for music and effects.\nPlay looping background music from a menu or level.\nTrigger sound effects from gameplay signals (jump, collect, hit, win).\nAdd a simple animation with AnimationPlayer or a Tween for a key action.\nAdd one piece of visual feedback (flash, shake, or pop) to reinforce an event.\n\n\n\nKey Concepts\n\nAudioStreamPlayer and audio buses.\nTriggering audio from signals/events.\nAnimationPlayer and Tween basics.\nFeedback / “game juice” and its role in usability.\n\n\n\nDeliverable / Completion Check\nA game with background music, at least two event-triggered sound effects, and at least one visual feedback effect. Submit the running project or a recording with audio."
+  },
+  {
     "objectID": "content/tutorial2.html",
     "href": "content/tutorial2.html",
     "title": "Game Design",
     "section": "",
     "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Import image assets and assign them to a sprite node. - Configure the Input Map to define named actions (left, right, jump). - Read player input in a script and translate it into movement. - Use a CharacterBody2D to move a character in response to input.\n\n\nOverview\nThis lab brings a character to life on screen. You’ll import sprite assets, place them in a scene, and then write the script that reads keyboard/controller input and moves the player. Rather than hard-coding specific keys, you’ll use Godot’s Input Map so your actions have names and can be rebound later. This is your first real gameplay code, and the input-to-movement pattern you learn here is the template for controlling anything in a game.\n\n\nSteps\n\nImport a sprite sheet or image asset into the project’s FileSystem.\nBuild a player scene rooted at a CharacterBody2D with a Sprite2D and CollisionShape2D.\nDefine “move_left”, “move_right”, and “jump” in Project Settings &gt; Input Map.\nWrite a script that reads input each frame and sets a velocity vector.\nCall move_and_slide() to apply movement and test in the running game.\n\n\n\nKey Concepts\n\nImporting and referencing assets.\nCharacterBody2D, Sprite2D, and CollisionShape2D.\nThe Input Map and Input.get_axis() / Input.is_action_pressed().\n_physics_process(delta), velocity, and move_and_slide().\n\n\n\nDeliverable / Completion Check\nA player character that moves left and right based on mapped input. Submit the running project or a short screen recording of the character moving."
-  },
-  {
-    "objectID": "content/tutorial8.html",
-    "href": "content/tutorial8.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Install export templates and configure an export preset. - Produce an HTML5 (web) build of your game. - Test the exported build locally before publishing. - Upload and configure a playable build on itch.io. - Add tutorial and how-to documentation\n\n\nOverview\nThis lab gets your game off your machine and onto the internet where others can play it. You’ll install Godot’s export templates, configure a Web export preset, and generate an HTML5 build. After testing it locally, you’ll upload it to itch.io and set it to run in the browser. This publishing process is identical regardless of what kind of game you make, so once you’ve done it here you can publish anything you build in this course the same way.\n\n\nSteps\n\nInstall the matching export templates in Godot.\nCreate a Web (HTML5) export preset and set the main scene.\nExport the project to a folder of web files.\nTest the build locally (via a local server) to confirm it runs in a browser.\nZip the build, upload it to itch.io, and set it to play in-browser.\n\n\n\nKey Concepts\n\nExport templates and export presets.\nHTML5/web export and its constraints.\nLocal testing before publishing.\nUploading and configuring a web build on itch.io.\n\n\n\nDeliverable / Completion Check\nA published, in-browser playable build of your platformer on itch.io. Submit the itch.io link."
-  },
-  {
-    "objectID": "content/tutorial3.html",
-    "href": "content/tutorial3.html",
-    "title": "Game Design",
-    "section": "",
-    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Distinguish between the main 2D physics body types and when to use each. - Build solid ground and walls the player cannot pass through. - Add gravity and jumping to the player. - Use Area2D to detect overlaps (e.g., the player touching a hazard or collectible).\n\n\nOverview\nThis lab adds the physical rules of the world. You’ll give the player gravity and a jump, build a level out of static collision bodies, and set up detection zones that fire an event when the player enters them. The key distinction here is between solid collision (things you stand on and bump into) and area detection (zones that notice you without stopping you). Together these two systems cover nearly every physical interaction a 2D game needs.\n\n\nSteps\n\nAdd gravity to the player’s _physics_process and wire up a jump using is_on_floor().\nBuild a level using StaticBody2D nodes (or a TileMap) with collision shapes for ground and walls.\nConfigure collision layers and masks so the right things collide.\nAdd an Area2D hazard and connect its body_entered signal.\nTrigger a response (e.g., reset position or print “hit”) when the player enters the hazard.\n\n\n\nKey Concepts\n\nStaticBody2D vs CharacterBody2D vs Area2D.\nGravity, is_on_floor(), and jump velocity.\nCollision layers and masks.\nSignals, especially body_entered / area_entered.\n\n\n\nDeliverable / Completion Check\nA playable scene where the player walks on solid ground, jumps, and triggers a detectable event when entering a hazard area. Submit the running project or a screen recording demonstrating collision and area detection."
   },
   {
     "objectID": "course_information/schedule.html#week-1-fundamentals",
@@ -210,6 +88,20 @@
       "Course Information",
       "Schedule"
     ]
+  },
+  {
+    "objectID": "course_information/notes.html",
+    "href": "course_information/notes.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Upon successful completion of this course, students will be able to:\n\nexplain the social and ethical context in which software and video games are developed, marketed, and used;\ndescribe the technologies and platforms upon which modern interactive software and video games are built;\napply software engineering concepts necessary to develop video games within a development team;\nanalyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);\napply game theory to multi-player games, decision-making, and artificial intelligence.\n\nGame design vs game development:"
+  },
+  {
+    "objectID": "course_information/notes.html#course-goals",
+    "href": "course_information/notes.html#course-goals",
+    "title": "Game Design",
+    "section": "",
+    "text": "Upon successful completion of this course, students will be able to:\n\nexplain the social and ethical context in which software and video games are developed, marketed, and used;\ndescribe the technologies and platforms upon which modern interactive software and video games are built;\napply software engineering concepts necessary to develop video games within a development team;\nanalyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);\napply game theory to multi-player games, decision-making, and artificial intelligence.\n\nGame design vs game development:"
   },
   {
     "objectID": "course_information/syllabus.html",
@@ -465,6 +357,42 @@
     ]
   },
   {
+    "objectID": "course_information/standards.html#exam-1",
+    "href": "course_information/standards.html#exam-1",
+    "title": "Game Design Core Standards",
+    "section": "Exam 1",
+    "text": "Exam 1"
+  },
+  {
+    "objectID": "course_information/standards.html#exam-2",
+    "href": "course_information/standards.html#exam-2",
+    "title": "Game Design Core Standards",
+    "section": "Exam 2",
+    "text": "Exam 2"
+  },
+  {
+    "objectID": "index.html#introduction-to-game-design",
+    "href": "index.html#introduction-to-game-design",
+    "title": "CSCI 200B - January 2027",
+    "section": "Introduction to Game Design",
+    "text": "Introduction to Game Design\nOur course is an introductory course in video game design and production. We will focus on both the design and technical aspects of creating a game, from concept inception and prototyping through coding and playtesting.",
+    "crumbs": [
+      "Course Information",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#staff-information",
+    "href": "index.html#staff-information",
+    "title": "CSCI 200B - January 2027",
+    "section": "Staff Information",
+    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
+    "crumbs": [
+      "Course Information",
+      "Home"
+    ]
+  },
+  {
     "objectID": "course_information/tutorials.html",
     "href": "course_information/tutorials.html",
     "title": "Game Design",
@@ -584,5 +512,102 @@
       "Materials",
       "Tutorials"
     ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#overview",
+    "href": "course_information/game_jams.html#overview",
+    "title": "Game Design",
+    "section": "Overview",
+    "text": "Overview",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#paper-game-jam",
+    "href": "course_information/game_jams.html#paper-game-jam",
+    "title": "Game Design",
+    "section": "Paper Game Jam",
+    "text": "Paper Game Jam",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#team-game-jam",
+    "href": "course_information/game_jams.html#team-game-jam",
+    "title": "Game Design",
+    "section": "Team Game Jam",
+    "text": "Team Game Jam",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_jams.html#game-jam-standards",
+    "href": "course_information/game_jams.html#game-jam-standards",
+    "title": "Game Design",
+    "section": "Game Jam Standards",
+    "text": "Game Jam Standards\n\nGame Engines and Frameworks ENG\n\nnavigate a modern engine’s editor, scene graph, and asset pipeline\nimplement game behavior using the engine’s scripting language and event/signal system\nstructure a project for maintainability and version control in a team\n\n\n\nCharacter Design CHAR\n\ndesign characters and sprites for readability, silhouette, and animation\nuse animation and visual design to communicate state and behavior\nalign character design with the game’s mechanics and intended aesthetic",
+    "crumbs": [
+      "Materials",
+      "Game Jams"
+    ]
+  },
+  {
+    "objectID": "course_information/game_analyses.html",
+    "href": "course_information/game_analyses.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Overview\nblah\n\n\nSelected Games\nheh\n\n\nCritical Analysis 1\nbleh\n\n\nCritical Analysis 2\nblegh\n\n\nGrading\nlaa",
+    "crumbs": [
+      "Materials",
+      "Game Analyses"
+    ]
+  },
+  {
+    "objectID": "content/godot_install.html",
+    "href": "content/godot_install.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this tutorial, you will be able to: - Download and install the correct version of Godot 4 for your operating system. - Launch the Godot Project Manager and create a new project. - Identify the standard (non-.NET) build and explain when you’d need the .NET/C# build instead.\n\n\nOverview\nThis short setup tutorial gets your development environment ready. Godot 4 ships as a single, small executable with no separate installer required, which makes it easy to run on lab machines and personal computers alike. You’ll create a project folder, open the editor for the first time, and confirm everything works before Lab 1. You’ll also set up an itch.io account now so publishing later is frictionless.\n\n\nSteps\n\nGo to the Godot website and download the Godot 4 Standard build for your OS.\nUnzip and run the executable (no admin install required).\nIn the Project Manager, create a new project with the Compatibility or Forward+ renderer and note the project folder location.\nOpen the project and confirm the editor loads with an empty 2D scene.\nCreate a free itch.io account. You can browse assets (lots of free options) or view hosted games for inspiration.\n\n\n\nDeliverable / Completion Check\nA new, empty Godot project that opens in the editor without errors, and a created itch.io account. Submit a screenshot of the open editor."
+  },
+  {
+    "objectID": "content/tutorial3.html",
+    "href": "content/tutorial3.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Distinguish between the main 2D physics body types and when to use each. - Build solid ground and walls the player cannot pass through. - Add gravity and jumping to the player. - Use Area2D to detect overlaps (e.g., the player touching a hazard or collectible).\n\n\nOverview\nThis lab adds the physical rules of the world. You’ll give the player gravity and a jump, build a level out of static collision bodies, and set up detection zones that fire an event when the player enters them. The key distinction here is between solid collision (things you stand on and bump into) and area detection (zones that notice you without stopping you). Together these two systems cover nearly every physical interaction a 2D game needs.\n\n\nSteps\n\nAdd gravity to the player’s _physics_process and wire up a jump using is_on_floor().\nBuild a level using StaticBody2D nodes (or a TileMap) with collision shapes for ground and walls.\nConfigure collision layers and masks so the right things collide.\nAdd an Area2D hazard and connect its body_entered signal.\nTrigger a response (e.g., reset position or print “hit”) when the player enters the hazard.\n\n\n\nKey Concepts\n\nStaticBody2D vs CharacterBody2D vs Area2D.\nGravity, is_on_floor(), and jump velocity.\nCollision layers and masks.\nSignals, especially body_entered / area_entered.\n\n\n\nDeliverable / Completion Check\nA playable scene where the player walks on solid ground, jumps, and triggers a detectable event when entering a hazard area. Submit the running project or a screen recording demonstrating collision and area detection."
+  },
+  {
+    "objectID": "content/game_history.html#whats-your-gaming-history",
+    "href": "content/game_history.html#whats-your-gaming-history",
+    "title": "History of Video Games",
+    "section": "What’s your gaming history?",
+    "text": "What’s your gaming history?\n\nname and year\nfirst video game memory\nfavorite current game\nfavorite platform to play games"
+  },
+  {
+    "objectID": "content/game_history.html#early-history",
+    "href": "content/game_history.html#early-history",
+    "title": "History of Video Games",
+    "section": "Early History",
+    "text": "Early History\nEarly games were made by researchers at universities to study how to dynamically create images on a screen\n\n\n\n\nOXO\n\n\n\n\n\n\n\nTennis for Two\n\n\n\n\n\n\n\nSpacewar!"
+  },
+  {
+    "objectID": "content/tutorial8.html",
+    "href": "content/tutorial8.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Install export templates and configure an export preset. - Produce an HTML5 (web) build of your game. - Test the exported build locally before publishing. - Upload and configure a playable build on itch.io. - Add tutorial and how-to documentation\n\n\nOverview\nThis lab gets your game off your machine and onto the internet where others can play it. You’ll install Godot’s export templates, configure a Web export preset, and generate an HTML5 build. After testing it locally, you’ll upload it to itch.io and set it to run in the browser. This publishing process is identical regardless of what kind of game you make, so once you’ve done it here you can publish anything you build in this course the same way.\n\n\nSteps\n\nInstall the matching export templates in Godot.\nCreate a Web (HTML5) export preset and set the main scene.\nExport the project to a folder of web files.\nTest the build locally (via a local server) to confirm it runs in a browser.\nZip the build, upload it to itch.io, and set it to play in-browser.\n\n\n\nKey Concepts\n\nExport templates and export presets.\nHTML5/web export and its constraints.\nLocal testing before publishing.\nUploading and configuring a web build on itch.io.\n\n\n\nDeliverable / Completion Check\nA published, in-browser playable build of your platformer on itch.io. Submit the itch.io link."
+  },
+  {
+    "objectID": "content/tutorial4.html",
+    "href": "content/tutorial4.html",
+    "title": "Game Design",
+    "section": "",
+    "text": "Learning Objectives\nBy the end of this lab, you will be able to: - Create an enemy as its own reusable scene. - Implement simple autonomous behavior (patrolling between points). - Use Godot’s navigation system to move an enemy toward a target. - Handle enemy/player interaction using signals.\n\n\nOverview\nThis lab introduces autonomous, rule-driven behavior. You’ll build an enemy that acts on its own — either patrolling a fixed route or navigating toward the player using Godot’s navigation tools. The broader lesson is how to write logic that reads the current state of the game and decides what to do next, which is the same kind of thinking behind any AI or rule system you’ll write later. You’ll also connect enemy and player so contact produces a consequence.\n\n\nSteps\n\nBuild an enemy scene (body + sprite + collision) so it can be instanced.\nImplement a simple patrol: move between two points, flipping direction at each end.\nSet up a NavigationRegion2D and use a NavigationAgent2D to path toward the player.\nConnect a signal so contact between enemy and player triggers a response.\nInstance several enemies to confirm each behaves independently.\n\n\n\nKey Concepts\n\nReusable enemy scenes and instancing (callback to Lab 1).\nState-driven behavior and simple decision logic.\nNavigationRegion2D and NavigationAgent2D.\nSignals for entity interaction.\n\n\n\nDeliverable / Completion Check\nA level with at least one autonomous enemy that either patrols or pathfinds toward the player, and a defined consequence when it reaches the player. Submit the running project or a screen recording."
   }
 ]
