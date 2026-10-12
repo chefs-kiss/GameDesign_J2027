@@ -53,7 +53,7 @@ website:
 
 format:
   html:
-    theme: vapor  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
+    theme: lux #vapor  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
     #css: styles.css
     toc: true
 
