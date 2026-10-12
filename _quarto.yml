@@ -16,9 +16,6 @@ website:
       - icon: house
         href: course_information/schedule.qmd
         text: Home
-      - icon: discord
-        href: https://discord.gg/QuUSC4HBr #persists 30days for student role
-        text: Discord
       - icon: file-earmark-pdf
         href: files/GameDesignWorkshop5thEd-Fullerton.pdf
         text: Textbook
@@ -38,8 +35,8 @@ website:
           text: Syllabus
         - href: course_information/schedule.qmd
           text: Schedule
-        - href: https://mdl.stolaf.edu/mod/forum/view.php?id=514243
-          text: Moodle Forum
+        - href: https://discord.com #gg/QuUSC4HBr #persists 30days for student role
+          text: Discord
     - section: "Materials"
       contents:
         - href: course_information/game_analyses.qmd

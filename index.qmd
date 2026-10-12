@@ -16,8 +16,7 @@ Email: mander1@stolaf.edu<br>
 
 
 --- 
-We will be using our Moodle page to [submit assignments](https://mdl.stolaf.edu/course/section.php?id=1379416) and host our class [discussion forum](https://mdl.stolaf.edu/mod/forum/view.php?id=514243)
-
-Click here for the [course syllabus](course_information/syllabus.qmd) or here for the [course schedule](course_information/schedule.qmd)
+A majority of classroom discussion and activity will take place on our Discord server: [St. Olaf Intro to Game Design](https://discord.com/). 
+We will be using our Moodle page for a gradebook and as a way to [submit some assignments](https://mdl.stolaf.edu/course/section.php?id=1379416).
 
 ![](static/Ketnipz_tired_laptop.gif)
