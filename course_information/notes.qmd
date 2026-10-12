@@ -1,0 +1,12 @@
+
+## Course Goals
+Upon successful completion of this course, students will be able to:
+
+- explain the social and ethical context in which software and video games are developed, marketed, and used;
+- describe the technologies and platforms upon which modern interactive software and video games are built;
+- apply software engineering concepts necessary to develop video games within a development team;
+- analyze the computational theory used in game design and related fields of computer science (artificial intelligence, computer graphics, networks, etc.);
+- apply game theory to multi-player games, decision-making, and artificial intelligence.
+
+
+Game design vs game development:

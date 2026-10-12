@@ -10,3 +10,14 @@ pagetitle: "Game Jams"
 
 ## Team Game Jam
 
+## Game Jam Standards
+
+### Game Engines and Frameworks `ENG`
+- navigate a modern engine's editor, scene graph, and asset pipeline
+- implement game behavior using the engine's scripting language and event/signal system
+- structure a project for maintainability and version control in a team
+
+### Character Design `CHAR`
+- design characters and sprites for readability, silhouette, and animation
+- use animation and visual design to communicate state and behavior
+- align character design with the game's mechanics and intended aesthetic
