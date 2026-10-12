@@ -20,7 +20,7 @@ website:
         href: https://discord.gg/QuUSC4HBr #persists 30days for student role
         text: Discord
       - icon: file-earmark-pdf
-        href: https://chefs-kiss.github.io/GameDesign_J2027/files/GameDesignWorkshop5thEd-Fullerton.pdf
+        href: files/GameDesignWorkshop5thEd-Fullerton.pdf
         text: Textbook
       - icon: mortarboard
         href: https://mdl.stolaf.edu/course/view.php?id=56310
