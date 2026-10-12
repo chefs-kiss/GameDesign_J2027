@@ -4,7 +4,7 @@
     "href": "content/resources.html",
     "title": "Game Design",
     "section": "",
-    "text": "Godot\nA plethora of Godot tutorials exist, and many can be found on video hosting platforms.\n\n\nAssets\nFree assets can be found at itchi.io including sprites, sound effects, and music.\n\n\nOther Game Engines\nThere are many game engines out there. I’ve included a few below that I’d recommend checking out.\n\nPICO-8\nPICO-8 is an 8-bit game engine which is great for creating small prototypes. I’d recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)\n\n\nGameMakerStudio\nGMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable.\n\n\nUnity\nUnity can be quite difficult for beginners to learn, but has been the industry standard for many years.",
+    "text": "Godot\nA plethora of Godot tutorials exist, and many can be found on video hosting platforms.\n\n\nAssets\nFree assets can be found at itchi.io including sprites, sound effects, and music.\n\n\nOther Game Engines\nThere are many game engines out there. I’ve included a few below that I’d recommend checking out.\n\nPICO-8\nPICO-8 is an 8-bit game engine which is great for creating small prototypes. I’d recommend using the VSCode plug-in as the code editor is also in 8-bit (and personally gave me a huge headache)\n\n\nGameMakerStudio\nGMS has a good learning curve, and has been used to create many indie games. There is a free version avaiable.\n\n\nUnity\nUnity can be quite difficult for beginners to learn, but has been the industry standard for many years. There are reduced fee versions for educators and students.",
     "crumbs": [
       "Materials",
       "Resources"
@@ -386,7 +386,7 @@
     "href": "index.html#staff-information",
     "title": "CSCI 200B - January 2027",
     "section": "Staff Information",
-    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nWe will be using our Moodle page to submit assignments and host our class discussion forum\nClick here for the course syllabus or here for the course schedule",
+    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nA majority of classroom discussion and activity will take place on our Discord server: St. Olaf Intro to Game Design. We will be using our Moodle page for a gradebook and as a way to submit some assignments.",
     "crumbs": [
       "Course Information",
       "Home"
