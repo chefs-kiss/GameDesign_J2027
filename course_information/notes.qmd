@@ -1,5 +1,6 @@
 
-## Course Goals
+# Course Goals 
+(as of 10/10)
 Upon successful completion of this course, students will be able to:
 
 - explain the social and ethical context in which software and video games are developed, marketed, and used;
@@ -9,4 +10,33 @@ Upon successful completion of this course, students will be able to:
 - apply game theory to multi-player games, decision-making, and artificial intelligence.
 
 
-Game design vs game development:
+Game design vs game development: course split into two blocks.
+
+
+# Course Structure:
+
+## Block A: game design
+
+- Week 1: history of games, game loop + mechanics, game engine intro
+- Week 2: implementing mechanics + tutorials (labs)
+- Codebase: tutorials (assets preloaded) + finished example for inspiration?
+- Block A exam: Thursday 1/13
+- Block A project: Friday paper game jam
+
+## Block B: game dev
+- Week 3: ideation, prototypes, character design
+- Week 4: level design, balance, playtesting
+- Codebase: template for given genre?, or use tutorial as example?
+- Block B exam: Thursday 1/28
+- Block B project: *genre* game jam + pitch
+
+## Timeline:
+- October 12: goal setting, general structure of course.
+- October 30: tutorial + game jam decisions made; 
+standards for exam and game jams outlined.
+- November 30: game jam implementations nearing completion.
+- December 30: course ready
+
+
+## To-do:
+- [ ] stand up 
