@@ -16,12 +16,15 @@ Game design vs game development: course split into two blocks.
 # Course Structure:
 
 ## Block A: game design
+Baseline with games that already exist for specific examples. 
+Dive into specific games (tutorial walktrough).
 
 - Week 1: history of games, game loop + mechanics, game engine intro
 - Week 2: implementing mechanics + tutorials (labs)
 - Codebase: tutorials (assets preloaded) + finished example for inspiration?
 - Block A exam: Thursday 1/13
 - Block A project: Friday paper game jam
+    - restriction:
 
 ## Block B: game dev
 - Week 3: ideation, prototypes, character design
@@ -29,14 +32,56 @@ Game design vs game development: course split into two blocks.
 - Codebase: template for given genre?, or use tutorial as example?
 - Block B exam: Thursday 1/28
 - Block B project: *genre* game jam + pitch
+    - couch co-op, top-down (Overcooked). skeleton code.
+    - restrictions: activity to pick three restrictions for each group.
+
+## Group Roles:
+For each, identify objectives and metrics.
+Average salary role in midwest.
+What questions should be asked in an interview (start of block B).
+
+- Technical Art: program shader tech or particle system, assets.
+- Game Play Engineer: networking or mechanics.
+- Game Design: system for spawning or enemy attack.
+- Producer/QA: pitch, schedules, meeting notes, community management, bug management.
+
 
 ## Timeline:
 - October 12: goal setting, general structure of course.
 - October 30: tutorial + game jam decisions made; 
 standards for exam and game jams outlined.
 - November 30: game jam implementations nearing completion.
-- December 30: course ready
+- December 30: course ready.
 
 
-## To-do:
-- [ ] stand up 
+## To-dos:
+- [x] stand up bot 
+- [ ] what is the genre game jam
+- [ ] how best to incorporate discord vs log book
+- [ ] create starter game  
+
+
+## Course Topics
+### Week 1: Game Design Introduction
+history of games, game loop + mechanics, game engine intro
+
+- History of games: 1950s-now, focus on how we play (consoles), [RPG Book](https://crpgbook.wordpress.com/)
+- What makes a game: goals, rules, feedback, players. Q: Why do you play games? 
+- Game Design Kit [Activity](https://www.cs4730.org/assets/materials/GameDesignActivity.pdf) 
+- Mechanics, Dynamics, Aesthetics. MDA [paper](../files/MDA.pdf). Overview of each part with game examples (lots for aes)
+- Formal Elements of Games: Fullterton GDW [Ch2](../files/GameDesignWorkshop5thEd-Fullerton.pdf#page=66): ludic structure of games, mapping to MDA.
+- Let's Play Super Mario 3D: Swink Game Feel [Ch X](../files/GameFeel-Swink.pdf#page=266) 
+- The Game Loop: event-driven programming, game state: player input, process actions -> npcs -> world, prepare draw -> predraw buffer -> buffer to screen 
+- Procedures and Rules: Fullterton GDW [Ch3](../files/GameDesignWorkshop5thEd-Fullerton.pdf#page=90): actions vs interactions, designing actions, operational/constitutive/implicit rules; depth vs complexity
+- Tutorial: Intro to Godot, nodes, scenes
+- Sprite Graphics: computer graphics history, sprite sheets, animation, coordinates, scrolling, camera types
+- Tutorial: sprites, assets, movement 
+
+### Week 2: Game Design Fundamentals
+implementing mechanics + tutorials (labs)
+
+### Week 3: Game Development Introduction
+ideation, prototypes, character design
+
+### Week 4: Game Development Processes
+level design, balance, playtesting

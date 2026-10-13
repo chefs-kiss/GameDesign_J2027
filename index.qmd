@@ -12,8 +12,13 @@ from concept inception and prototyping through coding and playtesting.
 Instructor: Prof. Kim Mandery<br>
 Office: RMS 407<br>
 Office Hours: by appt during Jterm<br>
+Discord Hours: tbd <br>
 Email: mander1@stolaf.edu<br>
 
+Industry Partner: Dustin Daon <br>
+Office Hours: by appt during Jterm <br>
+Discord Hours: tbd <br>
+Email: dustin.daon@gmail.com <br>
 
 --- 
 A majority of classroom discussion and activity will take place on our Discord server: [St. Olaf Intro to Game Design](https://discord.com/). 
