@@ -101,28 +101,42 @@
     "href": "course_information/notes.html#block-a-game-design",
     "title": "Course Goals",
     "section": "Block A: game design",
-    "text": "Block A: game design\n\nWeek 1: history of games, game loop + mechanics, game engine intro\nWeek 2: implementing mechanics + tutorials (labs)\nCodebase: tutorials (assets preloaded) + finished example for inspiration?\nBlock A exam: Thursday 1/13\nBlock A project: Friday paper game jam"
+    "text": "Block A: game design\nBaseline with games that already exist for specific examples. Dive into specific games (tutorial walktrough).\n\nWeek 1: history of games, game loop + mechanics, game engine intro\nWeek 2: implementing mechanics + tutorials (labs)\nCodebase: tutorials (assets preloaded) + finished example for inspiration?\nBlock A exam: Thursday 1/13\nBlock A project: Friday paper game jam\n\nrestriction:"
   },
   {
     "objectID": "course_information/notes.html#block-b-game-dev",
     "href": "course_information/notes.html#block-b-game-dev",
     "title": "Course Goals",
     "section": "Block B: game dev",
-    "text": "Block B: game dev\n\nWeek 3: ideation, prototypes, character design\nWeek 4: level design, balance, playtesting\nCodebase: template for given genre?, or use tutorial as example?\nBlock B exam: Thursday 1/28\nBlock B project: genre game jam + pitch"
+    "text": "Block B: game dev\n\nWeek 3: ideation, prototypes, character design\nWeek 4: level design, balance, playtesting\nCodebase: template for given genre?, or use tutorial as example?\nBlock B exam: Thursday 1/28\nBlock B project: genre game jam + pitch\n\ncouch co-op, top-down (Overcooked). skeleton code.\nrestrictions: activity to pick three restrictions for each group."
+  },
+  {
+    "objectID": "course_information/notes.html#group-roles",
+    "href": "course_information/notes.html#group-roles",
+    "title": "Course Goals",
+    "section": "Group Roles:",
+    "text": "Group Roles:\nFor each, identify objectives and metrics. Average salary role in midwest. What questions should be asked in an interview (start of block B).\n\nTechnical Art: program shader tech or particle system, assets.\nGame Play Engineer: networking or mechanics.\nGame Design: system for spawning or enemy attack.\nProducer/QA: pitch, schedules, meeting notes, community management, bug management."
   },
   {
     "objectID": "course_information/notes.html#timeline",
     "href": "course_information/notes.html#timeline",
     "title": "Course Goals",
     "section": "Timeline:",
-    "text": "Timeline:\n\nOctober 12: goal setting, general structure of course.\nOctober 30: tutorial + game jam decisions made; standards for exam and game jams outlined.\nNovember 30: game jam implementations nearing completion.\nDecember 30: course ready"
+    "text": "Timeline:\n\nOctober 12: goal setting, general structure of course.\nOctober 30: tutorial + game jam decisions made; standards for exam and game jams outlined.\nNovember 30: game jam implementations nearing completion.\nDecember 30: course ready."
   },
   {
-    "objectID": "course_information/notes.html#to-do",
-    "href": "course_information/notes.html#to-do",
+    "objectID": "course_information/notes.html#to-dos",
+    "href": "course_information/notes.html#to-dos",
     "title": "Course Goals",
-    "section": "To-do:",
-    "text": "To-do:\n\nstand up"
+    "section": "To-dos:",
+    "text": "To-dos:\n\nstand up bot\nwhat is the genre game jam\nhow best to incorporate discord vs log book\ncreate starter game"
+  },
+  {
+    "objectID": "course_information/notes.html#course-topics",
+    "href": "course_information/notes.html#course-topics",
+    "title": "Course Goals",
+    "section": "Course Topics",
+    "text": "Course Topics\n\nWeek 1: Game Design Introduction\nhistory of games, game loop + mechanics, game engine intro\n\nHistory of games: 1950s-now, focus on how we play (consoles), RPG Book\nWhat makes a game: goals, rules, feedback, players. Q: Why do you play games?\nGame Design Kit Activity\nMechanics, Dynamics, Aesthetics. MDA paper. Overview of each part with game examples (lots for aes)\nFormal Elements of Games: Fullterton GDW Ch2: ludic structure of games, mapping to MDA.\nLet’s Play Super Mario 3D: Swink Game Feel Ch X\nThe Game Loop: event-driven programming, game state: player input, process actions -&gt; npcs -&gt; world, prepare draw -&gt; predraw buffer -&gt; buffer to screen\nProcedures and Rules: Fullterton GDW Ch3: actions vs interactions, designing actions, operational/constitutive/implicit rules; depth vs complexity\nTutorial: Intro to Godot, nodes, scenes\nSprite Graphics: computer graphics history, sprite sheets, animation, coordinates, scrolling, camera types\nTutorial: sprites, assets, movement\n\n\n\nWeek 2: Game Design Fundamentals\nimplementing mechanics + tutorials (labs)\n\n\nWeek 3: Game Development Introduction\nideation, prototypes, character design\n\n\nWeek 4: Game Development Processes\nlevel design, balance, playtesting"
   },
   {
     "objectID": "course_information/syllabus.html",
@@ -407,7 +421,7 @@
     "href": "index.html#staff-information",
     "title": "CSCI 200B - January 2027",
     "section": "Staff Information",
-    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Email: mander1@stolaf.edu\n\nA majority of classroom discussion and activity will take place on our Discord server: St. Olaf Intro to Game Design. We will be using our Moodle page for a gradebook and as a way to submit some assignments.",
+    "text": "Staff Information\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: by appt during Jterm Discord Hours: tbd  Email: mander1@stolaf.edu\nIndustry Partner: Dustin Daon  Office Hours: by appt during Jterm  Discord Hours: tbd  Email: dustin.daon@gmail.com \n\nA majority of classroom discussion and activity will take place on our Discord server: St. Olaf Intro to Game Design. We will be using our Moodle page for a gradebook and as a way to submit some assignments.",
     "crumbs": [
       "Course Information",
       "Home"

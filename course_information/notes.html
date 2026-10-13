@@ -208,8 +208,16 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#block-a-game-design" id="toc-block-a-game-design" class="nav-link" data-scroll-target="#block-a-game-design">Block A: game design</a></li>
   <li><a href="#block-b-game-dev" id="toc-block-b-game-dev" class="nav-link" data-scroll-target="#block-b-game-dev">Block B: game dev</a></li>
+  <li><a href="#group-roles" id="toc-group-roles" class="nav-link" data-scroll-target="#group-roles">Group Roles:</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline:</a></li>
-  <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">To-do:</a></li>
+  <li><a href="#to-dos" id="toc-to-dos" class="nav-link" data-scroll-target="#to-dos">To-dos:</a></li>
+  <li><a href="#course-topics" id="toc-course-topics" class="nav-link" data-scroll-target="#course-topics">Course Topics</a>
+  <ul class="collapse">
+  <li><a href="#week-1-game-design-introduction" id="toc-week-1-game-design-introduction" class="nav-link" data-scroll-target="#week-1-game-design-introduction">Week 1: Game Design Introduction</a></li>
+  <li><a href="#week-2-game-design-fundamentals" id="toc-week-2-game-design-fundamentals" class="nav-link" data-scroll-target="#week-2-game-design-fundamentals">Week 2: Game Design Fundamentals</a></li>
+  <li><a href="#week-3-game-development-introduction" id="toc-week-3-game-development-introduction" class="nav-link" data-scroll-target="#week-3-game-development-introduction">Week 3: Game Development Introduction</a></li>
+  <li><a href="#week-4-game-development-processes" id="toc-week-4-game-development-processes" class="nav-link" data-scroll-target="#week-4-game-development-processes">Week 4: Game Development Processes</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -236,12 +244,16 @@ ul.task-list li input[type="checkbox"] {
 <h1>Course Structure:</h1>
 <section id="block-a-game-design" class="level2">
 <h2 class="anchored" data-anchor-id="block-a-game-design">Block A: game design</h2>
+<p>Baseline with games that already exist for specific examples. Dive into specific games (tutorial walktrough).</p>
 <ul>
 <li>Week 1: history of games, game loop + mechanics, game engine intro</li>
 <li>Week 2: implementing mechanics + tutorials (labs)</li>
 <li>Codebase: tutorials (assets preloaded) + finished example for inspiration?</li>
 <li>Block A exam: Thursday 1/13</li>
-<li>Block A project: Friday paper game jam</li>
+<li>Block A project: Friday paper game jam
+<ul>
+<li>restriction:</li>
+</ul></li>
 </ul>
 </section>
 <section id="block-b-game-dev" class="level2">
@@ -251,7 +263,21 @@ ul.task-list li input[type="checkbox"] {
 <li>Week 4: level design, balance, playtesting</li>
 <li>Codebase: template for given genre?, or use tutorial as example?</li>
 <li>Block B exam: Thursday 1/28</li>
-<li>Block B project: <em>genre</em> game jam + pitch</li>
+<li>Block B project: <em>genre</em> game jam + pitch
+<ul>
+<li>couch co-op, top-down (Overcooked). skeleton code.</li>
+<li>restrictions: activity to pick three restrictions for each group.</li>
+</ul></li>
+</ul>
+</section>
+<section id="group-roles" class="level2">
+<h2 class="anchored" data-anchor-id="group-roles">Group Roles:</h2>
+<p>For each, identify objectives and metrics. Average salary role in midwest. What questions should be asked in an interview (start of block B).</p>
+<ul>
+<li>Technical Art: program shader tech or particle system, assets.</li>
+<li>Game Play Engineer: networking or mechanics.</li>
+<li>Game Design: system for spawning or enemy attack.</li>
+<li>Producer/QA: pitch, schedules, meeting notes, community management, bug management.</li>
 </ul>
 </section>
 <section id="timeline" class="level2">
@@ -260,16 +286,51 @@ ul.task-list li input[type="checkbox"] {
 <li>October 12: goal setting, general structure of course.</li>
 <li>October 30: tutorial + game jam decisions made; standards for exam and game jams outlined.</li>
 <li>November 30: game jam implementations nearing completion.</li>
-<li>December 30: course ready</li>
+<li>December 30: course ready.</li>
 </ul>
 </section>
-<section id="to-do" class="level2">
-<h2 class="anchored" data-anchor-id="to-do">To-do:</h2>
+<section id="to-dos" class="level2">
+<h2 class="anchored" data-anchor-id="to-dos">To-dos:</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">stand up</label></li>
+<li><label><input type="checkbox" checked="">stand up bot</label></li>
+<li><label><input type="checkbox">what is the genre game jam</label></li>
+<li><label><input type="checkbox">how best to incorporate discord vs log book</label></li>
+<li><label><input type="checkbox">create starter game</label></li>
 </ul>
+</section>
+<section id="course-topics" class="level2">
+<h2 class="anchored" data-anchor-id="course-topics">Course Topics</h2>
+<section id="week-1-game-design-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="week-1-game-design-introduction">Week 1: Game Design Introduction</h3>
+<p>history of games, game loop + mechanics, game engine intro</p>
+<ul>
+<li>History of games: 1950s-now, focus on how we play (consoles), <a href="https://crpgbook.wordpress.com/">RPG Book</a></li>
+<li>What makes a game: goals, rules, feedback, players. Q: Why do you play games?</li>
+<li>Game Design Kit <a href="https://www.cs4730.org/assets/materials/GameDesignActivity.pdf">Activity</a></li>
+<li>Mechanics, Dynamics, Aesthetics. MDA <a href="../files/MDA.pdf">paper</a>. Overview of each part with game examples (lots for aes)</li>
+<li>Formal Elements of Games: Fullterton GDW <a href="../files/GameDesignWorkshop5thEd-Fullerton.pdf#page=66">Ch2</a>: ludic structure of games, mapping to MDA.</li>
+<li>Let’s Play Super Mario 3D: Swink Game Feel <a href="../files/GameFeel-Swink.pdf#page=266">Ch X</a></li>
+<li>The Game Loop: event-driven programming, game state: player input, process actions -&gt; npcs -&gt; world, prepare draw -&gt; predraw buffer -&gt; buffer to screen</li>
+<li>Procedures and Rules: Fullterton GDW <a href="../files/GameDesignWorkshop5thEd-Fullerton.pdf#page=90">Ch3</a>: actions vs interactions, designing actions, operational/constitutive/implicit rules; depth vs complexity</li>
+<li>Tutorial: Intro to Godot, nodes, scenes</li>
+<li>Sprite Graphics: computer graphics history, sprite sheets, animation, coordinates, scrolling, camera types</li>
+<li>Tutorial: sprites, assets, movement</li>
+</ul>
+</section>
+<section id="week-2-game-design-fundamentals" class="level3">
+<h3 class="anchored" data-anchor-id="week-2-game-design-fundamentals">Week 2: Game Design Fundamentals</h3>
+<p>implementing mechanics + tutorials (labs)</p>
+</section>
+<section id="week-3-game-development-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="week-3-game-development-introduction">Week 3: Game Development Introduction</h3>
+<p>ideation, prototypes, character design</p>
+</section>
+<section id="week-4-game-development-processes" class="level3">
+<h3 class="anchored" data-anchor-id="week-4-game-development-processes">Week 4: Game Development Processes</h3>
+<p>level design, balance, playtesting</p>
 
 
+</section>
 </section>
 </section>
 
